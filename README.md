@@ -67,7 +67,7 @@ data-science-wiki/
 │   │   │   │   └── stochastic-gradient-descent.md
 │   │   │   ├── duality.md
 │   │   │   ├── foundations.md
-│   │   │   └── kkt-conditions.md │
+│   │   │   └── kkt-conditions.md
 │   │   ├── 04-geometry/
 │   │   │   ├── differential-geometry/
 │   │   │   │   └── curves.md
@@ -100,6 +100,7 @@ data-science-wiki/
 │   │   │   ├── law-of-large-numbers.md
 │   │   │   ├── marginal-distributions.md
 │   │   │   ├── markov-inequality.md
+│   │   │   ├── measures.md
 │   │   │   ├── probability-space.md
 │   │   │   ├── random-variable.md
 │   │   │   ├── random-vectors.md
@@ -176,14 +177,27 @@ data-science-wiki/
 │   │   │   ├── random-graphs.md
 │   │   │   ├── shortest-paths.md
 │   │   │   └── trees.md
-│   │   └── 09-information-theory/
-│   │       ├── cross-entropy.md
-│   │       ├── information-entropy.md
-│   │       ├── information-gain.md
-│   │       ├── kl-divergence.md
-│   │       └── mutual-information.md
+│   │   ├── 09-information-theory/
+│   │   │   ├── cross-entropy.md
+│   │   │   ├── fisher-information.md
+│   │   │   ├── information-entropy.md
+│   │   │   ├── information-gain.md
+│   │   │   ├── kl-divergence.md
+│   │   │   └── mutual-information.md
+│   │   ├── 10-numerics/
+│   │   │   └── numerical-stability.md
+│   │   └── 11-algebra/
+│   │       ├── fields.md
+│   │       ├── groups.md
+│   │       ├── homomorphisms.md
+│   │       └── rings.md
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
+│   │   │   ├── generalization/
+│   │   │   │   ├── double-descent.md
+│   │   │   │   ├── generalization-error.md
+│   │   │   │   ├── overfitting-and-underfitting.md
+│   │   │   │   └── stability.md
 │   │   │   ├── bias-variance-tradeoff.md ✓
 │   │   │   ├── calibration.md
 │   │   │   ├── classification-of-ml-models.md
@@ -194,7 +208,6 @@ data-science-wiki/
 │   │   │   ├── inductive-bias.md
 │   │   │   ├── kernel-methods.md ✓
 │   │   │   ├── no-free-lunch-theorem.md
-│   │   │   ├── overfitting-and-underfitting.md
 │   │   │   ├── pac-learning.md ✓
 │   │   │   ├── regularization.md ✓
 │   │   │   ├── uniform-convergence.md ✓
@@ -292,6 +305,7 @@ data-science-wiki/
 │   │   │   └── policy-gradient-methods.md
 │   │   └── 06-llms/
 │   │       ├── 01-foundations/
+│   │       │   ├── pretraining.md
 │   │       │   ├── tokenization.md
 │   │       │   └── what-are-llms.md
 │   │       ├── 02-transformer-architecture/
@@ -304,6 +318,8 @@ data-science-wiki/
 │   │       │   ├── llama-family.md
 │   │       │   ├── mixture-of-experts.md
 │   │       │   └── multimodal-llms.md
+│   │       ├── 04-llm-infrastructure/
+│   │       │   └── quantization.md
 │   │       └── 05-llm-applications/
 │   │           └── rag.md
 │   ├── 03-data-exploration/
@@ -375,12 +391,16 @@ data-science-wiki/
 │   │   │   │   ├── knn-imputation.md
 │   │   │   │   └── mean-imputation.md
 │   │   │   ├── 04-outlier-detection/
-│   │   │   └── 05-data-normalization/
+│   │   │   └── 05-normalization/
 │   │   ├── 03-data-versioning/
 │   │   ├── 04-distributed-processing/
 │   │   │   ├── hadoop/
 │   │   │   └── spark/
 │   │   └── 05-feature-engineering/
+│   │       ├── categorical-features.md
+│   │       ├── dimensionality-reduction-of-features.md
+│   │       ├── embeddings.md
+│   │       └── numerical-features.md
 │   ├── 05-training-and-optimizing-ml-models/
 │   │   ├── 01-traditional-ml/
 │   │   │   ├── hyperparameter-tuning/
@@ -456,7 +476,9 @@ data-science-wiki/
 │   │   │   ├── github-actions.md
 │   │   │   └── jenkins.md
 │   │   ├── 02-experiment-tracking/
-│   │   │   └── mlflow.md
+│   │   │   ├── dataset-versioning.md
+│   │   │   ├── mlflow.md
+│   │   │   └── random-seeds.md
 │   │   ├── 03-model-registry/
 │   │   │   └── model-artifacts.md
 │   │   ├── 04-orchestration/
@@ -474,6 +496,9 @@ data-science-wiki/
 │   │       └── pipeline-foundations.md
 │   ├── 10-software-engineering/
 │   │   ├── 01-clean-code/
+│   │   │   ├── code-smells.md
+│   │   │   ├── my-principles.md
+│   │   │   └── solid-principles.md
 │   │   ├── 02-testing/
 │   │   │   ├── 01-unit-tests/
 │   │   │   ├── 02-integration-tests/
@@ -526,14 +551,20 @@ data-science-wiki/
 │   │   ├── 12-data-structures/
 │   │   │   ├── heap.md
 │   │   │   └── linked-list.md
-│   │   └── 13-programming-paradigms/
-│   │       ├── functional-programming/
-│   │       └── object-oriented-programming/
-│   │           ├── abstract-classes.md
-│   │           ├── abstraction.md
-│   │           ├── foundations.md
-│   │           ├── inheritance.md
-│   │           └── interfaces.md
+│   │   ├── 13-programming-paradigms/
+│   │   │   ├── functional-programming/
+│   │   │   └── object-oriented-programming/
+│   │   │       ├── abstract-classes.md
+│   │   │       ├── abstraction.md
+│   │   │       ├── foundations.md
+│   │   │       ├── inheritance.md
+│   │   │       └── interfaces.md
+│   │   └── 14-algorithms/
+│   │       ├── sorting/
+│   │       │   └── searching/
+│   │       ├── complexity-analysis.md
+│   │       ├── dynamic-programming.md
+│   │       └── recursion.md
 │   └── 11-tda/
 │       ├── perstistent-homology/
 │       │   ├── applications/
