@@ -113,6 +113,8 @@ data-science-wiki/
 │   │   │   │   ├── markov-chain-monte-carlo.md
 │   │   │   │   └── monte-carlo-methods.md
 │   │   │   ├── estimation/
+│   │   │   │   ├── bias.md
+│   │   │   │   ├── estimators.md
 │   │   │   │   ├── maximum-likelihood-estimation.md
 │   │   │   │   ├── method-of-moments.md
 │   │   │   │   └── point-estimation.md
@@ -129,14 +131,10 @@ data-science-wiki/
 │   │   │   │   ├── stationarity.md
 │   │   │   │   ├── time-series-decomposition.md
 │   │   │   │   └── trend-and-seasonality.md
-│   │   │   ├── bias.md
 │   │   │   ├── confidence-intervals.md
 │   │   │   ├── method-of-least-squares.md ✓
 │   │   │   └── statistical-power.md
 │   │   ├── 07-topology/
-│   │   │   ├── distances/
-│   │   │   │   ├── bottleneck-distance.md
-│   │   │   │   └── wasserstein-distance.md
 │   │   │   ├── homology/
 │   │   │   │   ├── alexander-duality.md
 │   │   │   │   ├── betti-numbers.md
@@ -269,12 +267,7 @@ data-science-wiki/
 │   │   │       └── kalman-filter.md
 │   │   ├── 04-deep-learning-models/
 │   │   │   ├── 01-architectures/
-│   │   │   │   ├── activation-functions/
-│   │   │   │   │   ├── leaky-relu.md
-│   │   │   │   │   ├── relu.md
-│   │   │   │   │   ├── sigmoid.md
-│   │   │   │   │   ├── softmax.md
-│   │   │   │   │   └── tanh.md
+│   │   │   │   ├── activation-functions.md
 │   │   │   │   ├── autoencoders.md
 │   │   │   │   ├── cnn-architectures.md
 │   │   │   │   ├── graph-neural-networks.md
@@ -421,6 +414,11 @@ data-science-wiki/
 │   │   │   ├── 04-data-strategies/
 │   │   │   │   └── data-augmentation.md/
 │   │   │   ├── 05-activation-functions/
+│   │   │   │   ├── leaky-relu.md
+│   │   │   │   ├── relu.md
+│   │   │   │   ├── sigmoid.md
+│   │   │   │   ├── softmax.md
+│   │   │   │   └── tanh.md
 │   │   │   └── common-issues.md
 │   │   └── 03-llms/
 │   │       ├── finetuning/
@@ -528,8 +526,9 @@ data-science-wiki/
 │   │   │   ├── optimization.md
 │   │   │   └── parallel-programming.md
 │   │   ├── 08-security-and-data-protection/
+│   │   │   ├── authentication/
+│   │   │   │   └── ssh-keys.md
 │   │   │   ├── anonymization-and-pseudonomysation.md
-│   │   │   ├── authentication.md
 │   │   │   ├── authorization.md
 │   │   │   ├── dependency-security.md
 │   │   │   ├── dsvgo-basics.md
@@ -575,6 +574,9 @@ data-science-wiki/
 │       │   ├── applications/
 │       │   │   ├── ts-classification.md
 │       │   │   └── ts-forecasting.md
+│       │   ├── distances/
+│       │   │   ├── bottleneck-distance.md
+│       │   │   └── wasserstein-distance.md
 │       │   ├── barcodes.md
 │       │   ├── cech-complex.md
 │       │   ├── filtrations.md
