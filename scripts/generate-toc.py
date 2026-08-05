@@ -87,9 +87,6 @@ def generate_tree() -> str:
     if (PROJECT_ROOT / "docs").exists():
         root_items.append(PROJECT_ROOT / "docs")
 
-    if (PROJECT_ROOT / "assets").exists():
-        root_items.append(PROJECT_ROOT / "assets")
-
     if (PROJECT_ROOT / "scripts").exists():
         root_items.append(PROJECT_ROOT / "scripts")
 

@@ -191,7 +191,7 @@ data-science-wiki/
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
 │   │   │   ├── generalization/
-│   │   │   │   ├── double-descent.md
+│   │   │   │   ├── double-descent.md ✓
 │   │   │   │   ├── generalization-error.md
 │   │   │   │   ├── overfitting-and-underfitting.md
 │   │   │   │   └── stability.md
@@ -502,9 +502,12 @@ data-science-wiki/
 │   │   │   ├── 01-unit-tests/
 │   │   │   ├── 02-integration-tests/
 │   │   │   ├── 03-e2e-tests/
-│   │   │   └── mocking.md
+│   │   │   ├── mocking.md
+│   │   │   └── testing-principles.md
 │   │   ├── 03-documentation/
 │   │   ├── 04-version-control/
+│   │   │   ├── foundations.md
+│   │   │   └── git-concepts.md
 │   │   ├── 05-software-design/
 │   │   │   ├── design-patterns/
 │   │   │   │   ├── behavioral/
@@ -577,7 +580,6 @@ data-science-wiki/
 │       │   ├── vietoris-rips-complex.md
 │       │   └── why-persistence-homology-works.md
 │       └── mapper-algorithm.md
-├── assets/
 └── scripts/
     └── generate-toc.py
 ```
