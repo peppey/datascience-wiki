@@ -227,6 +227,9 @@ data-science-wiki/
 │   │   │   │   ├── regular-expressions.md
 │   │   │   │   ├── stopwords-and-stemming.md
 │   │   │   │   └── tf-idf.md
+│   │   │   ├── pattern-mining/
+│   │   │   │   ├── association-rule-mining.md
+│   │   │   │   └── frequent-itemset-mining.md
 │   │   │   ├── ranking/
 │   │   │   ├── recommendation-systems/
 │   │   │   ├── regression/
@@ -503,7 +506,7 @@ data-science-wiki/
 │   │   │   ├── 02-integration-tests/
 │   │   │   ├── 03-e2e-tests/
 │   │   │   ├── mocking.md
-│   │   │   └── testing-principles.md
+│   │   │   └── testing-principles.md ✓
 │   │   ├── 03-documentation/
 │   │   ├── 04-version-control/
 │   │   │   ├── foundations.md
