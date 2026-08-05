@@ -109,8 +109,18 @@ data-science-wiki/
 │   │   └── model-selection.md
 │   ├── 05-data-engineering/
 │   │   ├── 01-data-pipelines/
-│   │   ├── 02-feature-engineering/
-│   │   └── 03-data-versioning/
+│   │   ├── 02-data-preprocessing/
+│   │   │   ├── 01-data-cleaning/
+│   │   │   │   └── 02-/
+│   │   │   ├── 02-data-transformation/
+│   │   │   ├── 03-missing-data-handling/
+│   │   │   ├── 04-outlier-detection/
+│   │   │   └── 05-data-normalization/
+│   │   ├── 03-data-versioning/
+│   │   ├── 04-distributed-processing/
+│   │   │   ├── hadoop/
+│   │   │   └── spark/
+│   │   └── 05-feature-engineering/
 │   ├── 06-databases/
 │   │   ├── 01-sql-databases/
 │   │   ├── 02-nosql-databses/
@@ -127,7 +137,8 @@ data-science-wiki/
 │   │   ├── 02-experiment-tracking/
 │   │   ├── 03-model-registry/
 │   │   ├── 04-orchestration/
-│   │   └── 05-monitoring/
+│   │   ├── 05-monitoring/
+│   │   └── 06-ml-pipelines/
 │   ├── 09-software-engineering/
 │   │   ├── 01-clean-code/
 │   │   ├── 02-testing/
@@ -135,8 +146,23 @@ data-science-wiki/
 │   │   │   ├── 02-integration-tests/
 │   │   │   └── 03-e2e-tests/
 │   │   ├── 03-documentation/
-│   │   ├── 04-reproducibility/
-│   │   └── 06-design-patterns/
+│   │   ├── 04-version-control/
+│   │   ├── 05-software-design/
+│   │   │   └── design-patterns/
+│   │   ├── 06-build-and-dependency-management/
+│   │   │   ├── poetry.md
+│   │   │   └── uv.md
+│   │   ├── 07-performance/
+│   │   │   ├── optimization.md
+│   │   │   └── parallel-programming.md
+│   │   ├── 08-security/
+│   │   │   ├── authentication.md
+│   │   │   ├── authorization.md
+│   │   │   ├── dependency-security.md
+│   │   │   └── secrets-management.md
+│   │   └── 09-architectures/
+│   │       ├── honeycomb architecture.md
+│   │       └── monolith-vs-microservices.md
 │   └── 10-tda/
 │       └── 01-persistence-homology/
 ├── assets/
