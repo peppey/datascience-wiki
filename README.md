@@ -6,21 +6,29 @@ data-science-wiki/
 ├── README.md
 ├── docs/
 │   ├── 01-mathematical-foundations/
-│   │   ├── 01-functional-analysis/
-│   │   │   ├── norms/
-│   │   │   │   ├── foundations.md
-│   │   │   │   ├── lp-norms.md
-│   │   │   │   └── matrix-norms.md
+│   │   ├── 02-functional-analysis/
+│   │   │   ├── banach-spaces.md
 │   │   │   └── hilbert-spaces.md
 │   │   ├── 02-linear-algebra/
+│   │   │   ├── norms/
 │   │   │   └── eigenvalues.md
 │   │   ├── 03-optimization/
 │   │   │   ├── convexity.md
 │   │   │   └── gradients.md
 │   │   ├── 04-geometry/
 │   │   ├── 04-probability-theory/
-│   │   │   ├── exponentional-distribution.md
-│   │   │   └── normal-distribution.md
+│   │   │   ├── common-distributions/
+│   │   │   │   ├── bernoulli-distribution.md
+│   │   │   │   ├── binomial-distribution.md
+│   │   │   │   ├── exponential-distribution.md
+│   │   │   │   ├── exponentional-distribution.md
+│   │   │   │   ├── normal-distribution.md
+│   │   │   │   └── poisson-distribution.md
+│   │   │   ├── central-limit-theorem.md
+│   │   │   ├── correlation.md
+│   │   │   ├── covariance.md
+│   │   │   ├── law-of-large-numbers.md
+│   │   │   └── variance.md
 │   │   ├── 05-statistics/
 │   │   │   ├── time-series/
 │   │   │   │   ├── autocorrelation.md
@@ -173,10 +181,24 @@ data-science-wiki/
 │   │   ├── 02-nosql-databses/
 │   │   └── 03-vector-databases.md/
 │   ├── 07-deployment/
-│   │   └── 01-fundamentals/
-│   │       ├── api-design.md
-│   │       ├── containerization.md
-│   │       └── model-serialization.md
+│   │   ├── 01-fundamentals/
+│   │   │   ├── api-design.md
+│   │   │   ├── containerization.md
+│   │   │   └── model-serialization.md
+│   │   ├── 02-containers/
+│   │   │   ├── docker-compose.md
+│   │   │   └── docker.md
+│   │   ├── 03-kubernetes/
+│   │   │   ├── configmaps.md
+│   │   │   ├── deployments.md
+│   │   │   ├── foundations.md
+│   │   │   ├── ingress.md
+│   │   │   ├── namespaces.md
+│   │   │   ├── pods.md
+│   │   │   ├── secrets.md
+│   │   │   └── services.md
+│   │   └── 04-cloud-deployment/
+│   │       └── s3.md
 │   ├── 08-mlops/
 │   │   ├── 01-ci-cd/
 │   │   │   ├── github-actions.md
