@@ -7,10 +7,6 @@ data-science-wiki/
 ├── docs/
 │   ├── 01-mathematical-foundations/
 │   │   ├── 01-linear-algebra/
-│   │   │   ├── norms/
-│   │   │   │   ├── foundations.md
-│   │   │   │   ├── lp-norms.md
-│   │   │   │   └── max-norm.md
 │   │   │   ├── basis.md
 │   │   │   ├── complex-numbers.md
 │   │   │   ├── determinants.md
@@ -18,10 +14,11 @@ data-science-wiki/
 │   │   │   ├── inverse.md
 │   │   │   ├── matrix-factorizations.md
 │   │   │   ├── matrizes.md
+│   │   │   ├── norms.md
 │   │   │   ├── orthogonality.md
 │   │   │   ├── pseudoinverse.md
 │   │   │   ├── scalar-product.md
-│   │   │   ├── singular-value-decomposition.md
+│   │   │   ├── singular-values.md
 │   │   │   └── vector-spaces.md
 │   │   ├── 02-analysis/
 │   │   │   ├── derivatives/
@@ -227,6 +224,7 @@ data-science-wiki/
 │   │   │   │   ├── bag-of-words.md
 │   │   │   │   ├── count-vectorizer.md
 │   │   │   │   ├── named-entity-recognition.md
+│   │   │   │   ├── regular-expressions.md
 │   │   │   │   ├── stopwords-and-stemming.md
 │   │   │   │   └── tf-idf.md
 │   │   │   ├── ranking/
@@ -301,8 +299,9 @@ data-science-wiki/
 │   │   │       ├── sentence-embeddings.md
 │   │   │       └── word-embeddings.md
 │   │   ├── 05-reinforcement-learning/
-│   │   │   ├── agents.md
-│   │   │   └── policy-gradient-methods.md
+│   │   │   ├── foundations.md
+│   │   │   ├── policy-gradient-methods.md
+│   │   │   └── q-learning.md
 │   │   └── 06-llms/
 │   │       ├── 01-foundations/
 │   │       │   ├── pretraining.md
