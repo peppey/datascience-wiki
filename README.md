@@ -3,7 +3,7 @@
 <!-- TOC_START -->
 ```text
 data-science-wiki/
-├── README.md
+├── README.md ✓
 ├── docs/
 │   ├── 01-mathematical-foundations/
 │   │   ├── 01-linear-algebra/
@@ -45,7 +45,7 @@ data-science-wiki/
 │   │   │   └── trigonometry.md
 │   │   ├── 03-functional-analysis/
 │   │   │   ├── banach-spaces.md
-│   │   │   ├── hilbert-spaces.md
+│   │   │   ├── hilbert-spaces.md ✓
 │   │   │   └── orthonormal-bases.md
 │   │   ├── 03-optimization/
 │   │   │   ├── discrete-optimization/
@@ -108,7 +108,7 @@ data-science-wiki/
 │   │   │   └── variance.md
 │   │   ├── 06-statistics/
 │   │   │   ├── bayesian-inference/
-│   │   │   │   └── what-is-bayesian-inference.md
+│   │   │   │   └── what-is-bayesian-inference.md ✓
 │   │   │   ├── causal-inference/
 │   │   │   ├── computational-statistics/
 │   │   │   │   ├── bootstrap.md
@@ -133,7 +133,7 @@ data-science-wiki/
 │   │   │   │   └── trend-and-seasonality.md
 │   │   │   ├── bias.md
 │   │   │   ├── confidence-intervals.md
-│   │   │   ├── method-of-least-squares.md
+│   │   │   ├── method-of-least-squares.md ✓
 │   │   │   └── statistical-power.md
 │   │   ├── 07-topology/
 │   │   │   ├── distances/
@@ -184,22 +184,22 @@ data-science-wiki/
 │   │       └── mutual-information.md
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
-│   │   │   ├── bias-variance-tradeoff.md
+│   │   │   ├── bias-variance-tradeoff.md ✓
 │   │   │   ├── calibration.md
 │   │   │   ├── classification-of-ml-models.md
 │   │   │   ├── curse-of-dimensionality.md
 │   │   │   ├── data-distribution-shift.md
-│   │   │   ├── empirical-risk-minimization.md
+│   │   │   ├── empirical-risk-minimization.md ✓
 │   │   │   ├── hypothesis-space.md
 │   │   │   ├── inductive-bias.md
-│   │   │   ├── kernel-methods.md
+│   │   │   ├── kernel-methods.md ✓
 │   │   │   ├── no-free-lunch-theorem.md
 │   │   │   ├── overfitting-and-underfitting.md
-│   │   │   ├── pac-learning.md
-│   │   │   ├── regularization.md
-│   │   │   ├── uniform-convergence.md
-│   │   │   ├── universal-approximation-theorem.md
-│   │   │   ├── vc-dimension.md
+│   │   │   ├── pac-learning.md ✓
+│   │   │   ├── regularization.md ✓
+│   │   │   ├── uniform-convergence.md ✓
+│   │   │   ├── universal-approximation-theorem.md ✓
+│   │   │   ├── vc-dimension.md ✓
 │   │   │   └── what-is-machine-learning.md
 │   │   ├── 02-ml-tasks/
 │   │   │   ├── anomaly-detection/
@@ -235,7 +235,7 @@ data-science-wiki/
 │   │   │   │   │   └── xgboost.md
 │   │   │   │   ├── gaussian-processes.md
 │   │   │   │   ├── naive-bayes.md
-│   │   │   │   └── svm.md
+│   │   │   │   └── svm.md ✓
 │   │   │   ├── 02-unsupervised/
 │   │   │   │   ├── clustering/
 │   │   │   │   │   ├── dbscan.md
@@ -270,7 +270,7 @@ data-science-wiki/
 │   │   │   │   └── transformers.md
 │   │   │   ├── 02-generative-models/
 │   │   │   │   ├── autoregressive-models.md
-│   │   │   │   ├── diffusion-models.md
+│   │   │   │   ├── diffusion-models.md ✓
 │   │   │   │   ├── energy-based-models.md
 │   │   │   │   ├── generative-adversarial-networks.md
 │   │   │   │   ├── multimodal-generative-models.md
@@ -466,9 +466,9 @@ data-science-wiki/
 │   │   ├── 05-monitoring/
 │   │   │   ├── alerts.md
 │   │   │   ├── grafana-foundations.md
-│   │   │   ├── metrics.md
 │   │   │   ├── model-monitoring.md
-│   │   │   └── performance-monitoring.md
+│   │   │   ├── performance-monitoring.md
+│   │   │   └── prometheus.md
 │   │   └── 06-ml-pipelines/
 │   │       ├── kubeflow-pipelines.md
 │   │       └── pipeline-foundations.md
@@ -477,11 +477,20 @@ data-science-wiki/
 │   │   ├── 02-testing/
 │   │   │   ├── 01-unit-tests/
 │   │   │   ├── 02-integration-tests/
-│   │   │   └── 03-e2e-tests/
+│   │   │   ├── 03-e2e-tests/
+│   │   │   └── mocking.md
 │   │   ├── 03-documentation/
 │   │   ├── 04-version-control/
 │   │   ├── 05-software-design/
-│   │   │   └── design-patterns/
+│   │   │   ├── design-patterns/
+│   │   │   │   ├── behavioral/
+│   │   │   │   ├── creational/
+│   │   │   │   │   └── factory-pattern.md
+│   │   │   │   └── structural/
+│   │   │   │       ├── adapter-pattern.md
+│   │   │   │       └── decorator-pattern.md
+│   │   │   └── modular-design/
+│   │   │       └── ml-project-structure.md
 │   │   ├── 06-build-and-dependency-management/
 │   │   │   ├── poetry.md
 │   │   │   └── uv.md
@@ -498,20 +507,33 @@ data-science-wiki/
 │   │   │   ├── policy-management.md
 │   │   │   └── secrets-management.md
 │   │   ├── 09-architectures/
+│   │   │   ├── hexagonal-architecture.md
 │   │   │   ├── honeycomb-architecture.md
-│   │   │   └── monolith-vs-microservices.md
+│   │   │   ├── microservices.md
+│   │   │   └── monolith.md
 │   │   ├── 10-debugging/
 │   │   │   ├── debugging-deployments.md
 │   │   │   ├── debugging-ml-models.md
 │   │   │   ├── logging.md
 │   │   │   └── profiling.md
 │   │   ├── 11-web-development/
+│   │   │   ├── api-foundations.md ✓
 │   │   │   ├── api-testing.md
+│   │   │   ├── http.md ✓
 │   │   │   ├── openapi-swagger.md
-│   │   │   └── rest-api-foundations.md
-│   │   └── 12-data-structures/
-│   │       ├── heap.md
-│   │       └── linked-list.md
+│   │   │   ├── pydantic.md
+│   │   │   └── rest-apis.md ✓
+│   │   ├── 12-data-structures/
+│   │   │   ├── heap.md
+│   │   │   └── linked-list.md
+│   │   └── 13-programming-paradigms/
+│   │       ├── functional-programming/
+│   │       └── object-oriented-programming/
+│   │           ├── abstract-classes.md
+│   │           ├── abstraction.md
+│   │           ├── foundations.md
+│   │           ├── inheritance.md
+│   │           └── interfaces.md
 │   └── 11-tda/
 │       ├── perstistent-homology/
 │       │   ├── applications/

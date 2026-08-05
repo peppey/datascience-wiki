@@ -21,6 +21,32 @@ def sort_key(path: Path):
     )
 
 
+def is_non_empty_markdown(path: Path) -> bool:
+    """
+    Check if a markdown file contains non-whitespace text.
+    """
+    if path.suffix.lower() != ".md":
+        return False
+
+    try:
+        return bool(path.read_text(encoding="utf-8").strip())
+    except Exception:
+        return False
+
+
+def format_name(path: Path) -> str:
+    """
+    Add checkmark to completed markdown files.
+    """
+    if path.is_file() and is_non_empty_markdown(path):
+        return path.name + " ✓"
+
+    if path.is_dir():
+        return path.name + "/"
+
+    return path.name
+
+
 def build_tree(path: Path, prefix: str = "") -> list[str]:
     """
     Recursively build an ASCII tree.
@@ -39,7 +65,8 @@ def build_tree(path: Path, prefix: str = "") -> list[str]:
 
         connector = "└── " if last else "├── "
 
-        name = entry.name + ("/" if entry.is_dir() else "")
+        name = format_name(entry)
+
         lines.append(prefix + connector + name)
 
         if entry.is_dir():
@@ -71,7 +98,8 @@ def generate_tree() -> str:
 
         connector = "└── " if last else "├── "
 
-        name = item.name + ("/" if item.is_dir() else "")
+        name = format_name(item)
+
         lines.append(connector + name)
 
         if item.is_dir():
