@@ -86,32 +86,33 @@ def generate_tree() -> str:
 # ---------------------------------------------------------
 
 def update_readme(tree: str):
-
     content = README.read_text(encoding="utf-8")
 
-    toc = (
-        "## Table of Contents\n\n"
+    replacement = (
+        "<!-- TOC_START -->\n"
         "```text\n"
         f"{tree}\n"
         "```\n"
+        "<!-- TOC_END -->"
     )
 
     pattern = (
-        r"## Table of Contents\s*"
-        r"(?:```.*?```|\n.*?)(?=\n## |\Z)"
+        r"<!-- TOC_START -->.*?<!-- TOC_END -->"
     )
 
     if re.search(pattern, content, flags=re.DOTALL):
-        new_content = re.sub(
+        content = re.sub(
             pattern,
-            toc,
+            replacement,
             content,
             flags=re.DOTALL,
         )
     else:
-        new_content = toc + "\n\n" + content
+        raise RuntimeError(
+            "Could not find <!-- TOC_START --> and <!-- TOC_END --> in README.md."
+        )
 
-    README.write_text(new_content, encoding="utf-8")
+    README.write_text(content, encoding="utf-8")
 
 
 # ---------------------------------------------------------
