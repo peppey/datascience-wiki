@@ -6,17 +6,18 @@ data-science-wiki/
 ├── README.md
 ├── docs/
 │   ├── 01-mathematical-foundations/
+│   │   ├── 01-linear-algebra/
+│   │   │   ├── norms/
+│   │   │   └── eigenvalues.md
 │   │   ├── 02-functional-analysis/
 │   │   │   ├── banach-spaces.md
 │   │   │   └── hilbert-spaces.md
-│   │   ├── 02-linear-algebra/
-│   │   │   ├── norms/
-│   │   │   └── eigenvalues.md
 │   │   ├── 03-optimization/
 │   │   │   ├── convexity.md
-│   │   │   └── gradients.md
+│   │   │   ├── gradient-descent.md
+│   │   │   └── stochastic-gradient-descent.md
 │   │   ├── 04-geometry/
-│   │   ├── 04-probability-theory/
+│   │   ├── 05-probability-theory/
 │   │   │   ├── common-distributions/
 │   │   │   │   ├── bernoulli-distribution.md
 │   │   │   │   ├── binomial-distribution.md
@@ -29,7 +30,7 @@ data-science-wiki/
 │   │   │   ├── covariance.md
 │   │   │   ├── law-of-large-numbers.md
 │   │   │   └── variance.md
-│   │   ├── 05-statistics/
+│   │   ├── 06-statistics/
 │   │   │   ├── time-series/
 │   │   │   │   ├── autocorrelation.md
 │   │   │   │   ├── foundations.md
@@ -39,7 +40,7 @@ data-science-wiki/
 │   │   │   ├── bayesian-inference.md
 │   │   │   ├── causal-inference.md
 │   │   │   └── statistical-testing.md
-│   │   └── 06-topology/
+│   │   └── 07-topology/
 │   │       ├── homology/
 │   │       ├── homotopy/
 │   │       ├── important-manifolds/
@@ -49,9 +50,12 @@ data-science-wiki/
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
 │   │   │   ├── bias-variance-tradeoff.md
+│   │   │   ├── calibration.md
 │   │   │   ├── classification-of-ml-models.md
+│   │   │   ├── curse-of-dimensionality.md
 │   │   │   ├── empirical-risk-minimization.md
 │   │   │   ├── kernel-methods.md
+│   │   │   ├── no-free-lunch-theorem.md
 │   │   │   ├── overfitting-and-underfitting.md
 │   │   │   ├── pac-learning.md
 │   │   │   ├── regularization.md
@@ -59,19 +63,37 @@ data-science-wiki/
 │   │   │   ├── universal-approximation-theorem.md
 │   │   │   ├── vc-dimension.md
 │   │   │   └── what-is-machine-learning.md
-│   │   ├── 02-traditional-ml-models/
+│   │   ├── 02-ml-tasks/
+│   │   │   ├── anomaly-detection/
+│   │   │   ├── classification/
+│   │   │   ├── forecasting/
+│   │   │   ├── ranking/
+│   │   │   ├── recommendation-systems/
+│   │   │   └── regression/
+│   │   ├── 03-traditional-ml-models/
 │   │   │   ├── 01-supervised/
 │   │   │   │   ├── linear-models/
-│   │   │   │   │   └── linear-regression.md
+│   │   │   │   │   ├── elastic-net.md
+│   │   │   │   │   ├── lasso-regression.md
+│   │   │   │   │   ├── linear-regression.md
+│   │   │   │   │   └── ridge-regression.md
+│   │   │   │   ├── nearest-neighbors/
+│   │   │   │   │   └── knn-classification.md
 │   │   │   │   ├── tree-based-methods/
+│   │   │   │   │   ├── decision-trees.md
+│   │   │   │   │   ├── random-forest.md
+│   │   │   │   │   └── xgboost.md
 │   │   │   │   ├── gaussian-processes.md
 │   │   │   │   ├── naive-bayes.md
-│   │   │   │   ├── nearest-neighbors.md
 │   │   │   │   └── svm.md
 │   │   │   ├── 02-unsupervised/
 │   │   │   │   ├── clustering/
-│   │   │   │   │   └── pca.md
+│   │   │   │   │   ├── dbscan.md
+│   │   │   │   │   ├── hierarchical-clustering.md
+│   │   │   │   │   └── k-means.md
 │   │   │   │   ├── dimenstionality-reduction/
+│   │   │   │   │   ├── pca.md
+│   │   │   │   │   └── umap.md
 │   │   │   │   └── anomality-reduction.md
 │   │   │   ├── 03-probabilistic/
 │   │   │   │   ├── bayesian-networks.md
@@ -81,8 +103,9 @@ data-science-wiki/
 │   │   │       ├── arima.md
 │   │   │       ├── autoregressive-models.md
 │   │   │       └── kalman-filter.md
-│   │   ├── 03-deep-learning-models/
+│   │   ├── 04-deep-learning-models/
 │   │   │   ├── 01-architectures/
+│   │   │   │   ├── activation-functions/
 │   │   │   │   ├── autoencoders.md
 │   │   │   │   ├── cnn-architectures.md
 │   │   │   │   ├── graph-neural-networks.md
@@ -97,13 +120,20 @@ data-science-wiki/
 │   │   │   │   ├── normalizing-flows.md
 │   │   │   │   ├── score-based-models.md
 │   │   │   │   └── variational-autoencoders.md
-│   │   │   └── 03-learning-paradigms/
-│   │   │       ├── federated-learning.md
-│   │   │       ├── few-shot-learning.md
-│   │   │       ├── meta-learning.md
-│   │   │       ├── self-supervised-learning.md
-│   │   │       └── transfer-learning.md
-│   │   └── 04-llms/
+│   │   │   ├── 03-learning-paradigms/
+│   │   │   │   ├── federated-learning.md
+│   │   │   │   ├── few-shot-learning.md
+│   │   │   │   ├── meta-learning.md
+│   │   │   │   ├── self-supervised-learning.md
+│   │   │   │   └── transfer-learning.md
+│   │   │   ├── 04-representation-learning/
+│   │   │   │   ├── embeddings.md
+│   │   │   │   ├── sentence-embeddings.md
+│   │   │   │   └── word-embeddings.md
+│   │   │   └── 05-llm-applications/
+│   │   │       └── rag.md
+│   │   ├── 05-reinforcement-learning/
+│   │   └── 06-llms/
 │   │       ├── 01-foundations/
 │   │       │   ├── tokenization.md
 │   │       │   └── what-are-llms.md
@@ -120,7 +150,7 @@ data-science-wiki/
 │   ├── 03-training-and-optimizing-ml-models/
 │   │   ├── 01-traditional-ml/
 │   │   │   └── hyperparameter-tuning/
-│   │   ├── 02-dl/
+│   │   ├── 02-deep-learning/
 │   │   │   ├── 01-loss-functions/
 │   │   │   ├── 02-optimization/
 │   │   │   │   ├── batch-normalization.md
@@ -135,7 +165,8 @@ data-science-wiki/
 │   │   │       └── data-augmentation.md/
 │   │   └── 03-llms/
 │   │       ├── finetuning/
-│   │       └── promt-engineering/
+│   │       ├── promt-engineering/
+│   │       └── tools/
 │   ├── 04-evaluation/
 │   │   ├── 01-classification-metrics/
 │   │   │   ├── accuracy.md
@@ -159,6 +190,9 @@ data-science-wiki/
 │   │   │   ├── calibration-analysis.md
 │   │   │   └── residual-analysis.md
 │   │   ├── 04-uncertainty-quantification/
+│   │   ├── 05-interpretability/
+│   │   │   ├── feature-importance.md
+│   │   │   └── shap.md
 │   │   ├── cross-validation.md
 │   │   ├── fairness-bias.md
 │   │   └── model-selection.md
@@ -179,12 +213,17 @@ data-science-wiki/
 │   ├── 06-databases/
 │   │   ├── 01-sql-databases/
 │   │   ├── 02-nosql-databses/
-│   │   └── 03-vector-databases.md/
+│   │   ├── 03-vector-databases.md/
+│   │   └── 04-search-engines/
+│   │       ├── elasticsearch.md
+│   │       └── vector-search.md
 │   ├── 07-deployment/
 │   │   ├── 01-fundamentals/
 │   │   │   ├── api-design.md
 │   │   │   ├── containerization.md
-│   │   │   └── model-serialization.md
+│   │   │   ├── inference-endpoints.md
+│   │   │   ├── model-serialization.md
+│   │   │   └── model-serving.md
 │   │   ├── 02-containers/
 │   │   │   ├── docker-compose.md
 │   │   │   └── docker.md
@@ -204,8 +243,12 @@ data-science-wiki/
 │   │   │   ├── github-actions.md
 │   │   │   └── jenkins.md
 │   │   ├── 02-experiment-tracking/
+│   │   │   └── mlflow.md
 │   │   ├── 03-model-registry/
 │   │   ├── 04-orchestration/
+│   │   │   ├── argo-cd.md
+│   │   │   ├── argo-workflows.md
+│   │   │   └── kubeflow.md
 │   │   ├── 05-monitoring/
 │   │   └── 06-ml-pipelines/
 │   ├── 09-software-engineering/
@@ -229,11 +272,17 @@ data-science-wiki/
 │   │   │   ├── authorization.md
 │   │   │   ├── dependency-security.md
 │   │   │   └── secrets-management.md
-│   │   └── 09-architectures/
-│   │       ├── honeycomb architecture.md
-│   │       └── monolith-vs-microservices.md
+│   │   ├── 09-architectures/
+│   │   │   ├── honeycomb-architecture.md
+│   │   │   └── monolith-vs-microservices.md
+│   │   ├── 10-debugging/
+│   │   └── 11-web-development/
+│   │       ├── api-testing.md
+│   │       ├── openapi-swagger.md
+│   │       └── rest-api-foundations.md
 │   └── 10-tda/
 │       └── 01-persistence-homology/
+│           └── functional-summaries/
 ├── assets/
 └── scripts/
     └── generate-toc.py
