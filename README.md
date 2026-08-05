@@ -8,7 +8,8 @@ data-science-wiki/
 │   ├── 01-mathematical-foundations/
 │   │   ├── 01-linear-algebra/
 │   │   │   ├── norms/
-│   │   │   └── eigenvalues.md
+│   │   │   ├── eigenvalues.md
+│   │   │   └── singular-value-decomposition.md
 │   │   ├── 02-functional-analysis/
 │   │   │   ├── banach-spaces.md
 │   │   │   └── hilbert-spaces.md
@@ -24,13 +25,17 @@ data-science-wiki/
 │   │   │   │   ├── exponential-distribution.md
 │   │   │   │   ├── exponentional-distribution.md
 │   │   │   │   ├── normal-distribution.md
-│   │   │   │   └── poisson-distribution.md
+│   │   │   │   ├── poisson-distribution.md
+│   │   │   │   └── student-t-distribution.md
 │   │   │   ├── central-limit-theorem.md
 │   │   │   ├── correlation.md
 │   │   │   ├── covariance.md
 │   │   │   ├── law-of-large-numbers.md
 │   │   │   └── variance.md
 │   │   ├── 06-statistics/
+│   │   │   ├── statistifcal-testing/
+│   │   │   │   ├── p-values.md
+│   │   │   │   └── t-test.md
 │   │   │   ├── time-series/
 │   │   │   │   ├── autocorrelation.md
 │   │   │   │   ├── foundations.md
@@ -39,7 +44,8 @@ data-science-wiki/
 │   │   │   │   └── trend-and-seasonality.md
 │   │   │   ├── bayesian-inference.md
 │   │   │   ├── causal-inference.md
-│   │   │   └── statistical-testing.md
+│   │   │   ├── confidence-intervals.md
+│   │   │   └── maximum-likelihood-estimation.md
 │   │   └── 07-topology/
 │   │       ├── homology/
 │   │       ├── homotopy/
@@ -53,7 +59,10 @@ data-science-wiki/
 │   │   │   ├── calibration.md
 │   │   │   ├── classification-of-ml-models.md
 │   │   │   ├── curse-of-dimensionality.md
+│   │   │   ├── data-distribution-shift.md
 │   │   │   ├── empirical-risk-minimization.md
+│   │   │   ├── hypothesis-space.md
+│   │   │   ├── inductive-bias.md
 │   │   │   ├── kernel-methods.md
 │   │   │   ├── no-free-lunch-theorem.md
 │   │   │   ├── overfitting-and-underfitting.md
@@ -66,7 +75,10 @@ data-science-wiki/
 │   │   ├── 02-ml-tasks/
 │   │   │   ├── anomaly-detection/
 │   │   │   ├── classification/
+│   │   │   ├── computer-vision/
 │   │   │   ├── forecasting/
+│   │   │   ├── generative-modeling/
+│   │   │   ├── natural-language-processing/
 │   │   │   ├── ranking/
 │   │   │   ├── recommendation-systems/
 │   │   │   └── regression/
@@ -110,7 +122,8 @@ data-science-wiki/
 │   │   │   │   ├── cnn-architectures.md
 │   │   │   │   ├── graph-neural-networks.md
 │   │   │   │   ├── neural-network-basics.md
-│   │   │   │   └── rnn-lstm.md
+│   │   │   │   ├── rnn-lstm.md
+│   │   │   │   └── transformers.md
 │   │   │   ├── 02-generative-models/
 │   │   │   │   ├── autoregressive-models.md
 │   │   │   │   ├── diffusion-models.md
@@ -193,6 +206,7 @@ data-science-wiki/
 │   │   ├── 05-interpretability/
 │   │   │   ├── feature-importance.md
 │   │   │   └── shap.md
+│   │   ├── 06-calibration/
 │   │   ├── cross-validation.md
 │   │   ├── fairness-bias.md
 │   │   └── model-selection.md
@@ -214,9 +228,11 @@ data-science-wiki/
 │   │   ├── 01-sql-databases/
 │   │   ├── 02-nosql-databses/
 │   │   ├── 03-vector-databases.md/
-│   │   └── 04-search-engines/
-│   │       ├── elasticsearch.md
-│   │       └── vector-search.md
+│   │   ├── 04-search-engines/
+│   │   │   ├── elasticsearch.md
+│   │   │   └── vector-search.md
+│   │   ├── 05-data-warehouses/
+│   │   └── 06-datalakes/
 │   ├── 07-deployment/
 │   │   ├── 01-fundamentals/
 │   │   │   ├── api-design.md
