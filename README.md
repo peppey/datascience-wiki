@@ -1,3 +1,57 @@
+## Table of Contents
+
+```text
+data-science-wiki/
+├── README.md
+├── docs/
+│   ├── 01-mathematical-foundations/
+│   │   ├── functional-analysis/
+│   │   │   └── hilbert-spaces.md
+│   │   ├── optimization/
+│   │   ├── statistics/
+│   │   │   ├── bayesian-inference.md
+│   │   │   ├── causal-inference.md
+│   │   │   └── statistical-testing.md
+│   │   └── topology/
+│   ├── 02-ml-models-theory/
+│   │   ├── 02-A-ml-foundations/
+│   │   │   ├── bias-variance-tradeoff.md
+│   │   │   ├── classification-ml-models.md
+│   │   │   ├── empirical-risk-minimization.md
+│   │   │   ├── kernel-methods.md
+│   │   │   ├── pac-learning.md
+│   │   │   ├── regularization.md
+│   │   │   ├── uniform-convergence.md
+│   │   │   ├── universal-approximation-theorem.md
+│   │   │   └── vc-dimension.md
+│   │   ├── 02-B-traditional-machine-learning-models/
+│   │   │   ├── supervised/
+│   │   │   │   ├── linear-models.md
+│   │   │   │   ├── svm.md
+│   │   │   │   └── tree-based-methods.md
+│   │   │   └── unsupervised/
+│   │   │       ├── clustering.md
+│   │   │       └── dimensionality-reduction.md
+│   │   ├── 02-C-deep-learning-models/
+│   │   │   ├── discriminative/
+│   │   │   └── generative/
+│   │   │       └── diffusion-models.md
+│   │   └── 03-D-llms/
+│   ├── 03-training/
+│   ├── 04-evaluation/
+│   ├── 05-data-engineering/
+│   ├── 06-databases/
+│   ├── 07-deployment/
+│   ├── 08-mlops/
+│   ├── 09-tools-libraries/
+│   ├── 10-best-practices/
+│   └── 11-tda/
+├── assets/
+└── scripts/
+    └── generate-toc.py
+```
+
+
 
 
 
