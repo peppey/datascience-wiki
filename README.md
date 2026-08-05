@@ -7,26 +7,50 @@ data-science-wiki/
 ├── docs/
 │   ├── 01-mathematical-foundations/
 │   │   ├── 01-functional-analysis/
+│   │   │   ├── norms/
+│   │   │   │   ├── foundations.md
+│   │   │   │   ├── lp-norms.md
+│   │   │   │   └── matrix-norms.md
 │   │   │   └── hilbert-spaces.md
-│   │   ├── 02-optimization/
-│   │   ├── 03-statistics/
+│   │   ├── 02-linear-algebra/
+│   │   │   └── eigenvalues.md
+│   │   ├── 03-optimization/
+│   │   │   ├── convexity.md
+│   │   │   └── gradients.md
+│   │   ├── 04-geometry/
+│   │   ├── 04-probability-theory/
+│   │   │   ├── exponentional-distribution.md
+│   │   │   └── normal-distribution.md
+│   │   ├── 05-statistics/
+│   │   │   ├── time-series/
+│   │   │   │   ├── autocorrelation.md
+│   │   │   │   ├── foundations.md
+│   │   │   │   ├── stationarity.md
+│   │   │   │   ├── time-series-decomposition.md
+│   │   │   │   └── trend-and-seasonality.md
 │   │   │   ├── bayesian-inference.md
 │   │   │   ├── causal-inference.md
 │   │   │   └── statistical-testing.md
-│   │   ├── 04-topology/
-│   │   └── 05-geometry/
+│   │   └── 06-topology/
+│   │       ├── homology/
+│   │       ├── homotopy/
+│   │       ├── important-manifolds/
+│   │       ├── manifolds.md
+│   │       ├── overview.md
+│   │       └── topological-spaces.md
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
-│   │   │   ├── 01-what-is-machine-learning
-│   │   │   ├── 02-classification-of-ml-models.md
 │   │   │   ├── bias-variance-tradeoff.md
+│   │   │   ├── classification-of-ml-models.md
 │   │   │   ├── empirical-risk-minimization.md
 │   │   │   ├── kernel-methods.md
+│   │   │   ├── overfitting-and-underfitting.md
 │   │   │   ├── pac-learning.md
 │   │   │   ├── regularization.md
 │   │   │   ├── uniform-convergence.md
 │   │   │   ├── universal-approximation-theorem.md
-│   │   │   └── vc-dimension.md
+│   │   │   ├── vc-dimension.md
+│   │   │   └── what-is-machine-learning.md
 │   │   ├── 02-traditional-ml-models/
 │   │   │   ├── 01-supervised/
 │   │   │   │   ├── linear-models/
@@ -41,10 +65,14 @@ data-science-wiki/
 │   │   │   │   │   └── pca.md
 │   │   │   │   ├── dimenstionality-reduction/
 │   │   │   │   └── anomality-reduction.md
-│   │   │   └── 03-probabilistic/
-│   │   │       ├── bayesian-networks.md
-│   │   │       ├── gaussian-mixture-models.md
-│   │   │       └── hidden-markov-models.md
+│   │   │   ├── 03-probabilistic/
+│   │   │   │   ├── bayesian-networks.md
+│   │   │   │   ├── gaussian-mixture-models.md
+│   │   │   │   └── hidden-markov-models.md
+│   │   │   └── 04-time-series-models/
+│   │   │       ├── arima.md
+│   │   │       ├── autoregressive-models.md
+│   │   │       └── kalman-filter.md
 │   │   ├── 03-deep-learning-models/
 │   │   │   ├── 01-architectures/
 │   │   │   │   ├── autoencoders.md
@@ -102,8 +130,27 @@ data-science-wiki/
 │   │       └── promt-engineering/
 │   ├── 04-evaluation/
 │   │   ├── 01-classification-metrics/
+│   │   │   ├── accuracy.md
+│   │   │   ├── confusion-matrix.md
+│   │   │   ├── f1-score.md
+│   │   │   ├── log-loss.md
+│   │   │   ├── multiclass-metrics.md
+│   │   │   ├── precision-recall-auc.md
+│   │   │   ├── precision.md
+│   │   │   ├── recall-sensitivity.md
+│   │   │   ├── roc-auc.md
+│   │   │   └── specificity.md
 │   │   ├── 02-regression-metrics/
-│   │   ├── 03-uncertainty-quantification/
+│   │   │   ├── adjusted-r-squared.md
+│   │   │   ├── mae.md
+│   │   │   ├── mse.md
+│   │   │   ├── r-squared.md
+│   │   │   └── rmse.md
+│   │   ├── 03-model-diagnostics/
+│   │   │   ├── bias-detection.md
+│   │   │   ├── calibration-analysis.md
+│   │   │   └── residual-analysis.md
+│   │   ├── 04-uncertainty-quantification/
 │   │   ├── cross-validation.md
 │   │   ├── fairness-bias.md
 │   │   └── model-selection.md
