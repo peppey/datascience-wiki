@@ -8,11 +8,18 @@ data-science-wiki/
 │   ├── 01-mathematical-foundations/
 │   │   ├── 01-linear-algebra/
 │   │   │   ├── norms/
-│   │   │   ├── bases.md
+│   │   │   │   ├── foundations.md
+│   │   │   │   ├── lp-norms.md
+│   │   │   │   └── max-norm.md
+│   │   │   ├── basis.md
 │   │   │   ├── complex-numbers.md
 │   │   │   ├── determinants.md
 │   │   │   ├── eigenvalues.md
+│   │   │   ├── inverse.md
+│   │   │   ├── matrix-factorizations.md
 │   │   │   ├── matrizes.md
+│   │   │   ├── orthogonality.md
+│   │   │   ├── pseudoinverse.md
 │   │   │   ├── scalar-product.md
 │   │   │   ├── singular-value-decomposition.md
 │   │   │   └── vector-spaces.md
@@ -29,25 +36,17 @@ data-science-wiki/
 │   │   │   ├── continuity.md
 │   │   │   ├── convexity.md
 │   │   │   ├── integral.md
+│   │   │   ├── laplacian.md
 │   │   │   ├── limits.md
 │   │   │   ├── maps.md
 │   │   │   ├── sequences-and-series.md
 │   │   │   ├── set-theory.md
 │   │   │   ├── taylor-series.md
 │   │   │   └── trigonometry.md
-│   │   ├── 02-functional-analysis/
+│   │   ├── 03-functional-analysis/
 │   │   │   ├── banach-spaces.md
-│   │   │   └── hilbert-spaces.md
-│   │   ├── 03-graph-theory/
-│   │   │   ├── search-algorithms/
-│   │   │   │   ├── a-star.md
-│   │   │   │   ├── breadth-first-search.md
-│   │   │   │   ├── depth-first-search.md
-│   │   │   │   └── dijkstra.md
-│   │   │   ├── graph-traversal.md
-│   │   │   ├── graphs.md
-│   │   │   ├── shortest-paths.md
-│   │   │   └── trees.md
+│   │   │   ├── hilbert-spaces.md
+│   │   │   └── orthonormal-bases.md
 │   │   ├── 03-optimization/
 │   │   │   ├── discrete-optimization/
 │   │   │   │   ├── branch-and-bound.md
@@ -91,13 +90,19 @@ data-science-wiki/
 │   │   │   │   └── student-t-distribution.md
 │   │   │   ├── bayes-theorem.md
 │   │   │   ├── central-limit-theorem.md
+│   │   │   ├── chebyshev-inequality.md
 │   │   │   ├── conditional-distributions.md
+│   │   │   ├── conditional-expectation.md
 │   │   │   ├── correlation.md
 │   │   │   ├── covariance.md
 │   │   │   ├── independence.md
+│   │   │   ├── joint-distributions.md
 │   │   │   ├── law-of-large-numbers.md
+│   │   │   ├── marginal-distributions.md
+│   │   │   ├── markov-inequality.md
 │   │   │   ├── probability-space.md
 │   │   │   ├── random-variable.md
+│   │   │   ├── random-vectors.md
 │   │   │   ├── stochastic-convergence.md
 │   │   │   ├── transformations-of-random-variables.md
 │   │   │   └── variance.md
@@ -126,34 +131,57 @@ data-science-wiki/
 │   │   │   │   ├── stationarity.md
 │   │   │   │   ├── time-series-decomposition.md
 │   │   │   │   └── trend-and-seasonality.md
+│   │   │   ├── bias.md
 │   │   │   ├── confidence-intervals.md
-│   │   │   └── method-of-least-squares.md
-│   │   └── 07-topology/
-│   │       ├── homology/
-│   │       │   ├── alexander-duality.md
-│   │       │   ├── betti-numbers.md
-│   │       │   ├── chain-complexes.md
-│   │       │   ├── fundamental-lemma-of-homology.md
-│   │       │   ├── homology-groups.md
-│   │       │   └── what-is-homology.m d
-│   │       ├── homotopy/
-│   │       │   ├── fundamental-group.md
-│   │       │   ├── homotopy-equivalence.md
-│   │       │   ├── homotopy-groups.md
-│   │       │   ├── homotopy-type.md
-│   │       │   └── what-is-homotopy.md
-│   │       ├── topological-spaces/
-│   │       │   ├── important-manifolds/
-│   │       │   │   ├── klein-bottle.md
-│   │       │   │   ├── möbius-strip.md
-│   │       │   │   ├── sphere.md
-│   │       │   │   └── torus.md
-│   │       │   ├── triangulations.md
-│   │       │   ├── what-are-manifolds.md
-│   │       │   └── what-are-topological-spaces.md
-│   │       ├── topological-equivalence.md
-│   │       ├── topological-stability.md
-│   │       └── what-is-topology.md
+│   │   │   ├── method-of-least-squares.md
+│   │   │   └── statistical-power.md
+│   │   ├── 07-topology/
+│   │   │   ├── distances/
+│   │   │   │   ├── bottleneck-distance.md
+│   │   │   │   └── wasserstein-distance.md
+│   │   │   ├── homology/
+│   │   │   │   ├── alexander-duality.md
+│   │   │   │   ├── betti-numbers.md
+│   │   │   │   ├── chain-complexes.md
+│   │   │   │   ├── fundamental-lemma-of-homology.md
+│   │   │   │   ├── homology-groups.md
+│   │   │   │   └── what-is-homology.m d
+│   │   │   ├── homotopy/
+│   │   │   │   ├── fundamental-group.md
+│   │   │   │   ├── homotopy-equivalence.md
+│   │   │   │   ├── homotopy-groups.md
+│   │   │   │   ├── homotopy-type.md
+│   │   │   │   └── what-is-homotopy.md
+│   │   │   ├── topological-spaces/
+│   │   │   │   ├── important-manifolds/
+│   │   │   │   │   ├── klein-bottle.md
+│   │   │   │   │   ├── möbius-strip.md
+│   │   │   │   │   ├── sphere.md
+│   │   │   │   │   └── torus.md
+│   │   │   │   ├── triangulations.md
+│   │   │   │   ├── what-are-manifolds.md
+│   │   │   │   └── what-are-topological-spaces.md
+│   │   │   ├── euler-characteristic.md
+│   │   │   ├── topological-equivalence.md
+│   │   │   ├── topological-stability.md
+│   │   │   └── what-is-topology.md
+│   │   ├── 08-graph-theory/
+│   │   │   ├── search-algorithms/
+│   │   │   │   ├── a-star.md
+│   │   │   │   ├── breadth-first-search.md
+│   │   │   │   ├── depth-first-search.md
+│   │   │   │   └── dijkstra.md
+│   │   │   ├── graph-traversal.md
+│   │   │   ├── graphs.md
+│   │   │   ├── random-graphs.md
+│   │   │   ├── shortest-paths.md
+│   │   │   └── trees.md
+│   │   └── 09-information-theory/
+│   │       ├── cross-entropy.md
+│   │       ├── information-entropy.md
+│   │       ├── information-gain.md
+│   │       ├── kl-divergence.md
+│   │       └── mutual-information.md
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
 │   │   │   ├── bias-variance-tradeoff.md
@@ -176,12 +204,16 @@ data-science-wiki/
 │   │   ├── 02-ml-tasks/
 │   │   │   ├── anomaly-detection/
 │   │   │   ├── classification/
+│   │   │   ├── clustering/
 │   │   │   ├── computer-vision/
+│   │   │   ├── dimensionality-reduction/
 │   │   │   ├── forecasting/
 │   │   │   ├── generative-modeling/
 │   │   │   ├── natural-language-processing/
+│   │   │   │   ├── anonymization.md
 │   │   │   │   ├── bag-of-words.md
 │   │   │   │   ├── count-vectorizer.md
+│   │   │   │   ├── named-entity-recognition.md
 │   │   │   │   ├── stopwords-and-stemming.md
 │   │   │   │   └── tf-idf.md
 │   │   │   ├── ranking/
@@ -207,12 +239,12 @@ data-science-wiki/
 │   │   │   ├── 02-unsupervised/
 │   │   │   │   ├── clustering/
 │   │   │   │   │   ├── dbscan.md
+│   │   │   │   │   ├── density-estimation.md
 │   │   │   │   │   ├── hierarchical-clustering.md
 │   │   │   │   │   └── k-means.md
-│   │   │   │   ├── dimenstionality-reduction/
-│   │   │   │   │   ├── pca.md
-│   │   │   │   │   └── umap.md
-│   │   │   │   └── anomality-reduction.md
+│   │   │   │   └── dimenstionality-reduction/
+│   │   │   │       ├── pca.md
+│   │   │   │       └── umap.md
 │   │   │   ├── 03-probabilistic/
 │   │   │   │   ├── bayesian-networks.md
 │   │   │   │   ├── gaussian-mixture-models.md
@@ -224,6 +256,11 @@ data-science-wiki/
 │   │   ├── 04-deep-learning-models/
 │   │   │   ├── 01-architectures/
 │   │   │   │   ├── activation-functions/
+│   │   │   │   │   ├── leaky-relu.md
+│   │   │   │   │   ├── relu.md
+│   │   │   │   │   ├── sigmoid.md
+│   │   │   │   │   ├── softmax.md
+│   │   │   │   │   └── tanh.md
 │   │   │   │   ├── autoencoders.md
 │   │   │   │   ├── cnn-architectures.md
 │   │   │   │   ├── graph-neural-networks.md
@@ -246,13 +283,12 @@ data-science-wiki/
 │   │   │   │   ├── meta-learning.md
 │   │   │   │   ├── self-supervised-learning.md
 │   │   │   │   └── transfer-learning.md
-│   │   │   ├── 04-representation-learning/
-│   │   │   │   ├── embeddings.md
-│   │   │   │   ├── sentence-embeddings.md
-│   │   │   │   └── word-embeddings.md
-│   │   │   └── 05-llm-applications/
-│   │   │       └── rag.md
+│   │   │   └── 04-representation-learning/
+│   │   │       ├── embeddings.md
+│   │   │       ├── sentence-embeddings.md
+│   │   │       └── word-embeddings.md
 │   │   ├── 05-reinforcement-learning/
+│   │   │   ├── agents.md
 │   │   │   └── policy-gradient-methods.md
 │   │   └── 06-llms/
 │   │       ├── 01-foundations/
@@ -263,15 +299,35 @@ data-science-wiki/
 │   │       │   ├── multi-head-attention.md
 │   │       │   ├── positional-encoding.md
 │   │       │   └── self-attention.md
-│   │       └── 03-model-architectures/
-│   │           ├── gpt-family.md
-│   │           ├── llama-family.md
-│   │           ├── mixture-of-experts.md
-│   │           └── multimodal-llms.md
+│   │       ├── 03-model-architectures/
+│   │       │   ├── gpt-family.md
+│   │       │   ├── llama-family.md
+│   │       │   ├── mixture-of-experts.md
+│   │       │   └── multimodal-llms.md
+│   │       └── 05-llm-applications/
+│   │           └── rag.md
 │   ├── 03-data-exploration/
-│   │   └── 01-chart-types/
-│   │       ├── box-plots.md
-│   │       └── histograms.md
+│   │   ├── 01-chart-types/
+│   │   │   ├── bar-chart.md
+│   │   │   ├── box-plots.md
+│   │   │   ├── bubble-chart.md
+│   │   │   ├── correlation-matrix.md
+│   │   │   ├── heatmap.md
+│   │   │   ├── histograms.md
+│   │   │   ├── line-chart.md
+│   │   │   ├── pie-chart.md
+│   │   │   ├── scatter-plot.md
+│   │   │   └── violin-plot.md
+│   │   ├── 02-statistical-analysis/
+│   │   │   ├── correlation.md
+│   │   │   ├── kurtosis.md
+│   │   │   ├── outliers.md
+│   │   │   └── skewness.md
+│   │   ├── 03-data-quality/
+│   │   │   ├── missing-data.md/
+│   │   │   └── duplicate-detection-techniques.md
+│   │   ├── data-types.md
+│   │   └── visualization-best-practices.md
 │   ├── 04-evaluation/
 │   │   ├── 01-classification-metrics/
 │   │   │   ├── accuracy.md
@@ -300,6 +356,12 @@ data-science-wiki/
 │   │   │   ├── feature-importance.md
 │   │   │   └── shap.md
 │   │   ├── 06-calibration/
+│   │   ├── 07-llm-evaluation/
+│   │   │   ├── human-evaluation.md
+│   │   │   ├── llm-as-a-judge.md
+│   │   │   ├── quality-metrics.md
+│   │   │   ├── rag-evaluation.md
+│   │   │   └── safety-and-reliability.md
 │   │   ├── cross-validation.md
 │   │   ├── fairness-bias.md
 │   │   └── model-selection.md
@@ -321,7 +383,8 @@ data-science-wiki/
 │   │   └── 05-feature-engineering/
 │   ├── 05-training-and-optimizing-ml-models/
 │   │   ├── 01-traditional-ml/
-│   │   │   └── hyperparameter-tuning/
+│   │   │   ├── hyperparameter-tuning/
+│   │   │   └── common-issues.md
 │   │   ├── 02-deep-learning/
 │   │   │   ├── 01-loss-functions/
 │   │   │   ├── 02-optimization/
@@ -333,8 +396,10 @@ data-science-wiki/
 │   │   │   │   ├── early-stopping.md
 │   │   │   │   ├── l1-l2-regularization.md
 │   │   │   │   └── weight-decay.md
-│   │   │   └── 04-data-strategies/
-│   │   │       └── data-augmentation.md/
+│   │   │   ├── 04-data-strategies/
+│   │   │   │   └── data-augmentation.md/
+│   │   │   ├── 05-activation-functions/
+│   │   │   └── common-issues.md
 │   │   └── 03-llms/
 │   │       ├── finetuning/
 │   │       ├── promt-engineering/
@@ -429,6 +494,7 @@ data-science-wiki/
 │   │   │   ├── authorization.md
 │   │   │   ├── dependency-security.md
 │   │   │   ├── dsvgo-basics.md
+│   │   │   ├── llm-safety.md
 │   │   │   ├── policy-management.md
 │   │   │   └── secrets-management.md
 │   │   ├── 09-architectures/
@@ -447,13 +513,18 @@ data-science-wiki/
 │   │       ├── heap.md
 │   │       └── linked-list.md
 │   └── 11-tda/
-│       ├── barcodes.md
-│       ├── cech-complex.md
-│       ├── filtrations.md
-│       ├── nerve-complexes.md
-│       ├── persistence-diagrams.md
-│       ├── vietoris-rips-complex.md
-│       └── why-persistence-homology-works.md
+│       ├── perstistent-homology/
+│       │   ├── applications/
+│       │   │   ├── ts-classification.md
+│       │   │   └── ts-forecasting.md
+│       │   ├── barcodes.md
+│       │   ├── cech-complex.md
+│       │   ├── filtrations.md
+│       │   ├── nerve-complexes.md
+│       │   ├── persistence-diagrams.md
+│       │   ├── vietoris-rips-complex.md
+│       │   └── why-persistence-homology-works.md
+│       └── mapper-algorithm.md
 ├── assets/
 └── scripts/
     └── generate-toc.py
