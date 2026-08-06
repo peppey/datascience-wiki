@@ -460,7 +460,7 @@
 <details>
 <summary>09 INFORMATION THEORY</summary>
 
-- [CROSS ENTROPY](docs/01-mathematical-foundations/09-information-theory/cross-entropy.md)
+- [CROSS ENTROPY ✅](docs/01-mathematical-foundations/09-information-theory/cross-entropy.md)
 - [FISHER INFORMATION](docs/01-mathematical-foundations/09-information-theory/fisher-information.md)
 - [INFORMATION ENTROPY](docs/01-mathematical-foundations/09-information-theory/information-entropy.md)
 - [INFORMATION GAIN](docs/01-mathematical-foundations/09-information-theory/information-gain.md)
@@ -1227,7 +1227,7 @@
 <details>
 <summary>01 CLASSIFICATION METRICS</summary>
 
-- [ACCURACY](docs/06-evaluation/01-classification-metrics/accuracy.md)
+- [ACCURACY ✅](docs/06-evaluation/01-classification-metrics/accuracy.md)
 - [CONFUSION MATRIX](docs/06-evaluation/01-classification-metrics/confusion-matrix.md)
 - [F1 SCORE](docs/06-evaluation/01-classification-metrics/f1-score.md)
 - [LOG LOSS](docs/06-evaluation/01-classification-metrics/log-loss.md)
