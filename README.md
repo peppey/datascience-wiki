@@ -75,7 +75,7 @@ data-science-wiki/
 │   │   │   │   ├── conic-section.md
 │   │   │   │   ├── homogenous-coordinates.md
 │   │   │   │   └── projective-spaces.md
-│   │   │   └── what-is-geometry.md
+│   │   │   └── what-is-geometry.md ✓
 │   │   ├── 05-probability-theory/
 │   │   │   ├── common-distributions/
 │   │   │   │   ├── bernoulli-distribution.md
@@ -159,7 +159,7 @@ data-science-wiki/
 │   │   │   ├── euler-characteristic.md
 │   │   │   ├── topological-equivalence.md
 │   │   │   ├── topological-stability.md
-│   │   │   └── what-is-topology.md
+│   │   │   └── what-is-topology.md ✓
 │   │   ├── 08-graph-theory/
 │   │   │   ├── search-algorithms/
 │   │   │   │   ├── a-star.md
@@ -187,27 +187,29 @@ data-science-wiki/
 │   │       └── rings.md
 │   ├── 02-ml-models-theory/
 │   │   ├── 01-ml-foundations/
+│   │   │   ├── 01-introduction/
+│   │   │   │   ├── classification-of-ml-models.md
+│   │   │   │   ├── no-free-lunch-theorem.md
+│   │   │   │   ├── questions-to-check.md ✓
+│   │   │   │   └── what-is-machine-learning.md
+│   │   │   ├── 02-learning-thoery/
+│   │   │   │   ├── hypothesis-space.md
+│   │   │   │   ├── pac-learning.md
+│   │   │   │   ├── uniform-convergence.md ✓
+│   │   │   │   └── vc-dimension.md ✓
 │   │   │   ├── generalization/
 │   │   │   │   ├── double-descent.md ✓
 │   │   │   │   ├── generalization-error.md
 │   │   │   │   ├── overfitting-and-underfitting.md
 │   │   │   │   └── stability.md
-│   │   │   ├── bias-variance-tradeoff.md ✓
+│   │   │   ├── bias-variance-tradeoff.md
 │   │   │   ├── calibration.md
-│   │   │   ├── classification-of-ml-models.md
 │   │   │   ├── curse-of-dimensionality.md
 │   │   │   ├── data-distribution-shift.md
-│   │   │   ├── empirical-risk-minimization.md ✓
-│   │   │   ├── hypothesis-space.md
+│   │   │   ├── empirical-risk-minimization.md
 │   │   │   ├── inductive-bias.md
 │   │   │   ├── kernel-methods.md ✓
-│   │   │   ├── no-free-lunch-theorem.md
-│   │   │   ├── pac-learning.md ✓
-│   │   │   ├── regularization.md ✓
-│   │   │   ├── uniform-convergence.md ✓
-│   │   │   ├── universal-approximation-theorem.md ✓
-│   │   │   ├── vc-dimension.md ✓
-│   │   │   └── what-is-machine-learning.md
+│   │   │   └── regularization.md ✓
 │   │   ├── 02-ml-tasks/
 │   │   │   ├── anomaly-detection/
 │   │   │   ├── classification/
@@ -270,7 +272,10 @@ data-science-wiki/
 │   │   │       ├── stacking.md ✓
 │   │   │       └── voting.md ✓
 │   │   ├── 04-deep-learning-models/
-│   │   │   ├── 01-architectures/
+│   │   │   ├── 01-foundations/
+│   │   │   │   ├── neural-networks.md
+│   │   │   │   └── universal-approximation-theorem.md
+│   │   │   ├── 02-architectures/
 │   │   │   │   ├── activation-functions.md
 │   │   │   │   ├── autoencoders.md
 │   │   │   │   ├── cnn-architectures.md
@@ -279,7 +284,7 @@ data-science-wiki/
 │   │   │   │   ├── rnn-lstm.md
 │   │   │   │   ├── siamese-architecture.md
 │   │   │   │   └── transformers.md
-│   │   │   ├── 02-generative-models/
+│   │   │   ├── 03-generative-models/
 │   │   │   │   ├── autoregressive-models.md
 │   │   │   │   ├── diffusion-models.md ✓
 │   │   │   │   ├── energy-based-models.md
@@ -288,13 +293,13 @@ data-science-wiki/
 │   │   │   │   ├── normalizing-flows.md
 │   │   │   │   ├── score-based-models.md
 │   │   │   │   └── variational-autoencoders.md
-│   │   │   ├── 03-learning-paradigms/
+│   │   │   ├── 04-learning-paradigms/
 │   │   │   │   ├── federated-learning.md
 │   │   │   │   ├── few-shot-learning.md
 │   │   │   │   ├── meta-learning.md
 │   │   │   │   ├── self-supervised-learning.md
 │   │   │   │   └── transfer-learning.md
-│   │   │   └── 04-representation-learning/
+│   │   │   └── 05-representation-learning/
 │   │   │       ├── embeddings.md
 │   │   │       ├── sentence-embeddings.md
 │   │   │       └── word-embeddings.md
@@ -504,7 +509,8 @@ data-science-wiki/
 │   ├── 10-software-engineering/
 │   │   ├── 01-clean-code/
 │   │   │   ├── code-smells.md
-│   │   │   ├── my-principles.md
+│   │   │   ├── linting.md
+│   │   │   ├── my-principles.md ✓
 │   │   │   └── solid-principles.md
 │   │   ├── 02-testing/
 │   │   │   ├── 01-unit-tests/
