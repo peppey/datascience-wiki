@@ -1,616 +1,1992 @@
-## Table of Contents
+# Table of Contents
 
 <!-- TOC_START -->
-```text
-datascience-wiki/
-├── README.md ✓
-├── docs/
-│   ├── 01-mathematical-foundations/
-│   │   ├── 01-linear-algebra/
-│   │   │   ├── basis.md
-│   │   │   ├── complex-numbers.md
-│   │   │   ├── determinants.md
-│   │   │   ├── eigenvalues.md
-│   │   │   ├── inverse.md
-│   │   │   ├── matrix-factorizations.md
-│   │   │   ├── matrizes.md
-│   │   │   ├── norms.md
-│   │   │   ├── orthogonality.md
-│   │   │   ├── pseudoinverse.md
-│   │   │   ├── scalar-product.md
-│   │   │   ├── singular-values.md
-│   │   │   └── vector-spaces.md
-│   │   ├── 02-analysis/
-│   │   │   ├── derivatives/
-│   │   │   │   ├── foundations.md
-│   │   │   │   ├── gradient.md
-│   │   │   │   ├── hessian.md
-│   │   │   │   └── jacobian.md
-│   │   │   ├── differential-equations/
-│   │   │   ├── fourier-analysis/
-│   │   │   │   ├── fourier-series.md
-│   │   │   │   └── fourier-transform.md
-│   │   │   ├── continuity.md
-│   │   │   ├── convexity.md
-│   │   │   ├── integral.md
-│   │   │   ├── laplacian.md
-│   │   │   ├── limits.md
-│   │   │   ├── maps.md
-│   │   │   ├── sequences-and-series.md
-│   │   │   ├── set-theory.md
-│   │   │   ├── taylor-series.md
-│   │   │   └── trigonometry.md
-│   │   ├── 03-functional-analysis/
-│   │   │   ├── banach-spaces.md
-│   │   │   ├── hilbert-spaces.md
-│   │   │   └── orthonormal-bases.md
-│   │   ├── 03-optimization/
-│   │   │   ├── discrete-optimization/
-│   │   │   │   ├── branch-and-bound.md
-│   │   │   │   ├── combinatorial-optimization.md
-│   │   │   │   ├── greedy-algorithms.md
-│   │   │   │   └── integer-programming.md
-│   │   │   ├── gradient-descent/
-│   │   │   │   ├── exploding-gradient.md
-│   │   │   │   ├── foundations.md
-│   │   │   │   └── vanishing-gradient.md
-│   │   │   ├── nonlinear-optimization/
-│   │   │   │   ├── constrained-optimization/
-│   │   │   │   ├── lagrange-multipliers.md
-│   │   │   │   ├── newton-method.md
-│   │   │   │   └── saddle-points.md
-│   │   │   ├── stochastic-optimization/
-│   │   │   │   ├── momentum.md
-│   │   │   │   └── stochastic-gradient-descent.md
-│   │   │   ├── duality.md
-│   │   │   ├── foundations.md
-│   │   │   └── kkt-conditions.md
-│   │   ├── 04-geometry/
-│   │   │   ├── differential-geometry/
-│   │   │   │   └── curves.md
-│   │   │   ├── euclidean-geometry/
-│   │   │   │   ├── distances-and-metrics.md
-│   │   │   │   └── euclidean-space.md
-│   │   │   ├── projective-geometry/
-│   │   │   │   ├── conic-section.md
-│   │   │   │   ├── homogenous-coordinates.md
-│   │   │   │   └── projective-spaces.md
-│   │   │   └── what-is-geometry.md ✓
-│   │   ├── 05-probability-theory/
-│   │   │   ├── 01-foundations/
-│   │   │   │   ├── independence.md
-│   │   │   │   ├── measures.md
-│   │   │   │   ├── probability-space.md
-│   │   │   │   ├── random-variable.md
-│   │   │   │   └── random-vectors.md
-│   │   │   ├── 02-distributions/
-│   │   │   │   ├── 01-common-distributions/
-│   │   │   │   │   ├── bernoulli-distribution.md
-│   │   │   │   │   ├── binomial-distribution.md
-│   │   │   │   │   ├── exponential-distribution.md
-│   │   │   │   │   ├── normal-distribution.md
-│   │   │   │   │   ├── poisson-distribution.md
-│   │   │   │   │   └── student-t-distribution.md
-│   │   │   │   ├── conditional-distributions.md
-│   │   │   │   ├── joint-distributions.md
-│   │   │   │   ├── marginal-distributions.md
-│   │   │   │   └── transformations-of-random-variables.md
-│   │   │   ├── 03-expectation-and-moments/
-│   │   │   │   ├── conditional-expectation.md
-│   │   │   │   ├── correlation.md
-│   │   │   │   ├── covariance.md
-│   │   │   │   └── variance.md
-│   │   │   ├── 04-limit-theorems/
-│   │   │   │   ├── central-limit-theorem.md
-│   │   │   │   ├── law-of-large-numbers.md
-│   │   │   │   └── stochastic-convergence.md
-│   │   │   ├── 05-bayesian-probability/
-│   │   │   │   ├── bayes-theorem.md ✓
-│   │   │   │   ├── likelihood.md
-│   │   │   │   └── prior-and-posterior.md
-│   │   │   └── 06-inequalities/
-│   │   │       ├── chebyshev-inequality.md
-│   │   │       └── markov-inequality.md
-│   │   ├── 06-statistics/
-│   │   │   ├── bayesian-inference/
-│   │   │   │   └── what-is-bayesian-inference.md ✓
-│   │   │   ├── causal-inference/
-│   │   │   ├── computational-statistics/
-│   │   │   │   ├── bootstrap.md
-│   │   │   │   ├── markov-chain-monte-carlo.md
-│   │   │   │   └── monte-carlo-methods.md
-│   │   │   ├── estimation/
-│   │   │   │   ├── bias.md
-│   │   │   │   ├── estimators.md
-│   │   │   │   ├── maximum-likelihood-estimation.md
-│   │   │   │   ├── method-of-moments.md
-│   │   │   │   └── point-estimation.md
-│   │   │   ├── hypothesis-testing/
-│   │   │   │   ├── chi-square-test.md
-│   │   │   │   ├── foundations.md
-│   │   │   │   ├── homogeneity-test.md
-│   │   │   │   ├── p-values.md
-│   │   │   │   ├── t-test.md
-│   │   │   │   └── z-test.md
-│   │   │   ├── time-series/
-│   │   │   │   ├── autocorrelation.md
-│   │   │   │   ├── foundations.md
-│   │   │   │   ├── stationarity.md
-│   │   │   │   ├── time-series-decomposition.md
-│   │   │   │   └── trend-and-seasonality.md
-│   │   │   ├── confidence-intervals.md
-│   │   │   ├── method-of-least-squares.md ✓
-│   │   │   └── statistical-power.md
-│   │   ├── 07-topology/
-│   │   │   ├── homology/
-│   │   │   │   ├── alexander-duality.md
-│   │   │   │   ├── betti-numbers.md
-│   │   │   │   ├── chain-complexes.md
-│   │   │   │   ├── fundamental-lemma-of-homology.md
-│   │   │   │   ├── homology-groups.md
-│   │   │   │   └── what-is-homology.m d
-│   │   │   ├── homotopy/
-│   │   │   │   ├── fundamental-group.md
-│   │   │   │   ├── homotopy-equivalence.md
-│   │   │   │   ├── homotopy-groups.md
-│   │   │   │   ├── homotopy-type.md
-│   │   │   │   └── what-is-homotopy.md
-│   │   │   ├── topological-spaces/
-│   │   │   │   ├── important-manifolds/
-│   │   │   │   │   ├── klein-bottle.md
-│   │   │   │   │   ├── möbius-strip.md
-│   │   │   │   │   ├── sphere.md
-│   │   │   │   │   └── torus.md
-│   │   │   │   ├── triangulations.md
-│   │   │   │   ├── what-are-manifolds.md
-│   │   │   │   └── what-are-topological-spaces.md
-│   │   │   ├── euler-characteristic.md
-│   │   │   ├── topological-equivalence.md
-│   │   │   ├── topological-stability.md
-│   │   │   └── what-is-topology.md ✓
-│   │   ├── 08-graph-theory/
-│   │   │   ├── search-algorithms/
-│   │   │   │   ├── a-star.md
-│   │   │   │   ├── breadth-first-search.md
-│   │   │   │   ├── depth-first-search.md
-│   │   │   │   └── dijkstra.md
-│   │   │   ├── graph-traversal.md
-│   │   │   ├── graphs.md
-│   │   │   ├── random-graphs.md
-│   │   │   ├── shortest-paths.md
-│   │   │   └── trees.md
-│   │   ├── 09-information-theory/
-│   │   │   ├── cross-entropy.md
-│   │   │   ├── fisher-information.md
-│   │   │   ├── information-entropy.md
-│   │   │   ├── information-gain.md
-│   │   │   ├── kl-divergence.md
-│   │   │   └── mutual-information.md
-│   │   ├── 10-numerics/
-│   │   │   ├── numerical-stability.md
-│   │   │   └── qr-decomposition.md ✓
-│   │   └── 11-algebra/
-│   │       ├── fields.md
-│   │       ├── groups.md
-│   │       ├── homomorphisms.md
-│   │       └── rings.md
-│   ├── 02-ml-models-theory/
-│   │   ├── 01-ml-foundations/
-│   │   │   ├── 01-introduction/
-│   │   │   │   ├── classification-of-ml-models.md
-│   │   │   │   ├── no-free-lunch-theorem.md ✓
-│   │   │   │   ├── questions-to-check.md ✓
-│   │   │   │   └── what-is-machine-learning.md
-│   │   │   ├── 02-learning-thoery/
-│   │   │   │   ├── empirical-risk-minimization.md
-│   │   │   │   ├── hypothesis-space.md
-│   │   │   │   ├── inductive-bias.md
-│   │   │   │   ├── pac-learning.md
-│   │   │   │   ├── uniform-convergence.md ✓
-│   │   │   │   └── vc-dimension.md ✓
-│   │   │   ├── 03-generalization/
-│   │   │   │   ├── double-descent.md ✓
-│   │   │   │   ├── generalization-error.md
-│   │   │   │   ├── overfitting-and-underfitting.md
-│   │   │   │   └── stability.md
-│   │   │   ├── 04-model-complexity/
-│   │   │   │   ├── bias-variance-tradeoff.md
-│   │   │   │   ├── curse-of-dimensionality.md
-│   │   │   │   ├── kernel-methods.md ✓
-│   │   │   │   └── regularization.md ✓
-│   │   │   └── 05-data-and-model-reliability/
-│   │   │       ├── calibration.md
-│   │   │       └── data-distribution-shift.md
-│   │   ├── 02-ml-tasks/
-│   │   │   ├── anomaly-detection/
-│   │   │   ├── classification/
-│   │   │   ├── clustering/
-│   │   │   ├── computer-vision/
-│   │   │   ├── dimensionality-reduction/
-│   │   │   ├── forecasting/
-│   │   │   ├── generative-modeling/
-│   │   │   ├── natural-language-processing/
-│   │   │   │   ├── anonymization.md
-│   │   │   │   ├── bag-of-words.md
-│   │   │   │   ├── count-vectorizer.md
-│   │   │   │   ├── named-entity-recognition.md
-│   │   │   │   ├── regular-expressions.md
-│   │   │   │   ├── stopwords-and-stemming.md
-│   │   │   │   └── tf-idf.md
-│   │   │   ├── pattern-mining/
-│   │   │   │   ├── association-rule-mining.md
-│   │   │   │   └── frequent-itemset-mining.md
-│   │   │   ├── ranking/
-│   │   │   ├── recommendation-systems/
-│   │   │   ├── regression/
-│   │   │   └── topic-modelling/
-│   │   ├── 03-traditional-ml-models/
-│   │   │   ├── 01-supervised/
-│   │   │   │   ├── linear-models/
-│   │   │   │   │   ├── elastic-net.md
-│   │   │   │   │   └── linear-regression.md ✓
-│   │   │   │   ├── nearest-neighbors/
-│   │   │   │   │   └── knn-classification.md
-│   │   │   │   ├── tree-based-methods/
-│   │   │   │   │   ├── decision-trees.md ✓
-│   │   │   │   │   ├── random-forest.md ✓
-│   │   │   │   │   └── xgboost.md
-│   │   │   │   ├── gaussian-processes.md
-│   │   │   │   ├── naive-bayes.md
-│   │   │   │   └── svm.md ✓
-│   │   │   ├── 02-unsupervised/
-│   │   │   │   ├── clustering/
-│   │   │   │   │   ├── dbscan.md
-│   │   │   │   │   ├── density-estimation.md
-│   │   │   │   │   ├── hierarchical-clustering.md
-│   │   │   │   │   └── k-means.md
-│   │   │   │   └── dimenstionality-reduction/
-│   │   │   │       ├── pca.md
-│   │   │   │       └── umap.md
-│   │   │   ├── 03-probabilistic/
-│   │   │   │   ├── bayesian-networks.md
-│   │   │   │   ├── gaussian-mixture-models.md
-│   │   │   │   └── hidden-markov-models.md
-│   │   │   ├── 04-time-series-models/
-│   │   │   │   ├── arima.md
-│   │   │   │   ├── autoregressive-models.md
-│   │   │   │   └── kalman-filter.md
-│   │   │   └── 05-ensemble-methods/
-│   │   │       ├── bagging.md ✓
-│   │   │       ├── boosting.md ✓
-│   │   │       ├── stacking.md ✓
-│   │   │       └── voting.md ✓
-│   │   ├── 04-deep-learning-models/
-│   │   │   ├── 01-foundations/
-│   │   │   │   ├── neural-networks.md
-│   │   │   │   └── universal-approximation-theorem.md
-│   │   │   ├── 02-architectures/
-│   │   │   │   ├── activation-functions.md
-│   │   │   │   ├── autoencoders.md
-│   │   │   │   ├── cnn-architectures.md
-│   │   │   │   ├── graph-neural-networks.md
-│   │   │   │   ├── neural-network-basics.md
-│   │   │   │   ├── rnn-lstm.md
-│   │   │   │   ├── siamese-architecture.md
-│   │   │   │   └── transformers.md
-│   │   │   ├── 03-generative-models/
-│   │   │   │   ├── autoregressive-models.md
-│   │   │   │   ├── diffusion-models.md ✓
-│   │   │   │   ├── energy-based-models.md
-│   │   │   │   ├── generative-adversarial-networks.md
-│   │   │   │   ├── multimodal-generative-models.md
-│   │   │   │   ├── normalizing-flows.md
-│   │   │   │   ├── score-based-models.md
-│   │   │   │   └── variational-autoencoders.md
-│   │   │   ├── 04-learning-paradigms/
-│   │   │   │   ├── federated-learning.md
-│   │   │   │   ├── few-shot-learning.md
-│   │   │   │   ├── meta-learning.md
-│   │   │   │   ├── self-supervised-learning.md
-│   │   │   │   └── transfer-learning.md
-│   │   │   └── 05-representation-learning/
-│   │   │       ├── embeddings.md
-│   │   │       ├── sentence-embeddings.md
-│   │   │       └── word-embeddings.md
-│   │   ├── 05-reinforcement-learning/
-│   │   │   ├── foundations.md
-│   │   │   ├── policy-gradient-methods.md
-│   │   │   └── q-learning.md
-│   │   └── 06-llms/
-│   │       ├── 01-foundations/
-│   │       │   ├── pretraining.md
-│   │       │   ├── tokenization.md
-│   │       │   └── what-are-llms.md
-│   │       ├── 02-transformer-architecture/
-│   │       │   ├── decoder-only-models.md
-│   │       │   ├── multi-head-attention.md
-│   │       │   ├── positional-encoding.md
-│   │       │   └── self-attention.md
-│   │       ├── 03-model-architectures/
-│   │       │   ├── gpt-family.md
-│   │       │   ├── llama-family.md
-│   │       │   ├── mixture-of-experts.md
-│   │       │   └── multimodal-llms.md
-│   │       ├── 04-llm-infrastructure/
-│   │       │   └── quantization.md
-│   │       └── 05-llm-applications/
-│   │           └── rag.md
-│   ├── 03-data-exploration/
-│   │   ├── 01-chart-types/
-│   │   │   ├── bar-chart.md
-│   │   │   ├── box-plots.md
-│   │   │   ├── bubble-chart.md
-│   │   │   ├── correlation-matrix.md
-│   │   │   ├── heatmap.md
-│   │   │   ├── histograms.md
-│   │   │   ├── line-chart.md
-│   │   │   ├── pie-chart.md
-│   │   │   ├── scatter-plot.md
-│   │   │   └── violin-plot.md
-│   │   ├── 02-statistical-analysis/
-│   │   │   ├── correlation.md
-│   │   │   ├── kurtosis.md
-│   │   │   ├── outliers.md
-│   │   │   └── skewness.md
-│   │   ├── 03-data-quality/
-│   │   │   ├── missing-data.md/
-│   │   │   └── duplicate-detection-techniques.md
-│   │   ├── data-types.md
-│   │   └── visualization-best-practices.md
-│   ├── 04-evaluation/
-│   │   ├── 01-classification-metrics/
-│   │   │   ├── accuracy.md
-│   │   │   ├── confusion-matrix.md
-│   │   │   ├── f1-score.md
-│   │   │   ├── log-loss.md
-│   │   │   ├── multiclass-metrics.md
-│   │   │   ├── precision-recall-auc.md
-│   │   │   ├── precision.md
-│   │   │   ├── recall-sensitivity.md
-│   │   │   ├── roc-auc.md
-│   │   │   └── specificity.md
-│   │   ├── 02-regression-metrics/
-│   │   │   ├── adjusted-r-squared.md
-│   │   │   ├── mae.md
-│   │   │   ├── mse.md
-│   │   │   ├── r-squared.md
-│   │   │   └── rmse.md
-│   │   ├── 03-model-diagnostics/
-│   │   │   ├── bias-detection.md
-│   │   │   ├── calibration-analysis.md
-│   │   │   └── residual-analysis.md
-│   │   ├── 04-uncertainty-quantification/
-│   │   │   └── confidence.md
-│   │   ├── 05-interpretability/
-│   │   │   ├── feature-importance.md
-│   │   │   └── shap.md
-│   │   ├── 06-calibration/
-│   │   ├── 07-llm-evaluation/
-│   │   │   ├── human-evaluation.md
-│   │   │   ├── llm-as-a-judge.md
-│   │   │   ├── quality-metrics.md
-│   │   │   ├── rag-evaluation.md
-│   │   │   └── safety-and-reliability.md
-│   │   ├── cross-validation.md
-│   │   ├── fairness-bias.md
-│   │   └── model-selection.md
-│   ├── 05-data-engineering/
-│   │   ├── 01-data-pipelines/
-│   │   ├── 02-data-preprocessing/
-│   │   │   ├── 01-data-cleaning/
-│   │   │   │   └── 02-/
-│   │   │   ├── 02-data-transformation/
-│   │   │   ├── 03-imputation/
-│   │   │   │   ├── knn-imputation.md
-│   │   │   │   └── mean-imputation.md
-│   │   │   ├── 04-outlier-detection/
-│   │   │   └── 05-normalization/
-│   │   ├── 03-data-versioning/
-│   │   ├── 04-distributed-processing/
-│   │   │   ├── hadoop/
-│   │   │   └── spark/
-│   │   └── 05-feature-engineering/
-│   │       ├── categorical-features.md
-│   │       ├── dimensionality-reduction-of-features.md
-│   │       ├── embeddings.md
-│   │       └── numerical-features.md
-│   ├── 05-training-and-optimizing-ml-models/
-│   │   ├── 01-traditional-ml/
-│   │   │   └── common-issues.md
-│   │   ├── 02-deep-learning/
-│   │   │   ├── 01-loss-functions/
-│   │   │   ├── 02-optimization/
-│   │   │   │   ├── batch-normalization.md
-│   │   │   │   ├── learning-rate-scheduling.md
-│   │   │   │   └── optimization-algorithms.md
-│   │   │   ├── 03-regularization/
-│   │   │   │   ├── dropout.md
-│   │   │   │   ├── early-stopping.md
-│   │   │   │   ├── l1-l2-regularization.md
-│   │   │   │   └── weight-decay.md
-│   │   │   ├── 04-data-strategies/
-│   │   │   │   └── data-augmentation.md/
-│   │   │   ├── 05-activation-functions/
-│   │   │   │   ├── leaky-relu.md
-│   │   │   │   ├── relu.md
-│   │   │   │   ├── sigmoid.md
-│   │   │   │   ├── softmax.md
-│   │   │   │   └── tanh.md
-│   │   │   └── common-issues.md
-│   │   ├── 03-llms/
-│   │   │   ├── finetuning/
-│   │   │   ├── promt-engineering/
-│   │   │   └── tools/
-│   │   ├── 04-hyperparameter-tuning/
-│   │   │   ├── grid-search.md
-│   │   │   └── random-search.md
-│   │   └── train-test-split.md ✓
-│   ├── 07-databases/
-│   │   ├── 01-sql-databases/
-│   │   │   ├── joins.md
-│   │   │   └── relational-model.md
-│   │   ├── 02-nosql-databses/
-│   │   ├── 03-vector-databases.md/
-│   │   ├── 04-search-engines/
-│   │   │   ├── elasticsearch.md
-│   │   │   └── vector-search.md
-│   │   ├── 05-data-warehouses/
-│   │   └── 06-datalakes/
-│   ├── 08-deployment/
-│   │   ├── 01-fundamentals/
-│   │   │   ├── api-design.md
-│   │   │   ├── caching.md
-│   │   │   ├── containerization.md
-│   │   │   ├── inference-endpoints.md
-│   │   │   ├── model-serialization.md
-│   │   │   └── model-serving.md
-│   │   ├── 02-containers/
-│   │   │   ├── docker-compose.md
-│   │   │   └── docker.md
-│   │   ├── 03-kubernetes/
-│   │   │   ├── configmaps.md
-│   │   │   ├── deployments.md
-│   │   │   ├── foundations.md
-│   │   │   ├── ingress.md
-│   │   │   ├── namespaces.md
-│   │   │   ├── pods.md
-│   │   │   ├── secrets.md
-│   │   │   └── services.md
-│   │   ├── 04-cloud-native/
-│   │   │   ├── destination-rule.md
-│   │   │   ├── gateways.md
-│   │   │   ├── istio.md
-│   │   │   ├── s3.md
-│   │   │   ├── service-mesh.md
-│   │   │   └── virtual-service.md
-│   │   ├── 05-openshift/
-│   │   │   ├── foundations.md
-│   │   │   ├── operators.md
-│   │   │   └── routes.md
-│   │   └── 06-ml-serving/
-│   │       ├── inference-services.md
-│   │       ├── kserve.md
-│   │       ├── model-serving.md
-│   │       └── serving-architecture.md
-│   ├── 09-mlops/
-│   │   ├── 01-ci-cd/
-│   │   │   ├── github-actions.md
-│   │   │   └── jenkins.md
-│   │   ├── 02-experiment-tracking/
-│   │   │   ├── dataset-versioning.md
-│   │   │   ├── mlflow.md
-│   │   │   └── random-seeds.md
-│   │   ├── 03-model-registry/
-│   │   │   └── model-artifacts.md
-│   │   ├── 04-orchestration/
-│   │   │   ├── argo-cd.md
-│   │   │   ├── argo-workflows.md
-│   │   │   └── kubeflow.md
-│   │   ├── 05-monitoring/
-│   │   │   ├── alerts.md
-│   │   │   ├── grafana-foundations.md
-│   │   │   ├── model-monitoring.md
-│   │   │   ├── performance-monitoring.md
-│   │   │   └── prometheus.md
-│   │   ├── 06-ml-pipelines/
-│   │   │   ├── kubeflow-pipelines.md
-│   │   │   └── pipeline-foundations.md
-│   │   └── 07-environments/
-│   │       └── deployment-stages.md ✓
-│   ├── 10-software-engineering/
-│   │   ├── 01-clean-code/
-│   │   │   ├── code-smells.md
-│   │   │   ├── linting.md
-│   │   │   ├── my-principles.md ✓
-│   │   │   └── solid-principles.md
-│   │   ├── 02-testing/
-│   │   │   ├── 01-unit-tests/
-│   │   │   ├── 02-integration-tests/
-│   │   │   ├── 03-e2e-tests/
-│   │   │   ├── mocking.md
-│   │   │   └── testing-principles.md ✓
-│   │   ├── 03-documentation/
-│   │   ├── 04-version-control/
-│   │   │   ├── foundations.md
-│   │   │   └── git-concepts.md
-│   │   ├── 05-software-design/
-│   │   │   ├── design-patterns/
-│   │   │   │   ├── behavioral/
-│   │   │   │   ├── creational/
-│   │   │   │   │   └── factory-pattern.md ✓
-│   │   │   │   └── structural/
-│   │   │   │       ├── adapter-pattern.md
-│   │   │   │       └── decorator-pattern.md
-│   │   │   └── modular-design/
-│   │   │       └── ml-project-structure.md
-│   │   ├── 06-build-and-dependency-management/
-│   │   │   ├── poetry.md
-│   │   │   └── uv.md
-│   │   ├── 07-performance/
-│   │   │   ├── optimization.md
-│   │   │   └── parallel-programming.md
-│   │   ├── 08-security-and-data-protection/
-│   │   │   ├── authentication/
-│   │   │   │   └── ssh-keys.md
-│   │   │   ├── anonymization-and-pseudonomysation.md
-│   │   │   ├── authorization.md
-│   │   │   ├── dependency-security.md
-│   │   │   ├── dsvgo-basics.md
-│   │   │   ├── llm-safety.md
-│   │   │   ├── policy-management.md
-│   │   │   └── secrets-management.md
-│   │   ├── 09-architectures/
-│   │   │   ├── hexagonal-architecture.md
-│   │   │   ├── honeycomb-architecture.md
-│   │   │   ├── microservices.md
-│   │   │   └── monolith.md
-│   │   ├── 10-debugging/
-│   │   │   ├── debugging-deployments.md
-│   │   │   ├── debugging-ml-models.md
-│   │   │   ├── logging.md
-│   │   │   └── profiling.md
-│   │   ├── 11-web-development/
-│   │   │   ├── api-foundations.md ✓
-│   │   │   ├── api-testing.md
-│   │   │   ├── http.md ✓
-│   │   │   ├── openapi-swagger.md
-│   │   │   ├── pydantic.md
-│   │   │   └── rest-apis.md ✓
-│   │   ├── 12-data-structures/
-│   │   │   ├── heap.md
-│   │   │   └── linked-list.md
-│   │   ├── 13-programming-paradigms/
-│   │   │   ├── functional-programming/
-│   │   │   └── object-oriented-programming/
-│   │   │       ├── abstract-classes.md
-│   │   │       ├── abstraction.md
-│   │   │       ├── foundations.md
-│   │   │       ├── inheritance.md
-│   │   │       └── interfaces.md
-│   │   └── 14-algorithms/
-│   │       ├── searching/
-│   │       ├── sorting/
-│   │       ├── complexity-analysis.md
-│   │       ├── dynamic-programming.md
-│   │       └── recursion.md
-│   └── 11-tda/
-│       ├── perstistent-homology/
-│       │   ├── applications/
-│       │   │   ├── ts-classification.md
-│       │   │   └── ts-forecasting.md
-│       │   ├── distances/
-│       │   │   ├── bottleneck-distance.md
-│       │   │   └── wasserstein-distance.md
-│       │   ├── barcodes.md
-│       │   ├── cech-complex.md
-│       │   ├── filtrations.md
-│       │   ├── nerve-complexes.md
-│       │   ├── persistence-diagrams.md
-│       │   ├── vietoris-rips-complex.md
-│       │   └── why-persistence-homology-works.md
-│       └── mapper-algorithm.md
-├── scripts/
-│   └── generate-toc.py
-└── assets/
-```
+
+## 01 MATHEMATICAL FOUNDATIONS
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 LINEAR ALGEBRA</summary>
+
+- [BASIS](docs/01-mathematical-foundations/01-linear-algebra/basis.md)
+- [COMPLEX NUMBERS](docs/01-mathematical-foundations/01-linear-algebra/complex-numbers.md)
+- [DETERMINANTS](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
+- [EIGENVALUES](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues.md)
+- [INVERSE](docs/01-mathematical-foundations/01-linear-algebra/inverse.md)
+- [MATRIX FACTORIZATIONS](docs/01-mathematical-foundations/01-linear-algebra/matrix-factorizations.md)
+- [MATRIZES](docs/01-mathematical-foundations/01-linear-algebra/matrizes.md)
+- [NORMS](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
+- [ORTHOGONALITY](docs/01-mathematical-foundations/01-linear-algebra/orthogonality.md)
+- [PSEUDOINVERSE](docs/01-mathematical-foundations/01-linear-algebra/pseudoinverse.md)
+- [SCALAR PRODUCT](docs/01-mathematical-foundations/01-linear-algebra/scalar-product.md)
+- [SINGULAR VALUES](docs/01-mathematical-foundations/01-linear-algebra/singular-values.md)
+- [VECTOR SPACES](docs/01-mathematical-foundations/01-linear-algebra/vector-spaces.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 ANALYSIS</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [CONTINUITY](docs/01-mathematical-foundations/02-analysis/01-foundations/continuity.md)
+- [CONVEXITY](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
+- [INTEGRAL](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
+- [LAPLACIAN](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
+- [LIMITS](docs/01-mathematical-foundations/02-analysis/01-foundations/limits.md)
+- [MAPS](docs/01-mathematical-foundations/02-analysis/01-foundations/maps.md)
+- [SET THEORY](docs/01-mathematical-foundations/02-analysis/01-foundations/set-theory.md)
+
+</details>
+
+<details>
+<summary>02 SEQUENCES AND SERIES</summary>
+
+- [SEQUENCES AND SERIES](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/sequences-and-series.md)
+- [TAYLOR SERIES](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/taylor-series.md)
+
+</details>
+
+<details>
+<summary>03 TRIGONOMETRY</summary>
+
+- [TRIGONOMETRY](docs/01-mathematical-foundations/02-analysis/03-trigonometry/trigonometry.md)
+
+</details>
+
+<details>
+<summary>04 DERIVATIVES</summary>
+
+- [FOUNDATIONS](docs/01-mathematical-foundations/02-analysis/04-derivatives/foundations.md)
+- [GRADIENT](docs/01-mathematical-foundations/02-analysis/04-derivatives/gradient.md)
+- [HESSIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/hessian.md)
+- [JACOBIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/jacobian.md)
+
+</details>
+
+<details>
+<summary>05 FOURIER ANALYSIS</summary>
+
+- [FOURIER SERIES](docs/01-mathematical-foundations/02-analysis/05-fourier-analysis/fourier-series.md)
+- [FOURIER TRANSFORM](docs/01-mathematical-foundations/02-analysis/05-fourier-analysis/fourier-transform.md)
+
+</details>
+
+<details>
+<summary>06 DIFFERENTIAL EQUATIONS</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 FUNCTIONAL ANALYSIS</summary>
+
+- [BANACH SPACES](docs/01-mathematical-foundations/03-functional-analysis/banach-spaces.md)
+- [HILBERT SPACES](docs/01-mathematical-foundations/03-functional-analysis/hilbert-spaces.md)
+- [ORTHONORMAL BASES](docs/01-mathematical-foundations/03-functional-analysis/orthonormal-bases.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 OPTIMIZATION</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [DUALITY](docs/01-mathematical-foundations/03-optimization/01-foundations/duality.md)
+- [FOUNDATIONS](docs/01-mathematical-foundations/03-optimization/01-foundations/foundations.md)
+- [KKT CONDITIONS](docs/01-mathematical-foundations/03-optimization/01-foundations/kkt-conditions.md)
+
+</details>
+
+<details>
+<summary>02 GRADIENT DESCENT</summary>
+
+- [EXPLODING GRADIENT](docs/01-mathematical-foundations/03-optimization/02-gradient-descent/exploding-gradient.md)
+- [FOUNDATIONS](docs/01-mathematical-foundations/03-optimization/02-gradient-descent/foundations.md)
+- [VANISHING GRADIENT](docs/01-mathematical-foundations/03-optimization/02-gradient-descent/vanishing-gradient.md)
+
+</details>
+
+<details>
+<summary>03 DISCRETE OPTIMIZATION</summary>
+
+- [BRANCH AND BOUND](docs/01-mathematical-foundations/03-optimization/03-discrete-optimization/branch-and-bound.md)
+- [COMBINATORIAL OPTIMIZATION](docs/01-mathematical-foundations/03-optimization/03-discrete-optimization/combinatorial-optimization.md)
+- [GREEDY ALGORITHMS](docs/01-mathematical-foundations/03-optimization/03-discrete-optimization/greedy-algorithms.md)
+- [INTEGER PROGRAMMING](docs/01-mathematical-foundations/03-optimization/03-discrete-optimization/integer-programming.md)
+
+</details>
+
+<details>
+<summary>04 NONLINEAR OPTIMIZATION</summary>
+
+- [LAGRANGE MULTIPLIERS](docs/01-mathematical-foundations/03-optimization/04-nonlinear-optimization/lagrange-multipliers.md)
+- [NEWTON METHOD](docs/01-mathematical-foundations/03-optimization/04-nonlinear-optimization/newton-method.md)
+- [SADDLE POINTS](docs/01-mathematical-foundations/03-optimization/04-nonlinear-optimization/saddle-points.md)
+
+</details>
+
+<details>
+<summary>05 STOCHASTIC OPTIMIZATION</summary>
+
+- [MOMENTUM](docs/01-mathematical-foundations/03-optimization/05-stochastic-optimization/momentum.md)
+- [STOCHASTIC GRADIENT DESCENT](docs/01-mathematical-foundations/03-optimization/05-stochastic-optimization/stochastic-gradient-descent.md)
+
+</details>
+
+<details>
+<summary>06 CONSTRAINED OPTIMIZATION</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 GEOMETRY</summary>
+
+<details>
+<summary>01 EUCLIDEAN GEOMETRY</summary>
+
+- [DISTANCES AND METRICS](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/distances-and-metrics.md)
+- [EUCLIDEAN SPACE](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/euclidean-space.md)
+
+</details>
+
+<details>
+<summary>02 DIFFERENTIAL GEOMETRY</summary>
+
+- [CURVES](docs/01-mathematical-foundations/04-geometry/02-differential-geometry/curves.md)
+
+</details>
+
+<details>
+<summary>03 PROJECTIVE GEOMETRY</summary>
+
+- [CONIC SECTION](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/conic-section.md)
+- [HOMOGENOUS COORDINATES](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/homogenous-coordinates.md)
+- [PROJECTIVE SPACES](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/projective-spaces.md)
+
+</details>
+
+<details>
+<summary>04 FOUNDATIONS</summary>
+
+- [WHAT IS GEOMETRY](docs/01-mathematical-foundations/04-geometry/04-foundations/what-is-geometry.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 PROBABILITY THEORY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [INDEPENDENCE](docs/01-mathematical-foundations/05-probability-theory/01-foundations/independence.md)
+- [MEASURES](docs/01-mathematical-foundations/05-probability-theory/01-foundations/measures.md)
+- [PROBABILITY SPACE](docs/01-mathematical-foundations/05-probability-theory/01-foundations/probability-space.md)
+- [RANDOM VARIABLE](docs/01-mathematical-foundations/05-probability-theory/01-foundations/random-variable.md)
+- [RANDOM VECTORS](docs/01-mathematical-foundations/05-probability-theory/01-foundations/random-vectors.md)
+
+</details>
+
+<details>
+<summary>02 DISTRIBUTIONS</summary>
+
+<details>
+<summary>01 COMMON DISTRIBUTIONS</summary>
+
+- [BERNOULLI DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/bernoulli-distribution.md)
+- [BINOMIAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/binomial-distribution.md)
+- [EXPONENTIAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/exponential-distribution.md)
+- [NORMAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/normal-distribution.md)
+- [POISSON DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/poisson-distribution.md)
+- [STUDENT T DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/student-t-distribution.md)
+
+</details>
+
+- [CONDITIONAL DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/conditional-distributions.md)
+- [JOINT DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/joint-distributions.md)
+- [MARGINAL DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/marginal-distributions.md)
+- [TRANSFORMATIONS OF RANDOM VARIABLES](docs/01-mathematical-foundations/05-probability-theory/02-distributions/transformations-of-random-variables.md)
+
+</details>
+
+<details>
+<summary>03 EXPECTATION AND MOMENTS</summary>
+
+- [CONDITIONAL EXPECTATION](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/conditional-expectation.md)
+- [CORRELATION](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/correlation.md)
+- [COVARIANCE](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/covariance.md)
+- [VARIANCE](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/variance.md)
+
+</details>
+
+<details>
+<summary>04 LIMIT THEOREMS</summary>
+
+- [CENTRAL LIMIT THEOREM](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/central-limit-theorem.md)
+- [LAW OF LARGE NUMBERS](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/law-of-large-numbers.md)
+- [STOCHASTIC CONVERGENCE](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/stochastic-convergence.md)
+
+</details>
+
+<details>
+<summary>05 BAYESIAN PROBABILITY</summary>
+
+- [BAYES THEOREM](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/bayes-theorem.md)
+- [LIKELIHOOD](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/likelihood.md)
+- [PRIOR AND POSTERIOR](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/prior-and-posterior.md)
+
+</details>
+
+<details>
+<summary>06 INEQUALITIES</summary>
+
+- [CHEBYSHEV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/06-inequalities/chebyshev-inequality.md)
+- [MARKOV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/06-inequalities/markov-inequality.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 STATISTICS</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [CONFIDENCE INTERVALS](docs/01-mathematical-foundations/06-statistics/01-foundations/confidence-intervals.md)
+- [METHOD OF LEAST SQUARES](docs/01-mathematical-foundations/06-statistics/01-foundations/method-of-least-squares.md)
+- [STATISTICAL POWER](docs/01-mathematical-foundations/06-statistics/01-foundations/statistical-power.md)
+
+</details>
+
+<details>
+<summary>02 ESTIMATION</summary>
+
+- [BIAS](docs/01-mathematical-foundations/06-statistics/02-estimation/bias.md)
+- [ESTIMATORS](docs/01-mathematical-foundations/06-statistics/02-estimation/estimators.md)
+- [MAXIMUM LIKELIHOOD ESTIMATION](docs/01-mathematical-foundations/06-statistics/02-estimation/maximum-likelihood-estimation.md)
+- [METHOD OF MOMENTS](docs/01-mathematical-foundations/06-statistics/02-estimation/method-of-moments.md)
+- [POINT ESTIMATION](docs/01-mathematical-foundations/06-statistics/02-estimation/point-estimation.md)
+
+</details>
+
+<details>
+<summary>03 HYPOTHESIS TESTING</summary>
+
+- [CHI SQUARE TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/chi-square-test.md)
+- [FOUNDATIONS](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/foundations.md)
+- [HOMOGENEITY TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/homogeneity-test.md)
+- [P VALUES](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/p-values.md)
+- [T TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/t-test.md)
+- [Z TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/z-test.md)
+
+</details>
+
+<details>
+<summary>04 BAYESIAN INFERENCE</summary>
+
+- [WHAT IS BAYESIAN INFERENCE](docs/01-mathematical-foundations/06-statistics/04-bayesian-inference/what-is-bayesian-inference.md)
+
+</details>
+
+<details>
+<summary>05 CAUSAL INFERENCE</summary>
+
+
+</details>
+
+<details>
+<summary>06 COMPUTATIONAL STATISTICS</summary>
+
+- [BOOTSTRAP](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/bootstrap.md)
+- [MARKOV CHAIN MONTE CARLO](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/markov-chain-monte-carlo.md)
+- [MONTE CARLO METHODS](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/monte-carlo-methods.md)
+
+</details>
+
+<details>
+<summary>07 TIME SERIES</summary>
+
+- [AUTOCORRELATION](docs/01-mathematical-foundations/06-statistics/07-time-series/autocorrelation.md)
+- [FOUNDATIONS](docs/01-mathematical-foundations/06-statistics/07-time-series/foundations.md)
+- [STATIONARITY](docs/01-mathematical-foundations/06-statistics/07-time-series/stationarity.md)
+- [TIME SERIES DECOMPOSITION](docs/01-mathematical-foundations/06-statistics/07-time-series/time-series-decomposition.md)
+- [TREND AND SEASONALITY](docs/01-mathematical-foundations/06-statistics/07-time-series/trend-and-seasonality.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 TOPOLOGY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [EULER CHARACTERISTIC](docs/01-mathematical-foundations/07-topology/01-foundations/euler-characteristic.md)
+- [TOPOLOGICAL EQUIVALENCE](docs/01-mathematical-foundations/07-topology/01-foundations/topological-equivalence.md)
+- [TOPOLOGICAL STABILITY](docs/01-mathematical-foundations/07-topology/01-foundations/topological-stability.md)
+- [TRIANGULATIONS](docs/01-mathematical-foundations/07-topology/01-foundations/triangulations.md)
+- [WHAT ARE MANIFOLDS](docs/01-mathematical-foundations/07-topology/01-foundations/what-are-manifolds.md)
+- [WHAT ARE TOPOLOGICAL SPACES](docs/01-mathematical-foundations/07-topology/01-foundations/what-are-topological-spaces.md)
+- [WHAT IS TOPOLOGY](docs/01-mathematical-foundations/07-topology/01-foundations/what-is-topology.md)
+
+</details>
+
+<details>
+<summary>02 IMPORTANT MANIFOLDS</summary>
+
+- [KLEIN BOTTLE](docs/01-mathematical-foundations/07-topology/02-important-manifolds/klein-bottle.md)
+- [MÖBIUS STRIP](docs/01-mathematical-foundations/07-topology/02-important-manifolds/möbius-strip.md)
+- [SPHERE](docs/01-mathematical-foundations/07-topology/02-important-manifolds/sphere.md)
+- [TORUS](docs/01-mathematical-foundations/07-topology/02-important-manifolds/torus.md)
+
+</details>
+
+<details>
+<summary>03 HOMOLOGY</summary>
+
+- [ALEXANDER DUALITY](docs/01-mathematical-foundations/07-topology/03-homology/alexander-duality.md)
+- [BETTI NUMBERS](docs/01-mathematical-foundations/07-topology/03-homology/betti-numbers.md)
+- [CHAIN COMPLEXES](docs/01-mathematical-foundations/07-topology/03-homology/chain-complexes.md)
+- [FUNDAMENTAL LEMMA OF HOMOLOGY](docs/01-mathematical-foundations/07-topology/03-homology/fundamental-lemma-of-homology.md)
+- [HOMOLOGY GROUPS](docs/01-mathematical-foundations/07-topology/03-homology/homology-groups.md)
+
+</details>
+
+<details>
+<summary>04 HOMOTOPY</summary>
+
+- [FUNDAMENTAL GROUP](docs/01-mathematical-foundations/07-topology/04-homotopy/fundamental-group.md)
+- [HOMOTOPY EQUIVALENCE](docs/01-mathematical-foundations/07-topology/04-homotopy/homotopy-equivalence.md)
+- [HOMOTOPY GROUPS](docs/01-mathematical-foundations/07-topology/04-homotopy/homotopy-groups.md)
+- [HOMOTOPY TYPE](docs/01-mathematical-foundations/07-topology/04-homotopy/homotopy-type.md)
+- [WHAT IS HOMOTOPY](docs/01-mathematical-foundations/07-topology/04-homotopy/what-is-homotopy.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>08 GRAPH THEORY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [GRAPH TRAVERSAL](docs/01-mathematical-foundations/08-graph-theory/01-foundations/graph-traversal.md)
+- [GRAPHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/graphs.md)
+- [RANDOM GRAPHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/random-graphs.md)
+- [SHORTEST PATHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/shortest-paths.md)
+- [TREES](docs/01-mathematical-foundations/08-graph-theory/01-foundations/trees.md)
+
+</details>
+
+<details>
+<summary>02 SEARCH ALGORITHMS</summary>
+
+- [A STAR](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/a-star.md)
+- [BREADTH FIRST SEARCH](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/breadth-first-search.md)
+- [DEPTH FIRST SEARCH](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/depth-first-search.md)
+- [DIJKSTRA](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/dijkstra.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>09 INFORMATION THEORY</summary>
+
+- [CROSS ENTROPY](docs/01-mathematical-foundations/09-information-theory/cross-entropy.md)
+- [FISHER INFORMATION](docs/01-mathematical-foundations/09-information-theory/fisher-information.md)
+- [INFORMATION ENTROPY](docs/01-mathematical-foundations/09-information-theory/information-entropy.md)
+- [INFORMATION GAIN](docs/01-mathematical-foundations/09-information-theory/information-gain.md)
+- [KL DIVERGENCE](docs/01-mathematical-foundations/09-information-theory/kl-divergence.md)
+- [MUTUAL INFORMATION](docs/01-mathematical-foundations/09-information-theory/mutual-information.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>10 NUMERICS</summary>
+
+- [NUMERICAL STABILITY](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
+- [QR DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>11 ALGEBRA</summary>
+
+- [FIELDS](docs/01-mathematical-foundations/11-algebra/fields.md)
+- [GROUPS](docs/01-mathematical-foundations/11-algebra/groups.md)
+- [HOMOMORPHISMS](docs/01-mathematical-foundations/11-algebra/homomorphisms.md)
+- [RINGS](docs/01-mathematical-foundations/11-algebra/rings.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 02 ML MODELS THEORY
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 ML FOUNDATIONS</summary>
+
+<details>
+<summary>01 INTRODUCTION</summary>
+
+- [CLASSIFICATION OF ML MODELS](docs/02-ml-models-theory/01-ml-foundations/01-introduction/classification-of-ml-models.md)
+- [NO FREE LUNCH THEOREM](docs/02-ml-models-theory/01-ml-foundations/01-introduction/no-free-lunch-theorem.md)
+- [QUESTIONS TO CHECK](docs/02-ml-models-theory/01-ml-foundations/01-introduction/questions-to-check.md)
+- [WHAT IS MACHINE LEARNING](docs/02-ml-models-theory/01-ml-foundations/01-introduction/what-is-machine-learning.md)
+
+</details>
+
+<details>
+<summary>02 LEARNING THOERY</summary>
+
+- [EMPIRICAL RISK MINIMIZATION](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/empirical-risk-minimization.md)
+- [HYPOTHESIS SPACE](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/hypothesis-space.md)
+- [INDUCTIVE BIAS](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/inductive-bias.md)
+- [PAC LEARNING](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/pac-learning.md)
+- [UNIFORM CONVERGENCE](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/uniform-convergence.md)
+- [VC DIMENSION](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/vc-dimension.md)
+
+</details>
+
+<details>
+<summary>03 GENERALIZATION</summary>
+
+- [DOUBLE DESCENT](docs/02-ml-models-theory/01-ml-foundations/03-generalization/double-descent.md)
+- [GENERALIZATION ERROR](docs/02-ml-models-theory/01-ml-foundations/03-generalization/generalization-error.md)
+- [OVERFITTING AND UNDERFITTING](docs/02-ml-models-theory/01-ml-foundations/03-generalization/overfitting-and-underfitting.md)
+- [STABILITY](docs/02-ml-models-theory/01-ml-foundations/03-generalization/stability.md)
+
+</details>
+
+<details>
+<summary>04 MODEL COMPLEXITY</summary>
+
+- [BIAS VARIANCE TRADEOFF](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/bias-variance-tradeoff.md)
+- [CURSE OF DIMENSIONALITY](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/curse-of-dimensionality.md)
+- [KERNEL METHODS](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/kernel-methods.md)
+- [REGULARIZATION](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/regularization.md)
+
+</details>
+
+<details>
+<summary>05 DATA AND MODEL RELIABILITY</summary>
+
+- [CALIBRATION](docs/02-ml-models-theory/01-ml-foundations/05-data-and-model-reliability/calibration.md)
+- [DATA DISTRIBUTION SHIFT](docs/02-ml-models-theory/01-ml-foundations/05-data-and-model-reliability/data-distribution-shift.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 ML TASKS</summary>
+
+<details>
+<summary>01 ANOMALY DETECTION</summary>
+
+
+</details>
+
+<details>
+<summary>02 CLASSIFICATION</summary>
+
+
+</details>
+
+<details>
+<summary>03 CLUSTERING</summary>
+
+
+</details>
+
+<details>
+<summary>04 COMPUTER VISION</summary>
+
+
+</details>
+
+<details>
+<summary>05 DIMENSIONALITY REDUCTION</summary>
+
+
+</details>
+
+<details>
+<summary>06 FORECASTING</summary>
+
+
+</details>
+
+<details>
+<summary>07 GENERATIVE MODELING</summary>
+
+
+</details>
+
+<details>
+<summary>08 NATURAL LANGUAGE PROCESSING</summary>
+
+- [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/anonymization.md)
+- [BAG OF WORDS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/bag-of-words.md)
+- [COUNT VECTORIZER](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/count-vectorizer.md)
+- [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/named-entity-recognition.md)
+- [REGULAR EXPRESSIONS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/regular-expressions.md)
+- [STOPWORDS AND STEMMING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/stopwords-and-stemming.md)
+- [TF IDF](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/tf-idf.md)
+
+</details>
+
+<details>
+<summary>09 PATTERN MINING</summary>
+
+- [ASSOCIATION RULE MINING](docs/02-ml-models-theory/02-ml-tasks/09-pattern-mining/association-rule-mining.md)
+- [FREQUENT ITEMSET MINING](docs/02-ml-models-theory/02-ml-tasks/09-pattern-mining/frequent-itemset-mining.md)
+
+</details>
+
+<details>
+<summary>10 RANKING</summary>
+
+
+</details>
+
+<details>
+<summary>11 RECOMMENDATION SYSTEMS</summary>
+
+
+</details>
+
+<details>
+<summary>12 REGRESSION</summary>
+
+
+</details>
+
+<details>
+<summary>13 TOPIC MODELLING</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 TRADITIONAL ML MODELS</summary>
+
+<details>
+<summary>01 SUPERVISED</summary>
+
+<details>
+<summary>01 LINEAR MODELS</summary>
+
+- [ELASTIC NET](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/elastic-net.md)
+- [LINEAR REGRESSION](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/linear-regression.md)
+
+</details>
+
+<details>
+<summary>02 NEAREST NEIGHBORS</summary>
+
+- [KNN CLASSIFICATION](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/02-nearest-neighbors/knn-classification.md)
+
+</details>
+
+<details>
+<summary>03 TREE BASED METHODS</summary>
+
+- [DECISION TREES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/decision-trees.md)
+- [RANDOM FOREST](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/random-forest.md)
+- [XGBOOST](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/xgboost.md)
+
+</details>
+
+<details>
+<summary>04 OTHER</summary>
+
+- [GAUSSIAN PROCESSES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/gaussian-processes.md)
+- [NAIVE BAYES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/naive-bayes.md)
+- [SVM](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/svm.md)
+
+</details>
+
+
+</details>
+
+<details>
+<summary>02 UNSUPERVISED</summary>
+
+<details>
+<summary>01 CLUSTERING</summary>
+
+- [DBSCAN](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/dbscan.md)
+- [DENSITY ESTIMATION](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/density-estimation.md)
+- [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/hierarchical-clustering.md)
+- [K MEANS](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/k-means.md)
+
+</details>
+
+<details>
+<summary>02 DIMENSTIONALITY REDUCTION</summary>
+
+- [PCA](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/02-dimenstionality-reduction/pca.md)
+- [UMAP](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/02-dimenstionality-reduction/umap.md)
+
+</details>
+
+
+</details>
+
+<details>
+<summary>03 PROBABILISTIC</summary>
+
+- [BAYESIAN NETWORKS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/bayesian-networks.md)
+- [GAUSSIAN MIXTURE MODELS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/gaussian-mixture-models.md)
+- [HIDDEN MARKOV MODELS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/hidden-markov-models.md)
+
+</details>
+
+<details>
+<summary>04 TIME SERIES MODELS</summary>
+
+- [ARIMA](docs/02-ml-models-theory/03-traditional-ml-models/04-time-series-models/arima.md)
+- [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/03-traditional-ml-models/04-time-series-models/autoregressive-models.md)
+- [KALMAN FILTER](docs/02-ml-models-theory/03-traditional-ml-models/04-time-series-models/kalman-filter.md)
+
+</details>
+
+<details>
+<summary>05 ENSEMBLE METHODS</summary>
+
+- [BAGGING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/bagging.md)
+- [BOOSTING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/boosting.md)
+- [STACKING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/stacking.md)
+- [VOTING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/voting.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 DEEP LEARNING MODELS</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/neural-networks.md)
+- [UNIVERSAL APPROXIMATION THEOREM](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/universal-approximation-theorem.md)
+
+</details>
+
+<details>
+<summary>02 ARCHITECTURES</summary>
+
+- [ACTIVATION FUNCTIONS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/activation-functions.md)
+- [AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/autoencoders.md)
+- [CNN ARCHITECTURES](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/cnn-architectures.md)
+- [GRAPH NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/graph-neural-networks.md)
+- [NEURAL NETWORK BASICS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/neural-network-basics.md)
+- [RNN LSTM](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/rnn-lstm.md)
+- [SIAMESE ARCHITECTURE](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/siamese-architecture.md)
+- [TRANSFORMERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/transformers.md)
+
+</details>
+
+<details>
+<summary>03 GENERATIVE MODELS</summary>
+
+- [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/autoregressive-models.md)
+- [DIFFUSION MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/diffusion-models.md)
+- [ENERGY BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/energy-based-models.md)
+- [GENERATIVE ADVERSARIAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/generative-adversarial-networks.md)
+- [MULTIMODAL GENERATIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/multimodal-generative-models.md)
+- [NORMALIZING FLOWS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/normalizing-flows.md)
+- [SCORE BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/score-based-models.md)
+- [VARIATIONAL AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/variational-autoencoders.md)
+
+</details>
+
+<details>
+<summary>04 LEARNING PARADIGMS</summary>
+
+- [FEDERATED LEARNING](docs/02-ml-models-theory/04-deep-learning-models/04-learning-paradigms/federated-learning.md)
+- [FEW SHOT LEARNING](docs/02-ml-models-theory/04-deep-learning-models/04-learning-paradigms/few-shot-learning.md)
+- [META LEARNING](docs/02-ml-models-theory/04-deep-learning-models/04-learning-paradigms/meta-learning.md)
+- [SELF SUPERVISED LEARNING](docs/02-ml-models-theory/04-deep-learning-models/04-learning-paradigms/self-supervised-learning.md)
+- [TRANSFER LEARNING](docs/02-ml-models-theory/04-deep-learning-models/04-learning-paradigms/transfer-learning.md)
+
+</details>
+
+<details>
+<summary>05 REPRESENTATION LEARNING</summary>
+
+- [EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/embeddings.md)
+- [SENTENCE EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/sentence-embeddings.md)
+- [WORD EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/word-embeddings.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 REINFORCEMENT LEARNING</summary>
+
+- [FOUNDATIONS](docs/02-ml-models-theory/05-reinforcement-learning/foundations.md)
+- [POLICY GRADIENT METHODS](docs/02-ml-models-theory/05-reinforcement-learning/policy-gradient-methods.md)
+- [Q LEARNING](docs/02-ml-models-theory/05-reinforcement-learning/q-learning.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 LLMS</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [PRETRAINING](docs/02-ml-models-theory/06-llms/01-foundations/pretraining.md)
+- [TOKENIZATION](docs/02-ml-models-theory/06-llms/01-foundations/tokenization.md)
+- [WHAT ARE LLMS](docs/02-ml-models-theory/06-llms/01-foundations/what-are-llms.md)
+
+</details>
+
+<details>
+<summary>02 TRANSFORMER ARCHITECTURE</summary>
+
+- [DECODER ONLY MODELS](docs/02-ml-models-theory/06-llms/02-transformer-architecture/decoder-only-models.md)
+- [MULTI HEAD ATTENTION](docs/02-ml-models-theory/06-llms/02-transformer-architecture/multi-head-attention.md)
+- [POSITIONAL ENCODING](docs/02-ml-models-theory/06-llms/02-transformer-architecture/positional-encoding.md)
+- [SELF ATTENTION](docs/02-ml-models-theory/06-llms/02-transformer-architecture/self-attention.md)
+
+</details>
+
+<details>
+<summary>03 MODEL ARCHITECTURES</summary>
+
+- [GPT FAMILY](docs/02-ml-models-theory/06-llms/03-model-architectures/gpt-family.md)
+- [LLAMA FAMILY](docs/02-ml-models-theory/06-llms/03-model-architectures/llama-family.md)
+- [MIXTURE OF EXPERTS](docs/02-ml-models-theory/06-llms/03-model-architectures/mixture-of-experts.md)
+- [MULTIMODAL LLMS](docs/02-ml-models-theory/06-llms/03-model-architectures/multimodal-llms.md)
+
+</details>
+
+<details>
+<summary>04 LLM INFRASTRUCTURE</summary>
+
+- [QUANTIZATION](docs/02-ml-models-theory/06-llms/04-llm-infrastructure/quantization.md)
+
+</details>
+
+<details>
+<summary>05 LLM APPLICATIONS</summary>
+
+- [RAG](docs/02-ml-models-theory/06-llms/05-llm-applications/rag.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 03 DATA EXPLORATION
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 CHART TYPES</summary>
+
+- [BAR CHART](docs/03-data-exploration/01-chart-types/bar-chart.md)
+- [BOX PLOTS](docs/03-data-exploration/01-chart-types/box-plots.md)
+- [BUBBLE CHART](docs/03-data-exploration/01-chart-types/bubble-chart.md)
+- [CORRELATION MATRIX](docs/03-data-exploration/01-chart-types/correlation-matrix.md)
+- [HEATMAP](docs/03-data-exploration/01-chart-types/heatmap.md)
+- [HISTOGRAMS](docs/03-data-exploration/01-chart-types/histograms.md)
+- [LINE CHART](docs/03-data-exploration/01-chart-types/line-chart.md)
+- [PIE CHART](docs/03-data-exploration/01-chart-types/pie-chart.md)
+- [SCATTER PLOT](docs/03-data-exploration/01-chart-types/scatter-plot.md)
+- [VIOLIN PLOT](docs/03-data-exploration/01-chart-types/violin-plot.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 STATISTICAL ANALYSIS</summary>
+
+- [CORRELATION](docs/03-data-exploration/02-statistical-analysis/correlation.md)
+- [KURTOSIS](docs/03-data-exploration/02-statistical-analysis/kurtosis.md)
+- [OUTLIERS](docs/03-data-exploration/02-statistical-analysis/outliers.md)
+- [SKEWNESS](docs/03-data-exploration/02-statistical-analysis/skewness.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 DATA QUALITY</summary>
+
+- [DUPLICATE DETECTION TECHNIQUES](docs/03-data-exploration/03-data-quality/duplicate-detection-techniques.md)
+- [MISSING DATA](docs/03-data-exploration/03-data-quality/missing-data.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 FOUNDATIONS</summary>
+
+- [DATA TYPES](docs/03-data-exploration/04-foundations/data-types.md)
+- [VISUALIZATION BEST PRACTICES](docs/03-data-exploration/04-foundations/visualization-best-practices.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 04 EVALUATION
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 CLASSIFICATION METRICS</summary>
+
+- [ACCURACY](docs/04-evaluation/01-classification-metrics/accuracy.md)
+- [CONFUSION MATRIX](docs/04-evaluation/01-classification-metrics/confusion-matrix.md)
+- [F1 SCORE](docs/04-evaluation/01-classification-metrics/f1-score.md)
+- [LOG LOSS](docs/04-evaluation/01-classification-metrics/log-loss.md)
+- [MULTICLASS METRICS](docs/04-evaluation/01-classification-metrics/multiclass-metrics.md)
+- [PRECISION RECALL AUC](docs/04-evaluation/01-classification-metrics/precision-recall-auc.md)
+- [PRECISION](docs/04-evaluation/01-classification-metrics/precision.md)
+- [RECALL SENSITIVITY](docs/04-evaluation/01-classification-metrics/recall-sensitivity.md)
+- [ROC AUC](docs/04-evaluation/01-classification-metrics/roc-auc.md)
+- [SPECIFICITY](docs/04-evaluation/01-classification-metrics/specificity.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 REGRESSION METRICS</summary>
+
+- [ADJUSTED R SQUARED](docs/04-evaluation/02-regression-metrics/adjusted-r-squared.md)
+- [MAE](docs/04-evaluation/02-regression-metrics/mae.md)
+- [MSE](docs/04-evaluation/02-regression-metrics/mse.md)
+- [R SQUARED](docs/04-evaluation/02-regression-metrics/r-squared.md)
+- [RMSE](docs/04-evaluation/02-regression-metrics/rmse.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 MODEL DIAGNOSTICS</summary>
+
+- [BIAS DETECTION](docs/04-evaluation/03-model-diagnostics/bias-detection.md)
+- [CALIBRATION ANALYSIS](docs/04-evaluation/03-model-diagnostics/calibration-analysis.md)
+- [RESIDUAL ANALYSIS](docs/04-evaluation/03-model-diagnostics/residual-analysis.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 UNCERTAINTY QUANTIFICATION</summary>
+
+- [CONFIDENCE](docs/04-evaluation/04-uncertainty-quantification/confidence.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 INTERPRETABILITY</summary>
+
+- [FEATURE IMPORTANCE](docs/04-evaluation/05-interpretability/feature-importance.md)
+- [SHAP](docs/04-evaluation/05-interpretability/shap.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 CALIBRATION</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 LLM EVALUATION</summary>
+
+- [HUMAN EVALUATION](docs/04-evaluation/07-llm-evaluation/human-evaluation.md)
+- [LLM AS A JUDGE](docs/04-evaluation/07-llm-evaluation/llm-as-a-judge.md)
+- [QUALITY METRICS](docs/04-evaluation/07-llm-evaluation/quality-metrics.md)
+- [RAG EVALUATION](docs/04-evaluation/07-llm-evaluation/rag-evaluation.md)
+- [SAFETY AND RELIABILITY](docs/04-evaluation/07-llm-evaluation/safety-and-reliability.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>08 FOUNDATIONS</summary>
+
+- [CROSS VALIDATION](docs/04-evaluation/08-foundations/cross-validation.md)
+- [FAIRNESS BIAS](docs/04-evaluation/08-foundations/fairness-bias.md)
+- [MODEL SELECTION](docs/04-evaluation/08-foundations/model-selection.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 05 DATA ENGINEERING
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 DATA PIPELINES</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 DATA PREPROCESSING</summary>
+
+<details>
+<summary>01 DATA CLEANING</summary>
+
+
+</details>
+
+<details>
+<summary>02 DATA TRANSFORMATION</summary>
+
+
+</details>
+
+<details>
+<summary>03 IMPUTATION</summary>
+
+- [KNN IMPUTATION](docs/05-data-engineering/02-data-preprocessing/03-imputation/knn-imputation.md)
+- [MEAN IMPUTATION](docs/05-data-engineering/02-data-preprocessing/03-imputation/mean-imputation.md)
+
+</details>
+
+<details>
+<summary>04 OUTLIER DETECTION</summary>
+
+
+</details>
+
+<details>
+<summary>05 NORMALIZATION</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 DATA VERSIONING</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 DISTRIBUTED PROCESSING</summary>
+
+<details>
+<summary>HADOOP</summary>
+
+
+</details>
+
+<details>
+<summary>SPARK</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 FEATURE ENGINEERING</summary>
+
+- [CATEGORICAL FEATURES](docs/05-data-engineering/05-feature-engineering/categorical-features.md)
+- [DIMENSIONALITY REDUCTION OF FEATURES](docs/05-data-engineering/05-feature-engineering/dimensionality-reduction-of-features.md)
+- [EMBEDDINGS](docs/05-data-engineering/05-feature-engineering/embeddings.md)
+- [NUMERICAL FEATURES](docs/05-data-engineering/05-feature-engineering/numerical-features.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 06 TRAINING AND OPTIMIZING ML MODELS
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [COMMON ISSUES](docs/06-training-and-optimizing-ml-models/01-foundations/common-issues.md)
+- [GRID SEARCH](docs/06-training-and-optimizing-ml-models/01-foundations/grid-search.md)
+- [RANDOM SEARCH](docs/06-training-and-optimizing-ml-models/01-foundations/random-search.md)
+- [TRAIN TEST SPLIT](docs/06-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 DEEP LEARNING</summary>
+
+<details>
+<summary>01 LOSS FUNCTIONS</summary>
+
+
+</details>
+
+<details>
+<summary>02 OPTIMIZATION</summary>
+
+- [BATCH NORMALIZATION](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
+- [LEARNING RATE SCHEDULING](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
+- [OPTIMIZATION ALGORITHMS](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
+
+</details>
+
+<details>
+<summary>03 REGULARIZATION</summary>
+
+- [DROPOUT](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
+- [EARLY STOPPING](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
+- [L1 L2 REGULARIZATION](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
+- [WEIGHT DECAY](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
+
+</details>
+
+<details>
+<summary>04 DATA STRATEGIES</summary>
+
+
+</details>
+
+<details>
+<summary>05 ACTIVATION FUNCTIONS</summary>
+
+- [LEAKY RELU](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
+- [RELU](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
+- [SIGMOID](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
+- [SOFTMAX](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
+- [TANH](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 LLMS</summary>
+
+<details>
+<summary>01 FINETUNING</summary>
+
+
+</details>
+
+<details>
+<summary>02 PROMT ENGINEERING</summary>
+
+
+</details>
+
+<details>
+<summary>03 TOOLS</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 07 DATABASES
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 SQL DATABASES</summary>
+
+- [JOINS](docs/07-databases/01-sql-databases/joins.md)
+- [RELATIONAL MODEL](docs/07-databases/01-sql-databases/relational-model.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 NOSQL DATABSES</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 SEARCH ENGINES</summary>
+
+- [ELASTICSEARCH](docs/07-databases/04-search-engines/elasticsearch.md)
+- [VECTOR SEARCH](docs/07-databases/04-search-engines/vector-search.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 DATA WAREHOUSES</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 DATALAKES</summary>
+
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 08 DEPLOYMENT
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 FUNDAMENTALS</summary>
+
+- [API DESIGN](docs/08-deployment/01-fundamentals/api-design.md)
+- [CACHING](docs/08-deployment/01-fundamentals/caching.md)
+- [CONTAINERIZATION](docs/08-deployment/01-fundamentals/containerization.md)
+- [INFERENCE ENDPOINTS](docs/08-deployment/01-fundamentals/inference-endpoints.md)
+- [MODEL SERIALIZATION](docs/08-deployment/01-fundamentals/model-serialization.md)
+- [MODEL SERVING](docs/08-deployment/01-fundamentals/model-serving.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 CONTAINERS</summary>
+
+- [DOCKER COMPOSE](docs/08-deployment/02-containers/docker-compose.md)
+- [DOCKER](docs/08-deployment/02-containers/docker.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 KUBERNETES</summary>
+
+- [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
+- [DEPLOYMENTS](docs/08-deployment/03-kubernetes/deployments.md)
+- [FOUNDATIONS](docs/08-deployment/03-kubernetes/foundations.md)
+- [INGRESS](docs/08-deployment/03-kubernetes/ingress.md)
+- [NAMESPACES](docs/08-deployment/03-kubernetes/namespaces.md)
+- [PODS](docs/08-deployment/03-kubernetes/pods.md)
+- [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
+- [SERVICES](docs/08-deployment/03-kubernetes/services.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 CLOUD NATIVE</summary>
+
+- [DESTINATION RULE](docs/08-deployment/04-cloud-native/destination-rule.md)
+- [GATEWAYS](docs/08-deployment/04-cloud-native/gateways.md)
+- [ISTIO](docs/08-deployment/04-cloud-native/istio.md)
+- [S3](docs/08-deployment/04-cloud-native/s3.md)
+- [SERVICE MESH](docs/08-deployment/04-cloud-native/service-mesh.md)
+- [VIRTUAL SERVICE](docs/08-deployment/04-cloud-native/virtual-service.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 OPENSHIFT</summary>
+
+- [FOUNDATIONS](docs/08-deployment/05-openshift/foundations.md)
+- [OPERATORS](docs/08-deployment/05-openshift/operators.md)
+- [ROUTES](docs/08-deployment/05-openshift/routes.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 ML SERVING</summary>
+
+- [INFERENCE SERVICES](docs/08-deployment/06-ml-serving/inference-services.md)
+- [KSERVE](docs/08-deployment/06-ml-serving/kserve.md)
+- [MODEL SERVING](docs/08-deployment/06-ml-serving/model-serving.md)
+- [SERVING ARCHITECTURE](docs/08-deployment/06-ml-serving/serving-architecture.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 09 MLOPS
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 CI CD</summary>
+
+- [GITHUB ACTIONS](docs/09-mlops/01-ci-cd/github-actions.md)
+- [JENKINS](docs/09-mlops/01-ci-cd/jenkins.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 EXPERIMENT TRACKING</summary>
+
+- [DATASET VERSIONING](docs/09-mlops/02-experiment-tracking/dataset-versioning.md)
+- [MLFLOW](docs/09-mlops/02-experiment-tracking/mlflow.md)
+- [RANDOM SEEDS](docs/09-mlops/02-experiment-tracking/random-seeds.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 MODEL REGISTRY</summary>
+
+- [MODEL ARTIFACTS](docs/09-mlops/03-model-registry/model-artifacts.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 ORCHESTRATION</summary>
+
+- [ARGO CD](docs/09-mlops/04-orchestration/argo-cd.md)
+- [ARGO WORKFLOWS](docs/09-mlops/04-orchestration/argo-workflows.md)
+- [KUBEFLOW](docs/09-mlops/04-orchestration/kubeflow.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 MONITORING</summary>
+
+- [ALERTS](docs/09-mlops/05-monitoring/alerts.md)
+- [GRAFANA FOUNDATIONS](docs/09-mlops/05-monitoring/grafana-foundations.md)
+- [MODEL MONITORING](docs/09-mlops/05-monitoring/model-monitoring.md)
+- [PERFORMANCE MONITORING](docs/09-mlops/05-monitoring/performance-monitoring.md)
+- [PROMETHEUS](docs/09-mlops/05-monitoring/prometheus.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 ML PIPELINES</summary>
+
+- [KUBEFLOW PIPELINES](docs/09-mlops/06-ml-pipelines/kubeflow-pipelines.md)
+- [PIPELINE FOUNDATIONS](docs/09-mlops/06-ml-pipelines/pipeline-foundations.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 ENVIRONMENTS</summary>
+
+- [DEPLOYMENT STAGES](docs/09-mlops/07-environments/deployment-stages.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 10 SOFTWARE ENGINEERING
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 CLEAN CODE</summary>
+
+- [CODE SMELLS](docs/10-software-engineering/01-clean-code/code-smells.md)
+- [LINTING](docs/10-software-engineering/01-clean-code/linting.md)
+- [MY PRINCIPLES](docs/10-software-engineering/01-clean-code/my-principles.md)
+- [SOLID PRINCIPLES](docs/10-software-engineering/01-clean-code/solid-principles.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 TESTING</summary>
+
+<details>
+<summary>01 UNIT TESTS</summary>
+
+
+</details>
+
+<details>
+<summary>02 INTEGRATION TESTS</summary>
+
+
+</details>
+
+<details>
+<summary>03 E2E TESTS</summary>
+
+
+</details>
+
+<details>
+<summary>04 TESTING FOUNDATIONS</summary>
+
+- [MOCKING](docs/10-software-engineering/02-testing/04-testing-foundations/mocking.md)
+- [TESTING PRINCIPLES](docs/10-software-engineering/02-testing/04-testing-foundations/testing-principles.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 DOCUMENTATION</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 VERSION CONTROL</summary>
+
+- [FOUNDATIONS](docs/10-software-engineering/04-version-control/foundations.md)
+- [GIT CONCEPTS](docs/10-software-engineering/04-version-control/git-concepts.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 SOFTWARE DESIGN</summary>
+
+<details>
+<summary>01 DESIGN PATTERNS</summary>
+
+<details>
+<summary>01 BEHAVIORAL</summary>
+
+
+</details>
+
+<details>
+<summary>02 CREATIONAL</summary>
+
+- [FACTORY PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/02-creational/factory-pattern.md)
+
+</details>
+
+<details>
+<summary>03 STRUCTURAL</summary>
+
+- [ADAPTER PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/03-structural/adapter-pattern.md)
+- [DECORATOR PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/03-structural/decorator-pattern.md)
+
+</details>
+
+
+</details>
+
+<details>
+<summary>02 MODULAR DESIGN</summary>
+
+- [ML PROJECT STRUCTURE](docs/10-software-engineering/05-software-design/02-modular-design/ml-project-structure.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 BUILD AND DEPENDENCY MANAGEMENT</summary>
+
+- [POETRY](docs/10-software-engineering/06-build-and-dependency-management/poetry.md)
+- [UV](docs/10-software-engineering/06-build-and-dependency-management/uv.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 PERFORMANCE</summary>
+
+- [OPTIMIZATION](docs/10-software-engineering/07-performance/optimization.md)
+- [PARALLEL PROGRAMMING](docs/10-software-engineering/07-performance/parallel-programming.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>08 SECURITY AND DATA PROTECTION</summary>
+
+<details>
+<summary>01 AUTHENTICATION AND AUTHORIZATION</summary>
+
+- [AUTHORIZATION](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/authorization.md)
+- [POLICY MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/policy-management.md)
+- [SSH KEYS](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/ssh-keys.md)
+
+</details>
+
+<details>
+<summary>02 NETWORK SECURITY</summary>
+
+- [NETWORK SEGMENTATION](docs/10-software-engineering/08-security-and-data-protection/02-network-security/network-segmentation.md)
+
+</details>
+
+<details>
+<summary>03 DATA PROTECTION</summary>
+
+- [ANONYMIZATION AND PSEUDONOMYSATION](docs/10-software-engineering/08-security-and-data-protection/03-data-protection/anonymization-and-pseudonomysation.md)
+- [DSVGO BASICS](docs/10-software-engineering/08-security-and-data-protection/03-data-protection/dsvgo-basics.md)
+
+</details>
+
+<details>
+<summary>04 SECRET MANAGEMENT</summary>
+
+- [SECRETS MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/04-secret-management/secrets-management.md)
+
+</details>
+
+<details>
+<summary>05 SOFTWARE SUPPLY CHAIN</summary>
+
+- [DEPENDENCY SECURITY](docs/10-software-engineering/08-security-and-data-protection/05-software-supply-chain/dependency-security.md)
+- [VULNERABILITY MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/05-software-supply-chain/vulnerability-management.md)
+
+</details>
+
+<details>
+<summary>06 LLMS</summary>
+
+- [LLM SAFETY](docs/10-software-engineering/08-security-and-data-protection/06-llms/llm-safety.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>09 ARCHITECTURES</summary>
+
+- [HEXAGONAL ARCHITECTURE](docs/10-software-engineering/09-architectures/hexagonal-architecture.md)
+- [HONEYCOMB ARCHITECTURE](docs/10-software-engineering/09-architectures/honeycomb-architecture.md)
+- [MICROSERVICES](docs/10-software-engineering/09-architectures/microservices.md)
+- [MONOLITH](docs/10-software-engineering/09-architectures/monolith.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>10 DEBUGGING</summary>
+
+- [DEBUGGING DEPLOYMENTS](docs/10-software-engineering/10-debugging/debugging-deployments.md)
+- [DEBUGGING ML MODELS](docs/10-software-engineering/10-debugging/debugging-ml-models.md)
+- [LOGGING](docs/10-software-engineering/10-debugging/logging.md)
+- [PROFILING](docs/10-software-engineering/10-debugging/profiling.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>11 WEB DEVELOPMENT</summary>
+
+- [API FOUNDATIONS](docs/10-software-engineering/11-web-development/api-foundations.md)
+- [API TESTING](docs/10-software-engineering/11-web-development/api-testing.md)
+- [HTTP](docs/10-software-engineering/11-web-development/http.md)
+- [OPENAPI SWAGGER](docs/10-software-engineering/11-web-development/openapi-swagger.md)
+- [PYDANTIC](docs/10-software-engineering/11-web-development/pydantic.md)
+- [REST APIS](docs/10-software-engineering/11-web-development/rest-apis.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>12 DATA STRUCTURES</summary>
+
+- [HEAP](docs/10-software-engineering/12-data-structures/heap.md)
+- [LINKED LIST](docs/10-software-engineering/12-data-structures/linked-list.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>13 PROGRAMMING PARADIGMS</summary>
+
+<details>
+<summary>01 OBJECT ORIENTED PROGRAMMING</summary>
+
+- [ABSTRACT CLASSES](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstract-classes.md)
+- [ABSTRACTION](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstraction.md)
+- [FOUNDATIONS](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/foundations.md)
+- [INHERITANCE](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/inheritance.md)
+- [INTERFACES](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/interfaces.md)
+
+</details>
+
+<details>
+<summary>02 FUNCTIONAL PROGRAMMING</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>14 ALGORITHMS</summary>
+
+<details>
+<summary>01 GENERAL</summary>
+
+- [COMPLEXITY ANALYSIS](docs/10-software-engineering/14-algorithms/01-general/complexity-analysis.md)
+- [DYNAMIC PROGRAMMING](docs/10-software-engineering/14-algorithms/01-general/dynamic-programming.md)
+- [RECURSION](docs/10-software-engineering/14-algorithms/01-general/recursion.md)
+
+</details>
+
+<details>
+<summary>02 SORTING</summary>
+
+
+</details>
+
+<details>
+<summary>03 SEARCHING</summary>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 11 TDA
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 PERSTISTENT HOMOLOGY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [BARCODES](docs/11-tda/01-perstistent-homology/01-foundations/barcodes.md)
+- [CECH COMPLEX](docs/11-tda/01-perstistent-homology/01-foundations/cech-complex.md)
+- [FILTRATIONS](docs/11-tda/01-perstistent-homology/01-foundations/filtrations.md)
+- [NERVE COMPLEXES](docs/11-tda/01-perstistent-homology/01-foundations/nerve-complexes.md)
+- [PERSISTENCE DIAGRAMS](docs/11-tda/01-perstistent-homology/01-foundations/persistence-diagrams.md)
+- [VIETORIS RIPS COMPLEX](docs/11-tda/01-perstistent-homology/01-foundations/vietoris-rips-complex.md)
+- [WHY PERSISTENCE HOMOLOGY WORKS](docs/11-tda/01-perstistent-homology/01-foundations/why-persistence-homology-works.md)
+
+</details>
+
+<details>
+<summary>02 DISTANCES</summary>
+
+- [BOTTLENECK DISTANCE](docs/11-tda/01-perstistent-homology/02-distances/bottleneck-distance.md)
+- [WASSERSTEIN DISTANCE](docs/11-tda/01-perstistent-homology/02-distances/wasserstein-distance.md)
+
+</details>
+
+<details>
+<summary>03 SIGNATURES</summary>
+
+
+</details>
+
+<details>
+<summary>04 APPLICATIONS</summary>
+
+- [TS CLASSIFICATION](docs/11-tda/01-perstistent-homology/04-applications/ts-classification.md)
+- [TS FORECASTING](docs/11-tda/01-perstistent-homology/04-applications/ts-forecasting.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 MAPPER ALGORITHM</summary>
+
+- [MAPPER ALGORITHM](docs/11-tda/02-mapper-algorithm/mapper-algorithm.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
 <!-- TOC_END -->
