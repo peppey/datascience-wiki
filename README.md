@@ -81,7 +81,6 @@ data-science-wiki/
 │   │   │   │   ├── bernoulli-distribution.md
 │   │   │   │   ├── binomial-distribution.md
 │   │   │   │   ├── exponential-distribution.md
-│   │   │   │   ├── exponentional-distribution.md
 │   │   │   │   ├── normal-distribution.md
 │   │   │   │   ├── poisson-distribution.md
 │   │   │   │   └── student-t-distribution.md
@@ -242,8 +241,8 @@ data-science-wiki/
 │   │   │   │   ├── nearest-neighbors/
 │   │   │   │   │   └── knn-classification.md
 │   │   │   │   ├── tree-based-methods/
-│   │   │   │   │   ├── decision-trees.md
-│   │   │   │   │   ├── random-forest.md
+│   │   │   │   │   ├── decision-trees.md ✓
+│   │   │   │   │   ├── random-forest.md ✓
 │   │   │   │   │   └── xgboost.md
 │   │   │   │   ├── gaussian-processes.md
 │   │   │   │   ├── naive-bayes.md
@@ -261,10 +260,15 @@ data-science-wiki/
 │   │   │   │   ├── bayesian-networks.md
 │   │   │   │   ├── gaussian-mixture-models.md
 │   │   │   │   └── hidden-markov-models.md
-│   │   │   └── 04-time-series-models/
-│   │   │       ├── arima.md
-│   │   │       ├── autoregressive-models.md
-│   │   │       └── kalman-filter.md
+│   │   │   ├── 04-time-series-models/
+│   │   │   │   ├── arima.md
+│   │   │   │   ├── autoregressive-models.md
+│   │   │   │   └── kalman-filter.md
+│   │   │   └── 05-ensemble-methods/
+│   │   │       ├── bagging.md ✓
+│   │   │       ├── boosting.md ✓
+│   │   │       ├── stacking.md ✓
+│   │   │       └── voting.md ✓
 │   │   ├── 04-deep-learning-models/
 │   │   │   ├── 01-architectures/
 │   │   │   │   ├── activation-functions.md
@@ -398,7 +402,6 @@ data-science-wiki/
 │   │       └── numerical-features.md
 │   ├── 05-training-and-optimizing-ml-models/
 │   │   ├── 01-traditional-ml/
-│   │   │   ├── hyperparameter-tuning/
 │   │   │   └── common-issues.md
 │   │   ├── 02-deep-learning/
 │   │   │   ├── 01-loss-functions/
@@ -420,10 +423,14 @@ data-science-wiki/
 │   │   │   │   ├── softmax.md
 │   │   │   │   └── tanh.md
 │   │   │   └── common-issues.md
-│   │   └── 03-llms/
-│   │       ├── finetuning/
-│   │       ├── promt-engineering/
-│   │       └── tools/
+│   │   ├── 03-llms/
+│   │   │   ├── finetuning/
+│   │   │   ├── promt-engineering/
+│   │   │   └── tools/
+│   │   ├── 04-hyperparameter-tuning/
+│   │   │   ├── grid-search.md
+│   │   │   └── random-search.md
+│   │   └── train-test-split.md ✓
 │   ├── 07-databases/
 │   │   ├── 01-sql-databases/
 │   │   │   ├── joins.md
@@ -564,8 +571,8 @@ data-science-wiki/
 │   │   │       ├── inheritance.md
 │   │   │       └── interfaces.md
 │   │   └── 14-algorithms/
+│   │       ├── searching/
 │   │       ├── sorting/
-│   │       │   └── searching/
 │   │       ├── complexity-analysis.md
 │   │       ├── dynamic-programming.md
 │   │       └── recursion.md
@@ -585,7 +592,8 @@ data-science-wiki/
 │       │   ├── vietoris-rips-complex.md
 │       │   └── why-persistence-homology-works.md
 │       └── mapper-algorithm.md
-└── scripts/
-    └── generate-toc.py
+├── scripts/
+│   └── generate-toc.py
+└── assets/
 ```
 <!-- TOC_END -->

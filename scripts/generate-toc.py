@@ -90,6 +90,10 @@ def generate_tree() -> str:
     if (PROJECT_ROOT / "scripts").exists():
         root_items.append(PROJECT_ROOT / "scripts")
 
+    if (PROJECT_ROOT / "assets").exists():
+        root_items.append(PROJECT_ROOT / "assets")
+
+
     for i, item in enumerate(root_items):
         last = i == len(root_items) - 1
 
@@ -99,9 +103,11 @@ def generate_tree() -> str:
 
         lines.append(connector + name)
 
-        if item.is_dir():
+        if item.is_dir() and item != PROJECT_ROOT / "assets":
             extension = "    " if last else "│   "
             lines.extend(build_tree(item, extension))
+
+
 
     return "\n".join(lines)
 
