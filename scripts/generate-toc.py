@@ -13,6 +13,10 @@ README = PROJECT_ROOT / "README.md"
 # ---------------------------------------------------------
 
 def should_include(path: Path) -> bool:
+    """
+    Ignore hidden files and invalid markdown folders.
+    """
+
     if path.name.startswith("."):
         return False
 
@@ -23,7 +27,32 @@ def should_include(path: Path) -> bool:
 
 
 
+def has_content(path: Path) -> bool:
+    """
+    Check if a markdown file contains actual text.
+    """
+
+    if not path.is_file():
+        return False
+
+    if path.suffix.lower() != ".md":
+        return False
+
+    try:
+        return bool(
+            path.read_text(encoding="utf-8").strip()
+        )
+
+    except Exception:
+        return False
+
+
+
 def sort_key(path: Path):
+    """
+    Sort folders before files.
+    """
+
     return (
         path.is_file(),
         path.name.lower()
@@ -32,6 +61,13 @@ def sort_key(path: Path):
 
 
 def format_title(path: Path) -> str:
+    """
+    Convert filenames/folders into readable titles.
+
+    Example:
+        linear-algebra -> LINEAR ALGEBRA
+        qr-decomposition.md -> QR DECOMPOSITION
+    """
 
     if path.is_file():
         name = path.stem
@@ -43,10 +79,27 @@ def format_title(path: Path) -> str:
 
 
 def markdown_link(path: Path) -> str:
+    """
+    Create relative markdown links.
+    """
 
     relative = path.relative_to(PROJECT_ROOT)
 
     return "/".join(relative.parts)
+
+
+
+def format_file_entry(path: Path) -> str:
+    """
+    Create markdown link with optional checkmark.
+    """
+
+    checkmark = " ✅" if has_content(path) else ""
+
+    return (
+        f"- [{format_title(path)}{checkmark}]"
+        f"({markdown_link(path)})"
+    )
 
 
 
@@ -86,11 +139,10 @@ def build_details(folder: Path) -> list[str]:
             )
 
 
-        elif entry.is_file() and entry.suffix == ".md":
+        elif entry.is_file() and entry.suffix.lower() == ".md":
 
             lines.append(
-                f"- [{format_title(entry)}]"
-                f"({markdown_link(entry)})"
+                format_file_entry(entry)
             )
 
 
@@ -151,11 +203,10 @@ def build_main_folder(folder: Path) -> list[str]:
             lines.append("")
 
 
-        elif entry.is_file() and entry.suffix == ".md":
+        elif entry.is_file() and entry.suffix.lower() == ".md":
 
             lines.append(
-                f"- [{format_title(entry)}]"
-                f"({markdown_link(entry)})"
+                format_file_entry(entry)
             )
 
 
@@ -223,7 +274,11 @@ def update_readme(toc: str):
     )
 
 
-    if not re.search(pattern, content, flags=re.DOTALL):
+    if not re.search(
+        pattern,
+        content,
+        flags=re.DOTALL
+    ):
         raise RuntimeError(
             "TOC markers not found in README.md"
         )
@@ -255,7 +310,7 @@ def main():
     update_readme(toc)
 
     print(
-        "README.md updated with collapsible TOC."
+        "README.md updated."
     )
 
 

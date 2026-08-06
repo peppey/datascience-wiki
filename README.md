@@ -201,7 +201,7 @@
 <details>
 <summary>04 FOUNDATIONS</summary>
 
-- [WHAT IS GEOMETRY](docs/01-mathematical-foundations/04-geometry/04-foundations/what-is-geometry.md)
+- [WHAT IS GEOMETRY ✅](docs/01-mathematical-foundations/04-geometry/04-foundations/what-is-geometry.md)
 
 </details>
 
@@ -271,7 +271,7 @@
 <details>
 <summary>05 BAYESIAN PROBABILITY</summary>
 
-- [BAYES THEOREM](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/bayes-theorem.md)
+- [BAYES THEOREM ✅](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/bayes-theorem.md)
 - [LIKELIHOOD](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/likelihood.md)
 - [PRIOR AND POSTERIOR](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/prior-and-posterior.md)
 
@@ -300,7 +300,7 @@
 <summary>01 FOUNDATIONS</summary>
 
 - [CONFIDENCE INTERVALS](docs/01-mathematical-foundations/06-statistics/01-foundations/confidence-intervals.md)
-- [METHOD OF LEAST SQUARES](docs/01-mathematical-foundations/06-statistics/01-foundations/method-of-least-squares.md)
+- [METHOD OF LEAST SQUARES ✅](docs/01-mathematical-foundations/06-statistics/01-foundations/method-of-least-squares.md)
 - [STATISTICAL POWER](docs/01-mathematical-foundations/06-statistics/01-foundations/statistical-power.md)
 
 </details>
@@ -331,7 +331,7 @@
 <details>
 <summary>04 BAYESIAN INFERENCE</summary>
 
-- [WHAT IS BAYESIAN INFERENCE](docs/01-mathematical-foundations/06-statistics/04-bayesian-inference/what-is-bayesian-inference.md)
+- [WHAT IS BAYESIAN INFERENCE ✅](docs/01-mathematical-foundations/06-statistics/04-bayesian-inference/what-is-bayesian-inference.md)
 
 </details>
 
@@ -381,7 +381,7 @@
 - [TRIANGULATIONS](docs/01-mathematical-foundations/07-topology/01-foundations/triangulations.md)
 - [WHAT ARE MANIFOLDS](docs/01-mathematical-foundations/07-topology/01-foundations/what-are-manifolds.md)
 - [WHAT ARE TOPOLOGICAL SPACES](docs/01-mathematical-foundations/07-topology/01-foundations/what-are-topological-spaces.md)
-- [WHAT IS TOPOLOGY](docs/01-mathematical-foundations/07-topology/01-foundations/what-is-topology.md)
+- [WHAT IS TOPOLOGY ✅](docs/01-mathematical-foundations/07-topology/01-foundations/what-is-topology.md)
 
 </details>
 
@@ -478,7 +478,7 @@
 <summary>10 NUMERICS</summary>
 
 - [NUMERICAL STABILITY](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
-- [QR DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
+- [QR DECOMPOSITION ✅](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
 
 </details>
 
@@ -517,8 +517,8 @@
 <summary>01 INTRODUCTION</summary>
 
 - [CLASSIFICATION OF ML MODELS](docs/02-ml-models-theory/01-ml-foundations/01-introduction/classification-of-ml-models.md)
-- [NO FREE LUNCH THEOREM](docs/02-ml-models-theory/01-ml-foundations/01-introduction/no-free-lunch-theorem.md)
-- [QUESTIONS TO CHECK](docs/02-ml-models-theory/01-ml-foundations/01-introduction/questions-to-check.md)
+- [NO FREE LUNCH THEOREM ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/no-free-lunch-theorem.md)
+- [QUESTIONS TO CHECK ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/questions-to-check.md)
 - [WHAT IS MACHINE LEARNING](docs/02-ml-models-theory/01-ml-foundations/01-introduction/what-is-machine-learning.md)
 
 </details>
@@ -530,15 +530,15 @@
 - [HYPOTHESIS SPACE](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/hypothesis-space.md)
 - [INDUCTIVE BIAS](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/inductive-bias.md)
 - [PAC LEARNING](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/pac-learning.md)
-- [UNIFORM CONVERGENCE](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/uniform-convergence.md)
-- [VC DIMENSION](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/vc-dimension.md)
+- [UNIFORM CONVERGENCE ✅](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/uniform-convergence.md)
+- [VC DIMENSION ✅](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/vc-dimension.md)
 
 </details>
 
 <details>
 <summary>03 GENERALIZATION</summary>
 
-- [DOUBLE DESCENT](docs/02-ml-models-theory/01-ml-foundations/03-generalization/double-descent.md)
+- [DOUBLE DESCENT ✅](docs/02-ml-models-theory/01-ml-foundations/03-generalization/double-descent.md)
 - [GENERALIZATION ERROR](docs/02-ml-models-theory/01-ml-foundations/03-generalization/generalization-error.md)
 - [OVERFITTING AND UNDERFITTING](docs/02-ml-models-theory/01-ml-foundations/03-generalization/overfitting-and-underfitting.md)
 - [STABILITY](docs/02-ml-models-theory/01-ml-foundations/03-generalization/stability.md)
@@ -550,8 +550,8 @@
 
 - [BIAS VARIANCE TRADEOFF](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/bias-variance-tradeoff.md)
 - [CURSE OF DIMENSIONALITY](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/curse-of-dimensionality.md)
-- [KERNEL METHODS](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/kernel-methods.md)
-- [REGULARIZATION](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/regularization.md)
+- [KERNEL METHODS ✅](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/kernel-methods.md)
+- [REGULARIZATION ✅](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/regularization.md)
 
 </details>
 
@@ -679,7 +679,7 @@
 <summary>01 LINEAR MODELS</summary>
 
 - [ELASTIC NET](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/elastic-net.md)
-- [LINEAR REGRESSION](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/linear-regression.md)
+- [LINEAR REGRESSION ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/linear-regression.md)
 
 </details>
 
@@ -693,8 +693,8 @@
 <details>
 <summary>03 TREE BASED METHODS</summary>
 
-- [DECISION TREES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/decision-trees.md)
-- [RANDOM FOREST](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/random-forest.md)
+- [DECISION TREES ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/decision-trees.md)
+- [RANDOM FOREST ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/random-forest.md)
 - [XGBOOST](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/xgboost.md)
 
 </details>
@@ -704,7 +704,7 @@
 
 - [GAUSSIAN PROCESSES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/gaussian-processes.md)
 - [NAIVE BAYES](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/naive-bayes.md)
-- [SVM](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/svm.md)
+- [SVM ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/04-other/svm.md)
 
 </details>
 
@@ -756,10 +756,10 @@
 <details>
 <summary>05 ENSEMBLE METHODS</summary>
 
-- [BAGGING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/bagging.md)
-- [BOOSTING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/boosting.md)
-- [STACKING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/stacking.md)
-- [VOTING](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/voting.md)
+- [BAGGING ✅](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/bagging.md)
+- [BOOSTING ✅](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/boosting.md)
+- [STACKING ✅](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/stacking.md)
+- [VOTING ✅](docs/02-ml-models-theory/03-traditional-ml-models/05-ensemble-methods/voting.md)
 
 </details>
 
@@ -800,7 +800,7 @@
 <summary>03 GENERATIVE MODELS</summary>
 
 - [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/autoregressive-models.md)
-- [DIFFUSION MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/diffusion-models.md)
+- [DIFFUSION MODELS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/diffusion-models.md)
 - [ENERGY BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/energy-based-models.md)
 - [GENERATIVE ADVERSARIAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/generative-adversarial-networks.md)
 - [MULTIMODAL GENERATIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/multimodal-generative-models.md)
@@ -978,25 +978,19 @@
 
 ---
 
-## 04 EVALUATION
+## 04 TRAINING AND OPTIMIZING ML MODELS
 
 <ul>
 
 <li>
 
 <details>
-<summary>01 CLASSIFICATION METRICS</summary>
+<summary>01 FOUNDATIONS</summary>
 
-- [ACCURACY](docs/04-evaluation/01-classification-metrics/accuracy.md)
-- [CONFUSION MATRIX](docs/04-evaluation/01-classification-metrics/confusion-matrix.md)
-- [F1 SCORE](docs/04-evaluation/01-classification-metrics/f1-score.md)
-- [LOG LOSS](docs/04-evaluation/01-classification-metrics/log-loss.md)
-- [MULTICLASS METRICS](docs/04-evaluation/01-classification-metrics/multiclass-metrics.md)
-- [PRECISION RECALL AUC](docs/04-evaluation/01-classification-metrics/precision-recall-auc.md)
-- [PRECISION](docs/04-evaluation/01-classification-metrics/precision.md)
-- [RECALL SENSITIVITY](docs/04-evaluation/01-classification-metrics/recall-sensitivity.md)
-- [ROC AUC](docs/04-evaluation/01-classification-metrics/roc-auc.md)
-- [SPECIFICITY](docs/04-evaluation/01-classification-metrics/specificity.md)
+- [COMMON ISSUES](docs/04-training-and-optimizing-ml-models/01-foundations/common-issues.md)
+- [GRID SEARCH](docs/04-training-and-optimizing-ml-models/01-foundations/grid-search.md)
+- [RANDOM SEARCH](docs/04-training-and-optimizing-ml-models/01-foundations/random-search.md)
+- [TRAIN TEST SPLIT ✅](docs/04-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
 
 </details>
 
@@ -1006,62 +1000,49 @@
 <li>
 
 <details>
-<summary>02 REGRESSION METRICS</summary>
+<summary>02 DEEP LEARNING</summary>
 
-- [ADJUSTED R SQUARED](docs/04-evaluation/02-regression-metrics/adjusted-r-squared.md)
-- [MAE](docs/04-evaluation/02-regression-metrics/mae.md)
-- [MSE](docs/04-evaluation/02-regression-metrics/mse.md)
-- [R SQUARED](docs/04-evaluation/02-regression-metrics/r-squared.md)
-- [RMSE](docs/04-evaluation/02-regression-metrics/rmse.md)
+<details>
+<summary>01 LOSS FUNCTIONS</summary>
+
 
 </details>
 
-
-</li>
-
-<li>
-
 <details>
-<summary>03 MODEL DIAGNOSTICS</summary>
+<summary>02 OPTIMIZATION</summary>
 
-- [BIAS DETECTION](docs/04-evaluation/03-model-diagnostics/bias-detection.md)
-- [CALIBRATION ANALYSIS](docs/04-evaluation/03-model-diagnostics/calibration-analysis.md)
-- [RESIDUAL ANALYSIS](docs/04-evaluation/03-model-diagnostics/residual-analysis.md)
+- [BATCH NORMALIZATION](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
+- [LEARNING RATE SCHEDULING](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
+- [OPTIMIZATION ALGORITHMS](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
 
 </details>
 
-
-</li>
-
-<li>
-
 <details>
-<summary>04 UNCERTAINTY QUANTIFICATION</summary>
+<summary>03 REGULARIZATION</summary>
 
-- [CONFIDENCE](docs/04-evaluation/04-uncertainty-quantification/confidence.md)
+- [DROPOUT](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
+- [EARLY STOPPING](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
+- [L1 L2 REGULARIZATION](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
+- [WEIGHT DECAY](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
 
 </details>
 
-
-</li>
-
-<li>
-
 <details>
-<summary>05 INTERPRETABILITY</summary>
+<summary>04 DATA STRATEGIES</summary>
 
-- [FEATURE IMPORTANCE](docs/04-evaluation/05-interpretability/feature-importance.md)
-- [SHAP](docs/04-evaluation/05-interpretability/shap.md)
 
 </details>
 
-
-</li>
-
-<li>
-
 <details>
-<summary>06 CALIBRATION</summary>
+<summary>05 ACTIVATION FUNCTIONS</summary>
+
+- [LEAKY RELU](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
+- [RELU](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
+- [SIGMOID](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
+- [SOFTMAX](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
+- [TANH](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
+
+</details>
 
 
 </details>
@@ -1072,27 +1053,26 @@
 <li>
 
 <details>
-<summary>07 LLM EVALUATION</summary>
+<summary>03 LLMS</summary>
 
-- [HUMAN EVALUATION](docs/04-evaluation/07-llm-evaluation/human-evaluation.md)
-- [LLM AS A JUDGE](docs/04-evaluation/07-llm-evaluation/llm-as-a-judge.md)
-- [QUALITY METRICS](docs/04-evaluation/07-llm-evaluation/quality-metrics.md)
-- [RAG EVALUATION](docs/04-evaluation/07-llm-evaluation/rag-evaluation.md)
-- [SAFETY AND RELIABILITY](docs/04-evaluation/07-llm-evaluation/safety-and-reliability.md)
+<details>
+<summary>01 FINETUNING</summary>
+
 
 </details>
 
+<details>
+<summary>02 PROMT ENGINEERING</summary>
 
-</li>
 
-<li>
+</details>
 
 <details>
-<summary>08 FOUNDATIONS</summary>
+<summary>03 TOOLS</summary>
 
-- [CROSS VALIDATION](docs/04-evaluation/08-foundations/cross-validation.md)
-- [FAIRNESS BIAS](docs/04-evaluation/08-foundations/fairness-bias.md)
-- [MODEL SELECTION](docs/04-evaluation/08-foundations/model-selection.md)
+
+</details>
+
 
 </details>
 
@@ -1138,8 +1118,8 @@
 <details>
 <summary>03 IMPUTATION</summary>
 
-- [KNN IMPUTATION](docs/05-data-engineering/02-data-preprocessing/03-imputation/knn-imputation.md)
-- [MEAN IMPUTATION](docs/05-data-engineering/02-data-preprocessing/03-imputation/mean-imputation.md)
+- [KNN IMPUTATION ✅](docs/05-data-engineering/02-data-preprocessing/03-imputation/knn-imputation.md)
+- [MEAN IMPUTATION ✅](docs/05-data-engineering/02-data-preprocessing/03-imputation/mean-imputation.md)
 
 </details>
 
@@ -1178,13 +1158,13 @@
 <summary>04 DISTRIBUTED PROCESSING</summary>
 
 <details>
-<summary>HADOOP</summary>
+<summary>01 SPARK</summary>
 
 
 </details>
 
 <details>
-<summary>SPARK</summary>
+<summary>02 HADOOP</summary>
 
 
 </details>
@@ -1214,72 +1194,25 @@
 
 ---
 
-## 06 TRAINING AND OPTIMIZING ML MODELS
+## 06 EVALUATION
 
 <ul>
 
 <li>
 
 <details>
-<summary>01 FOUNDATIONS</summary>
+<summary>01 CLASSIFICATION METRICS</summary>
 
-- [COMMON ISSUES](docs/06-training-and-optimizing-ml-models/01-foundations/common-issues.md)
-- [GRID SEARCH](docs/06-training-and-optimizing-ml-models/01-foundations/grid-search.md)
-- [RANDOM SEARCH](docs/06-training-and-optimizing-ml-models/01-foundations/random-search.md)
-- [TRAIN TEST SPLIT](docs/06-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>02 DEEP LEARNING</summary>
-
-<details>
-<summary>01 LOSS FUNCTIONS</summary>
-
-
-</details>
-
-<details>
-<summary>02 OPTIMIZATION</summary>
-
-- [BATCH NORMALIZATION](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
-- [LEARNING RATE SCHEDULING](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
-- [OPTIMIZATION ALGORITHMS](docs/06-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
-
-</details>
-
-<details>
-<summary>03 REGULARIZATION</summary>
-
-- [DROPOUT](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
-- [EARLY STOPPING](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
-- [L1 L2 REGULARIZATION](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
-- [WEIGHT DECAY](docs/06-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
-
-</details>
-
-<details>
-<summary>04 DATA STRATEGIES</summary>
-
-
-</details>
-
-<details>
-<summary>05 ACTIVATION FUNCTIONS</summary>
-
-- [LEAKY RELU](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
-- [RELU](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
-- [SIGMOID](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
-- [SOFTMAX](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
-- [TANH](docs/06-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
-
-</details>
-
+- [ACCURACY](docs/06-evaluation/01-classification-metrics/accuracy.md)
+- [CONFUSION MATRIX](docs/06-evaluation/01-classification-metrics/confusion-matrix.md)
+- [F1 SCORE](docs/06-evaluation/01-classification-metrics/f1-score.md)
+- [LOG LOSS](docs/06-evaluation/01-classification-metrics/log-loss.md)
+- [MULTICLASS METRICS](docs/06-evaluation/01-classification-metrics/multiclass-metrics.md)
+- [PRECISION RECALL AUC](docs/06-evaluation/01-classification-metrics/precision-recall-auc.md)
+- [PRECISION](docs/06-evaluation/01-classification-metrics/precision.md)
+- [RECALL SENSITIVITY](docs/06-evaluation/01-classification-metrics/recall-sensitivity.md)
+- [ROC AUC](docs/06-evaluation/01-classification-metrics/roc-auc.md)
+- [SPECIFICITY](docs/06-evaluation/01-classification-metrics/specificity.md)
 
 </details>
 
@@ -1289,26 +1222,93 @@
 <li>
 
 <details>
-<summary>03 LLMS</summary>
+<summary>02 REGRESSION METRICS</summary>
+
+- [ADJUSTED R SQUARED](docs/06-evaluation/02-regression-metrics/adjusted-r-squared.md)
+- [MAE](docs/06-evaluation/02-regression-metrics/mae.md)
+- [MSE](docs/06-evaluation/02-regression-metrics/mse.md)
+- [R SQUARED](docs/06-evaluation/02-regression-metrics/r-squared.md)
+- [RMSE](docs/06-evaluation/02-regression-metrics/rmse.md)
+
+</details>
+
+
+</li>
+
+<li>
 
 <details>
-<summary>01 FINETUNING</summary>
+<summary>03 MODEL DIAGNOSTICS</summary>
+
+- [BIAS DETECTION](docs/06-evaluation/03-model-diagnostics/bias-detection.md)
+- [CALIBRATION ANALYSIS](docs/06-evaluation/03-model-diagnostics/calibration-analysis.md)
+- [RESIDUAL ANALYSIS](docs/06-evaluation/03-model-diagnostics/residual-analysis.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 UNCERTAINTY QUANTIFICATION</summary>
+
+- [CONFIDENCE](docs/06-evaluation/04-uncertainty-quantification/confidence.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 INTERPRETABILITY</summary>
+
+- [FEATURE IMPORTANCE](docs/06-evaluation/05-interpretability/feature-importance.md)
+- [SHAP](docs/06-evaluation/05-interpretability/shap.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 CALIBRATION</summary>
 
 
 </details>
 
-<details>
-<summary>02 PROMT ENGINEERING</summary>
 
+</li>
+
+<li>
+
+<details>
+<summary>07 LLM EVALUATION</summary>
+
+- [HUMAN EVALUATION](docs/06-evaluation/07-llm-evaluation/human-evaluation.md)
+- [LLM AS A JUDGE](docs/06-evaluation/07-llm-evaluation/llm-as-a-judge.md)
+- [QUALITY METRICS](docs/06-evaluation/07-llm-evaluation/quality-metrics.md)
+- [RAG EVALUATION](docs/06-evaluation/07-llm-evaluation/rag-evaluation.md)
+- [SAFETY AND RELIABILITY](docs/06-evaluation/07-llm-evaluation/safety-and-reliability.md)
 
 </details>
 
+
+</li>
+
+<li>
+
 <details>
-<summary>03 TOOLS</summary>
+<summary>08 FOUNDATIONS</summary>
 
-
-</details>
-
+- [CROSS VALIDATION](docs/06-evaluation/08-foundations/cross-validation.md)
+- [FAIRNESS BIAS](docs/06-evaluation/08-foundations/fairness-bias.md)
+- [MODEL SELECTION](docs/06-evaluation/08-foundations/model-selection.md)
 
 </details>
 
@@ -1328,8 +1328,9 @@
 <details>
 <summary>01 SQL DATABASES</summary>
 
-- [JOINS](docs/07-databases/01-sql-databases/joins.md)
+- [JOINS ✅](docs/07-databases/01-sql-databases/joins.md)
 - [RELATIONAL MODEL](docs/07-databases/01-sql-databases/relational-model.md)
+- [WINDOW FUNCTIONS](docs/07-databases/01-sql-databases/window-functions.md)
 
 </details>
 
@@ -1580,7 +1581,7 @@
 <details>
 <summary>07 ENVIRONMENTS</summary>
 
-- [DEPLOYMENT STAGES](docs/09-mlops/07-environments/deployment-stages.md)
+- [DEPLOYMENT STAGES ✅](docs/09-mlops/07-environments/deployment-stages.md)
 
 </details>
 
@@ -1602,7 +1603,7 @@
 
 - [CODE SMELLS](docs/10-software-engineering/01-clean-code/code-smells.md)
 - [LINTING](docs/10-software-engineering/01-clean-code/linting.md)
-- [MY PRINCIPLES](docs/10-software-engineering/01-clean-code/my-principles.md)
+- [MY PRINCIPLES ✅](docs/10-software-engineering/01-clean-code/my-principles.md)
 - [SOLID PRINCIPLES](docs/10-software-engineering/01-clean-code/solid-principles.md)
 
 </details>
@@ -1637,7 +1638,7 @@
 <summary>04 TESTING FOUNDATIONS</summary>
 
 - [MOCKING](docs/10-software-engineering/02-testing/04-testing-foundations/mocking.md)
-- [TESTING PRINCIPLES](docs/10-software-engineering/02-testing/04-testing-foundations/testing-principles.md)
+- [TESTING PRINCIPLES ✅](docs/10-software-engineering/02-testing/04-testing-foundations/testing-principles.md)
 
 </details>
 
@@ -1688,7 +1689,7 @@
 <details>
 <summary>02 CREATIONAL</summary>
 
-- [FACTORY PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/02-creational/factory-pattern.md)
+- [FACTORY PATTERN ✅](docs/10-software-engineering/05-software-design/01-design-patterns/02-creational/factory-pattern.md)
 
 </details>
 
@@ -1834,12 +1835,12 @@
 <details>
 <summary>11 WEB DEVELOPMENT</summary>
 
-- [API FOUNDATIONS](docs/10-software-engineering/11-web-development/api-foundations.md)
+- [API FOUNDATIONS ✅](docs/10-software-engineering/11-web-development/api-foundations.md)
 - [API TESTING](docs/10-software-engineering/11-web-development/api-testing.md)
-- [HTTP](docs/10-software-engineering/11-web-development/http.md)
+- [HTTP ✅](docs/10-software-engineering/11-web-development/http.md)
 - [OPENAPI SWAGGER](docs/10-software-engineering/11-web-development/openapi-swagger.md)
 - [PYDANTIC](docs/10-software-engineering/11-web-development/pydantic.md)
-- [REST APIS](docs/10-software-engineering/11-web-development/rest-apis.md)
+- [REST APIS ✅](docs/10-software-engineering/11-web-development/rest-apis.md)
 
 </details>
 
