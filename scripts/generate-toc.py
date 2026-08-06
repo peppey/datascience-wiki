@@ -48,6 +48,28 @@ def has_content(path: Path) -> bool:
 
 
 
+def get_progress(docs: Path) -> tuple[int, int]:
+    """
+    Count markdown files with content.
+
+    Returns:
+        completed_articles, total_articles
+    """
+
+    md_files = [
+        p for p in docs.rglob("*.md")
+        if should_include(p)
+    ]
+
+    completed = sum(
+        1 for p in md_files
+        if has_content(p)
+    )
+
+    return completed, len(md_files)
+
+
+
 def sort_key(path: Path):
     """
     Sort folders before files.
@@ -227,6 +249,19 @@ def generate_toc() -> str:
     docs = PROJECT_ROOT / "docs"
 
     lines = []
+
+
+    # Progress section
+    completed, total = get_progress(docs)
+
+    lines.append("## PROGRESS")
+    lines.append("")
+    lines.append(
+        f"✅  Articles completed: **{completed}/{total}**"
+    )
+    lines.append("")
+    lines.append("---")
+    lines.append("")
 
 
     main_folders = [

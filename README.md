@@ -2,6 +2,12 @@
 
 <!-- TOC_START -->
 
+## PROGRESS
+
+✅ Articles completed: **44/425**
+
+---
+
 ## 01 MATHEMATICAL FOUNDATIONS
 
 <ul>
@@ -23,7 +29,7 @@
 - [PSEUDOINVERSE](docs/01-mathematical-foundations/01-linear-algebra/pseudoinverse.md)
 - [SCALAR PRODUCT](docs/01-mathematical-foundations/01-linear-algebra/scalar-product.md)
 - [SINGULAR VALUES](docs/01-mathematical-foundations/01-linear-algebra/singular-values.md)
-- [VECTOR SPACES](docs/01-mathematical-foundations/01-linear-algebra/vector-spaces.md)
+- [VECTOR SPACES ✅](docs/01-mathematical-foundations/01-linear-algebra/vector-spaces.md)
 
 </details>
 
@@ -38,7 +44,7 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [CONTINUITY](docs/01-mathematical-foundations/02-analysis/01-foundations/continuity.md)
+- [CONTINUITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/continuity.md)
 - [CONVEXITY](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
 - [INTEGRAL](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
 - [LAPLACIAN](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
@@ -178,7 +184,7 @@
 <summary>01 EUCLIDEAN GEOMETRY</summary>
 
 - [DISTANCES AND METRICS](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/distances-and-metrics.md)
-- [EUCLIDEAN SPACE](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/euclidean-space.md)
+- [EUCLIDEAN SPACE ✅](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/euclidean-space.md)
 
 </details>
 
