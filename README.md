@@ -2,7 +2,7 @@
 
 <!-- TOC_START -->
 ```text
-data-science-wiki/
+datascience-wiki/
 ├── README.md ✓
 ├── docs/
 │   ├── 01-mathematical-foundations/
@@ -42,7 +42,7 @@ data-science-wiki/
 │   │   │   └── trigonometry.md
 │   │   ├── 03-functional-analysis/
 │   │   │   ├── banach-spaces.md
-│   │   │   ├── hilbert-spaces.md ✓
+│   │   │   ├── hilbert-spaces.md
 │   │   │   └── orthonormal-bases.md
 │   │   ├── 03-optimization/
 │   │   │   ├── discrete-optimization/
@@ -77,32 +77,40 @@ data-science-wiki/
 │   │   │   │   └── projective-spaces.md
 │   │   │   └── what-is-geometry.md ✓
 │   │   ├── 05-probability-theory/
-│   │   │   ├── common-distributions/
-│   │   │   │   ├── bernoulli-distribution.md
-│   │   │   │   ├── binomial-distribution.md
-│   │   │   │   ├── exponential-distribution.md
-│   │   │   │   ├── normal-distribution.md
-│   │   │   │   ├── poisson-distribution.md
-│   │   │   │   └── student-t-distribution.md
-│   │   │   ├── bayes-theorem.md
-│   │   │   ├── central-limit-theorem.md
-│   │   │   ├── chebyshev-inequality.md
-│   │   │   ├── conditional-distributions.md
-│   │   │   ├── conditional-expectation.md
-│   │   │   ├── correlation.md
-│   │   │   ├── covariance.md
-│   │   │   ├── independence.md
-│   │   │   ├── joint-distributions.md
-│   │   │   ├── law-of-large-numbers.md
-│   │   │   ├── marginal-distributions.md
-│   │   │   ├── markov-inequality.md
-│   │   │   ├── measures.md
-│   │   │   ├── probability-space.md
-│   │   │   ├── random-variable.md
-│   │   │   ├── random-vectors.md
-│   │   │   ├── stochastic-convergence.md
-│   │   │   ├── transformations-of-random-variables.md
-│   │   │   └── variance.md
+│   │   │   ├── 01-foundations/
+│   │   │   │   ├── independence.md
+│   │   │   │   ├── measures.md
+│   │   │   │   ├── probability-space.md
+│   │   │   │   ├── random-variable.md
+│   │   │   │   └── random-vectors.md
+│   │   │   ├── 02-distributions/
+│   │   │   │   ├── 01-common-distributions/
+│   │   │   │   │   ├── bernoulli-distribution.md
+│   │   │   │   │   ├── binomial-distribution.md
+│   │   │   │   │   ├── exponential-distribution.md
+│   │   │   │   │   ├── normal-distribution.md
+│   │   │   │   │   ├── poisson-distribution.md
+│   │   │   │   │   └── student-t-distribution.md
+│   │   │   │   ├── conditional-distributions.md
+│   │   │   │   ├── joint-distributions.md
+│   │   │   │   ├── marginal-distributions.md
+│   │   │   │   └── transformations-of-random-variables.md
+│   │   │   ├── 03-expectation-and-moments/
+│   │   │   │   ├── conditional-expectation.md
+│   │   │   │   ├── correlation.md
+│   │   │   │   ├── covariance.md
+│   │   │   │   └── variance.md
+│   │   │   ├── 04-limit-theorems/
+│   │   │   │   ├── central-limit-theorem.md
+│   │   │   │   ├── law-of-large-numbers.md
+│   │   │   │   └── stochastic-convergence.md
+│   │   │   ├── 05-bayesian-probability/
+│   │   │   │   ├── bayes-theorem.md ✓
+│   │   │   │   ├── likelihood.md
+│   │   │   │   └── prior-and-posterior.md
+│   │   │   └── 06-inequalities/
+│   │   │       ├── chebyshev-inequality.md
+│   │   │       └── markov-inequality.md
 │   │   ├── 06-statistics/
 │   │   │   ├── bayesian-inference/
 │   │   │   │   └── what-is-bayesian-inference.md ✓
@@ -179,7 +187,8 @@ data-science-wiki/
 │   │   │   ├── kl-divergence.md
 │   │   │   └── mutual-information.md
 │   │   ├── 10-numerics/
-│   │   │   └── numerical-stability.md
+│   │   │   ├── numerical-stability.md
+│   │   │   └── qr-decomposition.md ✓
 │   │   └── 11-algebra/
 │   │       ├── fields.md
 │   │       ├── groups.md
@@ -189,27 +198,29 @@ data-science-wiki/
 │   │   ├── 01-ml-foundations/
 │   │   │   ├── 01-introduction/
 │   │   │   │   ├── classification-of-ml-models.md
-│   │   │   │   ├── no-free-lunch-theorem.md
+│   │   │   │   ├── no-free-lunch-theorem.md ✓
 │   │   │   │   ├── questions-to-check.md ✓
 │   │   │   │   └── what-is-machine-learning.md
 │   │   │   ├── 02-learning-thoery/
+│   │   │   │   ├── empirical-risk-minimization.md
 │   │   │   │   ├── hypothesis-space.md
+│   │   │   │   ├── inductive-bias.md
 │   │   │   │   ├── pac-learning.md
 │   │   │   │   ├── uniform-convergence.md ✓
 │   │   │   │   └── vc-dimension.md ✓
-│   │   │   ├── generalization/
+│   │   │   ├── 03-generalization/
 │   │   │   │   ├── double-descent.md ✓
 │   │   │   │   ├── generalization-error.md
 │   │   │   │   ├── overfitting-and-underfitting.md
 │   │   │   │   └── stability.md
-│   │   │   ├── bias-variance-tradeoff.md
-│   │   │   ├── calibration.md
-│   │   │   ├── curse-of-dimensionality.md
-│   │   │   ├── data-distribution-shift.md
-│   │   │   ├── empirical-risk-minimization.md
-│   │   │   ├── inductive-bias.md
-│   │   │   ├── kernel-methods.md ✓
-│   │   │   └── regularization.md ✓
+│   │   │   ├── 04-model-complexity/
+│   │   │   │   ├── bias-variance-tradeoff.md
+│   │   │   │   ├── curse-of-dimensionality.md
+│   │   │   │   ├── kernel-methods.md ✓
+│   │   │   │   └── regularization.md ✓
+│   │   │   └── 05-data-and-model-reliability/
+│   │   │       ├── calibration.md
+│   │   │       └── data-distribution-shift.md
 │   │   ├── 02-ml-tasks/
 │   │   │   ├── anomaly-detection/
 │   │   │   ├── classification/
@@ -237,9 +248,7 @@ data-science-wiki/
 │   │   │   ├── 01-supervised/
 │   │   │   │   ├── linear-models/
 │   │   │   │   │   ├── elastic-net.md
-│   │   │   │   │   ├── lasso-regression.md
-│   │   │   │   │   ├── linear-regression.md
-│   │   │   │   │   └── ridge-regression.md
+│   │   │   │   │   └── linear-regression.md ✓
 │   │   │   │   ├── nearest-neighbors/
 │   │   │   │   │   └── knn-classification.md
 │   │   │   │   ├── tree-based-methods/
@@ -503,9 +512,11 @@ data-science-wiki/
 │   │   │   ├── model-monitoring.md
 │   │   │   ├── performance-monitoring.md
 │   │   │   └── prometheus.md
-│   │   └── 06-ml-pipelines/
-│   │       ├── kubeflow-pipelines.md
-│   │       └── pipeline-foundations.md
+│   │   ├── 06-ml-pipelines/
+│   │   │   ├── kubeflow-pipelines.md
+│   │   │   └── pipeline-foundations.md
+│   │   └── 07-environments/
+│   │       └── deployment-stages.md ✓
 │   ├── 10-software-engineering/
 │   │   ├── 01-clean-code/
 │   │   │   ├── code-smells.md
@@ -526,7 +537,7 @@ data-science-wiki/
 │   │   │   ├── design-patterns/
 │   │   │   │   ├── behavioral/
 │   │   │   │   ├── creational/
-│   │   │   │   │   └── factory-pattern.md
+│   │   │   │   │   └── factory-pattern.md ✓
 │   │   │   │   └── structural/
 │   │   │   │       ├── adapter-pattern.md
 │   │   │   │       └── decorator-pattern.md

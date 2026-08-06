@@ -77,7 +77,7 @@ def build_tree(path: Path, prefix: str = "") -> list[str]:
 
 
 def generate_tree() -> str:
-    lines = ["data-science-wiki/"]
+    lines = ["datascience-wiki/"]
 
     root_items = []
 
