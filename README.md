@@ -11,11 +11,11 @@
 <details>
 <summary>01 LINEAR ALGEBRA</summary>
 
-- [BASIS](docs/01-mathematical-foundations/01-linear-algebra/basis.md)
-- [COMPLEX NUMBERS](docs/01-mathematical-foundations/01-linear-algebra/complex-numbers.md)
-- [DETERMINANTS](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
-- [EIGENVALUES](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues.md)
-- [INVERSE](docs/01-mathematical-foundations/01-linear-algebra/inverse.md)
+- [BASIS ✅](docs/01-mathematical-foundations/01-linear-algebra/basis.md)
+- [COMPLEX NUMBERS ✅](docs/01-mathematical-foundations/01-linear-algebra/complex-numbers.md)
+- [DETERMINANTS ✅](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
+- [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues-and-eigenvectors.md)
+- [INVERSE ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse.md)
 - [MATRIX FACTORIZATIONS](docs/01-mathematical-foundations/01-linear-algebra/matrix-factorizations.md)
 - [MATRIZES](docs/01-mathematical-foundations/01-linear-algebra/matrizes.md)
 - [NORMS](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
@@ -670,6 +670,30 @@
 <li>
 
 <details>
+<summary>02 TRADITIONAL ML MODELS</summary>
+
+<details>
+<summary>02 UNSUPERVISED</summary>
+
+<details>
+<summary>CLUSTERING</summary>
+
+- [PCA ✅](docs/02-ml-models-theory/02-traditional-ml-models/02-unsupervised/clustering/pca.md)
+
+</details>
+
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
 <summary>03 TRADITIONAL ML MODELS</summary>
 
 <details>
@@ -978,112 +1002,7 @@
 
 ---
 
-## 04 TRAINING AND OPTIMIZING ML MODELS
-
-<ul>
-
-<li>
-
-<details>
-<summary>01 FOUNDATIONS</summary>
-
-- [COMMON ISSUES](docs/04-training-and-optimizing-ml-models/01-foundations/common-issues.md)
-- [GRID SEARCH](docs/04-training-and-optimizing-ml-models/01-foundations/grid-search.md)
-- [RANDOM SEARCH](docs/04-training-and-optimizing-ml-models/01-foundations/random-search.md)
-- [TRAIN TEST SPLIT ✅](docs/04-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>02 DEEP LEARNING</summary>
-
-<details>
-<summary>01 LOSS FUNCTIONS</summary>
-
-
-</details>
-
-<details>
-<summary>02 OPTIMIZATION</summary>
-
-- [BATCH NORMALIZATION](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
-- [LEARNING RATE SCHEDULING](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
-- [OPTIMIZATION ALGORITHMS](docs/04-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
-
-</details>
-
-<details>
-<summary>03 REGULARIZATION</summary>
-
-- [DROPOUT](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
-- [EARLY STOPPING](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
-- [L1 L2 REGULARIZATION](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
-- [WEIGHT DECAY](docs/04-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
-
-</details>
-
-<details>
-<summary>04 DATA STRATEGIES</summary>
-
-
-</details>
-
-<details>
-<summary>05 ACTIVATION FUNCTIONS</summary>
-
-- [LEAKY RELU](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
-- [RELU](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
-- [SIGMOID](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
-- [SOFTMAX](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
-- [TANH](docs/04-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
-
-</details>
-
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>03 LLMS</summary>
-
-<details>
-<summary>01 FINETUNING</summary>
-
-
-</details>
-
-<details>
-<summary>02 PROMT ENGINEERING</summary>
-
-
-</details>
-
-<details>
-<summary>03 TOOLS</summary>
-
-
-</details>
-
-
-</details>
-
-
-</li>
-
-</ul>
-
----
-
-## 05 DATA ENGINEERING
+## 04 DATA ENGINEERING
 
 <ul>
 
@@ -1118,8 +1037,8 @@
 <details>
 <summary>03 IMPUTATION</summary>
 
-- [KNN IMPUTATION ✅](docs/05-data-engineering/02-data-preprocessing/03-imputation/knn-imputation.md)
-- [MEAN IMPUTATION ✅](docs/05-data-engineering/02-data-preprocessing/03-imputation/mean-imputation.md)
+- [KNN IMPUTATION ✅](docs/04-data-engineering/02-data-preprocessing/03-imputation/knn-imputation.md)
+- [MEAN IMPUTATION ✅](docs/04-data-engineering/02-data-preprocessing/03-imputation/mean-imputation.md)
 
 </details>
 
@@ -1180,10 +1099,115 @@
 <details>
 <summary>05 FEATURE ENGINEERING</summary>
 
-- [CATEGORICAL FEATURES](docs/05-data-engineering/05-feature-engineering/categorical-features.md)
-- [DIMENSIONALITY REDUCTION OF FEATURES](docs/05-data-engineering/05-feature-engineering/dimensionality-reduction-of-features.md)
-- [EMBEDDINGS](docs/05-data-engineering/05-feature-engineering/embeddings.md)
-- [NUMERICAL FEATURES](docs/05-data-engineering/05-feature-engineering/numerical-features.md)
+- [CATEGORICAL FEATURES](docs/04-data-engineering/05-feature-engineering/categorical-features.md)
+- [DIMENSIONALITY REDUCTION OF FEATURES](docs/04-data-engineering/05-feature-engineering/dimensionality-reduction-of-features.md)
+- [EMBEDDINGS](docs/04-data-engineering/05-feature-engineering/embeddings.md)
+- [NUMERICAL FEATURES](docs/04-data-engineering/05-feature-engineering/numerical-features.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 05 TRAINING AND OPTIMIZING ML MODELS
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [COMMON ISSUES](docs/05-training-and-optimizing-ml-models/01-foundations/common-issues.md)
+- [GRID SEARCH](docs/05-training-and-optimizing-ml-models/01-foundations/grid-search.md)
+- [RANDOM SEARCH](docs/05-training-and-optimizing-ml-models/01-foundations/random-search.md)
+- [TRAIN TEST SPLIT ✅](docs/05-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 DEEP LEARNING</summary>
+
+<details>
+<summary>01 LOSS FUNCTIONS</summary>
+
+
+</details>
+
+<details>
+<summary>02 OPTIMIZATION</summary>
+
+- [BATCH NORMALIZATION](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
+- [LEARNING RATE SCHEDULING](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
+- [OPTIMIZATION ALGORITHMS](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
+
+</details>
+
+<details>
+<summary>03 REGULARIZATION</summary>
+
+- [DROPOUT](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
+- [EARLY STOPPING](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
+- [L1 L2 REGULARIZATION](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
+- [WEIGHT DECAY](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
+
+</details>
+
+<details>
+<summary>04 DATA STRATEGIES</summary>
+
+
+</details>
+
+<details>
+<summary>05 ACTIVATION FUNCTIONS</summary>
+
+- [LEAKY RELU](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
+- [RELU](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
+- [SIGMOID](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
+- [SOFTMAX](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
+- [TANH](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 LLMS</summary>
+
+<details>
+<summary>01 FINETUNING</summary>
+
+
+</details>
+
+<details>
+<summary>02 PROMT ENGINEERING</summary>
+
+
+</details>
+
+<details>
+<summary>03 TOOLS</summary>
+
+
+</details>
+
 
 </details>
 

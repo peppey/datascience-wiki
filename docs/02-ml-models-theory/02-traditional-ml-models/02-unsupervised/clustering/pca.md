@@ -15,7 +15,9 @@ PCA finds new axes (**principal components**) that capture the maximum variance 
 The first component explains the most variance, the second the second most, and so on.
 
 Example:
+
 Original features:
+
 x₁, x₂, x₃, x₄
 
 ↓
