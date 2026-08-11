@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **44/559**
+✅  Articles completed: **58/561**
 
 ---
 
@@ -57,25 +57,30 @@
 <details>
 <summary>02 SEQUENCES AND SERIES</summary>
 
+- [CAUCHY SEQUENCE ✅](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/cauchy-sequence.md)
 - [SEQUENCES AND SERIES](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/sequences-and-series.md)
-- [TAYLOR SERIES](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/taylor-series.md)
+- [TAYLOR SERIES ✅](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/taylor-series.md)
 
 </details>
 
 <details>
 <summary>03 TRIGONOMETRY</summary>
 
-- [TRIGONOMETRY](docs/01-mathematical-foundations/02-analysis/03-trigonometry/trigonometry.md)
+- [COSINE ✅](docs/01-mathematical-foundations/02-analysis/03-trigonometry/cosine.md)
+- [SINE ✅](docs/01-mathematical-foundations/02-analysis/03-trigonometry/sine.md)
+- [TANGENT ✅](docs/01-mathematical-foundations/02-analysis/03-trigonometry/tangent.md)
 
 </details>
 
 <details>
 <summary>04 DERIVATIVES</summary>
 
+- [DIRECTIONAL DERIVATIVES ✅](docs/01-mathematical-foundations/02-analysis/04-derivatives/directional-derivatives.md)
 - [FOUNDATIONS](docs/01-mathematical-foundations/02-analysis/04-derivatives/foundations.md)
-- [GRADIENT](docs/01-mathematical-foundations/02-analysis/04-derivatives/gradient.md)
+- [GRADIENT ✅](docs/01-mathematical-foundations/02-analysis/04-derivatives/gradient.md)
 - [HESSIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/hessian.md)
 - [JACOBIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/jacobian.md)
+- [PARTIAL DERIVATIES](docs/01-mathematical-foundations/02-analysis/04-derivatives/partial-derivaties.md)
 
 </details>
 
@@ -115,7 +120,7 @@
 <details>
 <summary>03 FUNCTIONAL ANALYSIS</summary>
 
-- [BANACH SPACES](docs/01-mathematical-foundations/03-functional-analysis/banach-spaces.md)
+- [BANACH SPACES ✅](docs/01-mathematical-foundations/03-functional-analysis/banach-spaces.md)
 - [HILBERT SPACES](docs/01-mathematical-foundations/03-functional-analysis/hilbert-spaces.md)
 - [ORTHONORMAL BASES](docs/01-mathematical-foundations/03-functional-analysis/orthonormal-bases.md)
 
@@ -198,7 +203,7 @@
 <summary>01 EUCLIDEAN GEOMETRY</summary>
 
 - [DISTANCES AND METRICS](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/distances-and-metrics.md)
-- [EUCLIDEAN SPACE ✅](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/euclidean-space.md)
+- [EUCLIDEAN VS NON EUCLEAN GEOMETRY ✅](docs/01-mathematical-foundations/04-geometry/01-euclidean-geometry/euclidean-vs-non-euclean-geometry.md)
 
 </details>
 
@@ -455,10 +460,10 @@
 <summary>01 FOUNDATIONS</summary>
 
 - [GRAPH TRAVERSAL](docs/01-mathematical-foundations/08-graph-theory/01-foundations/graph-traversal.md)
-- [GRAPHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/graphs.md)
+- [GRAPHS ✅](docs/01-mathematical-foundations/08-graph-theory/01-foundations/graphs.md)
 - [RANDOM GRAPHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/random-graphs.md)
 - [SHORTEST PATHS](docs/01-mathematical-foundations/08-graph-theory/01-foundations/shortest-paths.md)
-- [TREES](docs/01-mathematical-foundations/08-graph-theory/01-foundations/trees.md)
+- [TREES ✅](docs/01-mathematical-foundations/08-graph-theory/01-foundations/trees.md)
 
 </details>
 
@@ -466,8 +471,8 @@
 <summary>02 SEARCH ALGORITHMS</summary>
 
 - [A STAR](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/a-star.md)
-- [BREADTH FIRST SEARCH](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/breadth-first-search.md)
-- [DEPTH FIRST SEARCH](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/depth-first-search.md)
+- [BREADTH FIRST SEARCH ✅](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/breadth-first-search.md)
+- [DEPTH FIRST SEARCH ✅](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/depth-first-search.md)
 - [DIJKSTRA](docs/01-mathematical-foundations/08-graph-theory/02-search-algorithms/dijkstra.md)
 
 </details>
@@ -673,15 +678,11 @@
 <summary>08 NATURAL LANGUAGE PROCESSING TASKS</summary>
 
 - [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/anonymization.md)
-- [BAG OF WORDS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/bag-of-words.md)
-- [COUNT VECTORIZER](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/count-vectorizer.md)
 - [INFORMATION EXTRACTION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/information-extraction.md)
 - [MACHINE TRANSLATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/machine-translation.md)
 - [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/named-entity-recognition.md)
 - [QUESTION ANSWERING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/question-answering.md)
-- [REGULAR EXPRESSIONS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/regular-expressions.md)
 - [SENTIMENT ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/sentiment-analysis.md)
-- [STOPWORDS AND STEMMING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/stopwords-and-stemming.md)
 - [SUMMARIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/summarization.md)
 - [TEXT CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-classification.md)
 - [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-generation.md)
@@ -1914,9 +1915,10 @@
 </details>
 
 <details>
-<summary>02 NETWORK SECURITY</summary>
+<summary>02 NETWORKS</summary>
 
-- [NETWORK SEGMENTATION](docs/10-software-engineering/08-security-and-data-protection/02-network-security/network-segmentation.md)
+- [NETWORK FOUNDATIONS](docs/10-software-engineering/08-security-and-data-protection/02-networks/network-foundations.md)
+- [NETWORK SEGMENTATION](docs/10-software-engineering/08-security-and-data-protection/02-networks/network-segmentation.md)
 
 </details>
 
@@ -2035,8 +2037,14 @@
 <details>
 <summary>02 FUNCTIONAL PROGRAMMING</summary>
 
-- [FUNCTIONAL PROGRAMMING](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/functional-programming.md)
-- [IMMUTABILITY](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/immutability.md)
+- [FUNCTIONAL PROGRAMMING ✅](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/functional-programming.md)
+
+</details>
+
+<details>
+<summary>03 COMPILED AND INTERPRETED LANGUAGES</summary>
+
+- [COMPILED VS INTERPRETED LANGUAGES ✅](docs/10-software-engineering/13-programming-paradigms/03-compiled-and-interpreted-languages/compiled-vs-interpreted-languages.md)
 
 </details>
 
