@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **58/561**
+✅  Articles completed: **64/561**
 
 ---
 
@@ -80,14 +80,14 @@
 - [GRADIENT ✅](docs/01-mathematical-foundations/02-analysis/04-derivatives/gradient.md)
 - [HESSIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/hessian.md)
 - [JACOBIAN](docs/01-mathematical-foundations/02-analysis/04-derivatives/jacobian.md)
-- [PARTIAL DERIVATIES](docs/01-mathematical-foundations/02-analysis/04-derivatives/partial-derivaties.md)
+- [PARTIAL DERIVATIES ✅](docs/01-mathematical-foundations/02-analysis/04-derivatives/partial-derivaties.md)
 
 </details>
 
 <details>
 <summary>05 FOURIER ANALYSIS</summary>
 
-- [FOURIER SERIES](docs/01-mathematical-foundations/02-analysis/05-fourier-analysis/fourier-series.md)
+- [FOURIER SERIES ✅](docs/01-mathematical-foundations/02-analysis/05-fourier-analysis/fourier-series.md)
 - [FOURIER TRANSFORM](docs/01-mathematical-foundations/02-analysis/05-fourier-analysis/fourier-transform.md)
 
 </details>
@@ -217,7 +217,7 @@
 <details>
 <summary>03 PROJECTIVE GEOMETRY</summary>
 
-- [CONIC SECTION](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/conic-section.md)
+- [CONIC SECTION ✅](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/conic-section.md)
 - [HOMOGENOUS COORDINATES](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/homogenous-coordinates.md)
 - [PROJECTIVE SPACES](docs/01-mathematical-foundations/04-geometry/03-projective-geometry/projective-spaces.md)
 
@@ -417,7 +417,7 @@
 <summary>02 IMPORTANT MANIFOLDS</summary>
 
 - [KLEIN BOTTLE](docs/01-mathematical-foundations/07-topology/02-important-manifolds/klein-bottle.md)
-- [MÖBIUS STRIP](docs/01-mathematical-foundations/07-topology/02-important-manifolds/möbius-strip.md)
+- [MÖBIUS STRIP ✅](docs/01-mathematical-foundations/07-topology/02-important-manifolds/möbius-strip.md)
 - [SPHERE](docs/01-mathematical-foundations/07-topology/02-important-manifolds/sphere.md)
 - [TORUS](docs/01-mathematical-foundations/07-topology/02-important-manifolds/torus.md)
 
@@ -492,7 +492,7 @@
 - [FISHER INFORMATION](docs/01-mathematical-foundations/09-information-theory/fisher-information.md)
 - [INFORMATION ENTROPY](docs/01-mathematical-foundations/09-information-theory/information-entropy.md)
 - [INFORMATION GAIN](docs/01-mathematical-foundations/09-information-theory/information-gain.md)
-- [KL DIVERGENCE](docs/01-mathematical-foundations/09-information-theory/kl-divergence.md)
+- [KL DIVERGENCE ✅](docs/01-mathematical-foundations/09-information-theory/kl-divergence.md)
 - [MUTUAL INFORMATION](docs/01-mathematical-foundations/09-information-theory/mutual-information.md)
 
 </details>
@@ -518,7 +518,7 @@
 <details>
 <summary>11 ALGEBRA</summary>
 
-- [FIELDS](docs/01-mathematical-foundations/11-algebra/fields.md)
+- [FIELDS ✅](docs/01-mathematical-foundations/11-algebra/fields.md)
 - [GROUPS](docs/01-mathematical-foundations/11-algebra/groups.md)
 - [HOMOMORPHISMS](docs/01-mathematical-foundations/11-algebra/homomorphisms.md)
 - [RINGS](docs/01-mathematical-foundations/11-algebra/rings.md)
