@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **99/574**
+✅  Articles completed: **124/577**
 
 ---
 
@@ -46,11 +46,9 @@
 
 - [CONTINUITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/continuity.md)
 - [CONVEXITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
-- [INTEGRAL](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
-- [LAPLACIAN](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
-- [LIMITS](docs/01-mathematical-foundations/02-analysis/01-foundations/limits.md)
-- [MAPS](docs/01-mathematical-foundations/02-analysis/01-foundations/maps.md)
-- [SET THEORY](docs/01-mathematical-foundations/02-analysis/01-foundations/set-theory.md)
+- [INTEGRAL ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
+- [LAPLACIAN ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
+- [SET THEORY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/set-theory.md)
 
 </details>
 
@@ -58,7 +56,7 @@
 <summary>02 SEQUENCES AND SERIES</summary>
 
 - [CAUCHY SEQUENCE ✅](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/cauchy-sequence.md)
-- [SEQUENCES AND SERIES](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/sequences-and-series.md)
+- [SEQUENCES AND SERIES ✅](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/sequences-and-series.md)
 - [TAYLOR SERIES ✅](docs/01-mathematical-foundations/02-analysis/02-sequences-and-series/taylor-series.md)
 
 </details>
@@ -95,17 +93,18 @@
 <details>
 <summary>06 DIFFERENTIAL EQUATIONS</summary>
 
-- [NUMERICAL METHODS FOR ODS](docs/01-mathematical-foundations/02-analysis/06-differential-equations/numerical-methods-for-ods.md)
-- [ODES](docs/01-mathematical-foundations/02-analysis/06-differential-equations/odes.md)
-- [PDES](docs/01-mathematical-foundations/02-analysis/06-differential-equations/pdes.md)
+- [NUMERICAL METHODS FOR ODS ✅](docs/01-mathematical-foundations/02-analysis/06-differential-equations/numerical-methods-for-ods.md)
+- [ODES ✅](docs/01-mathematical-foundations/02-analysis/06-differential-equations/odes.md)
+- [PDES ✅](docs/01-mathematical-foundations/02-analysis/06-differential-equations/pdes.md)
+- [SEPARATION OF VARIABLES ✅](docs/01-mathematical-foundations/02-analysis/06-differential-equations/separation-of-variables.md)
 
 </details>
 
 <details>
 <summary>07 DYNAMICAL SYSTEMS</summary>
 
-- [CHAOS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/chaos.md)
-- [FRACTALS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/fractals.md)
+- [CHAOS ✅](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/chaos.md)
+- [FRACTALS ✅](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/fractals.md)
 
 </details>
 
@@ -130,7 +129,7 @@
 <summary>03 FUNCTIONAL ANALYSIS</summary>
 
 - [BANACH SPACES ✅](docs/01-mathematical-foundations/03-functional-analysis/banach-spaces.md)
-- [HILBERT SPACES](docs/01-mathematical-foundations/03-functional-analysis/hilbert-spaces.md)
+- [HILBERT SPACES ✅](docs/01-mathematical-foundations/03-functional-analysis/hilbert-spaces.md)
 - [ORTHONORMAL BASES](docs/01-mathematical-foundations/03-functional-analysis/orthonormal-bases.md)
 
 </details>
@@ -146,9 +145,9 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [DUALITY](docs/01-mathematical-foundations/03-optimization/01-foundations/duality.md)
+- [DUALITY ✅](docs/01-mathematical-foundations/03-optimization/01-foundations/duality.md)
 - [FOUNDATIONS](docs/01-mathematical-foundations/03-optimization/01-foundations/foundations.md)
-- [KKT CONDITIONS](docs/01-mathematical-foundations/03-optimization/01-foundations/kkt-conditions.md)
+- [INTERIOR POINT METHODS ✅](docs/01-mathematical-foundations/03-optimization/01-foundations/interior-point-methods.md)
 
 </details>
 
@@ -193,7 +192,15 @@
 
 - [BARRIER METHODS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/barrier-methods.md)
 - [CONSTRAINTS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/constraints.md)
+- [KKT CONDITIONS ✅](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/kkt-conditions.md)
+- [LAGRAGIAN ✅](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/lagragian.md)
 - [PENALTY METHODS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/penalty-methods.md)
+
+</details>
+
+<details>
+<summary>07 LINEAR OPTIMIZATION</summary>
+
 
 </details>
 
@@ -219,7 +226,7 @@
 <details>
 <summary>02 DIFFERENTIAL GEOMETRY</summary>
 
-- [CURVES](docs/01-mathematical-foundations/04-geometry/02-differential-geometry/curves.md)
+- [CURVES ✅](docs/01-mathematical-foundations/04-geometry/02-differential-geometry/curves.md)
 
 </details>
 
@@ -342,8 +349,10 @@
 <details>
 <summary>02 ESTIMATION</summary>
 
-- [BIAS](docs/01-mathematical-foundations/06-statistics/02-estimation/bias.md)
-- [ESTIMATORS](docs/01-mathematical-foundations/06-statistics/02-estimation/estimators.md)
+- [BIAS ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/bias.md)
+- [CONSISTENCY ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/consistency.md)
+- [EFFICIENCY ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/efficiency.md)
+- [ESTIMATORS ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/estimators.md)
 - [EXPECTATION MAXIMIZATION ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/expectation-maximization.md)
 - [MAXIMUM LIKELIHOOD ESTIMATION](docs/01-mathematical-foundations/06-statistics/02-estimation/maximum-likelihood-estimation.md)
 - [METHOD OF MOMENTS](docs/01-mathematical-foundations/06-statistics/02-estimation/method-of-moments.md)
@@ -383,9 +392,9 @@
 <details>
 <summary>06 COMPUTATIONAL STATISTICS</summary>
 
-- [BOOTSTRAP](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/bootstrap.md)
-- [MARKOV CHAIN MONTE CARLO](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/markov-chain-monte-carlo.md)
-- [MONTE CARLO METHODS](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/monte-carlo-methods.md)
+- [BOOTSTRAP ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/bootstrap.md)
+- [MARKOV CHAIN MONTE CARLO ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/markov-chain-monte-carlo.md)
+- [MONTE CARLO SIMULATIONS ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/monte-carlo-simulations.md)
 
 </details>
 
@@ -516,7 +525,7 @@
 <details>
 <summary>10 NUMERICS</summary>
 
-- [NUMERICAL STABILITY](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
+- [NUMERICAL STABILITY ✅](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
 - [QR DECOMPOSITION ✅](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
 
 </details>
@@ -587,7 +596,7 @@
 <details>
 <summary>04 MODEL COMPLEXITY</summary>
 
-- [BIAS VARIANCE TRADEOFF](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/bias-variance-tradeoff.md)
+- [BIAS VARIANCE TRADEOFF ✅](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/bias-variance-tradeoff.md)
 - [CURSE OF DIMENSIONALITY](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/curse-of-dimensionality.md)
 - [KERNEL METHODS ✅](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/kernel-methods.md)
 - [REGULARIZATION ✅](docs/02-ml-models-theory/01-ml-foundations/04-model-complexity/regularization.md)
