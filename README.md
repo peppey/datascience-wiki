@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **64/561**
+✅  Articles completed: **70/564**
 
 ---
 
@@ -106,6 +106,15 @@
 
 - [CHAOS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/chaos.md)
 - [FRACTALS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/fractals.md)
+
+</details>
+
+<details>
+<summary>08 WAVELET ANALYSIS</summary>
+
+- [CONTINUOUS WAVELET TRANSFORM ✅](docs/01-mathematical-foundations/02-analysis/08-wavelet-analysis/continuous-wavelet-transform.md)
+- [DISCRETE WAVELET TRANSFORM ✅](docs/01-mathematical-foundations/02-analysis/08-wavelet-analysis/discrete-wavelet-transform.md)
+- [WAVELET DECOMPOSITION](docs/01-mathematical-foundations/02-analysis/08-wavelet-analysis/wavelet-decomposition.md)
 
 </details>
 
@@ -324,7 +333,7 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [CONFIDENCE INTERVALS](docs/01-mathematical-foundations/06-statistics/01-foundations/confidence-intervals.md)
+- [CONFIDENCE INTERVALS ✅](docs/01-mathematical-foundations/06-statistics/01-foundations/confidence-intervals.md)
 - [METHOD OF LEAST SQUARES ✅](docs/01-mathematical-foundations/06-statistics/01-foundations/method-of-least-squares.md)
 - [STATISTICAL POWER](docs/01-mathematical-foundations/06-statistics/01-foundations/statistical-power.md)
 
@@ -600,176 +609,176 @@
 <li>
 
 <details>
-<summary>02 ML TASKS</summary>
+<summary>02 ML TASKS AND APPROACHES</summary>
 
 <details>
 <summary>01 ANOMALY DETECTION</summary>
 
-- [SUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks/01-anomaly-detection/supervised-anomaly-detection.md)
-- [UNSUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks/01-anomaly-detection/unsupervised-anomaly-detection.md)
+- [LOG ANALYSIS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/log-analysis.md)
+- [SUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/supervised-anomaly-detection.md)
+- [UNSUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/unsupervised-anomaly-detection.md)
 
 </details>
 
 <details>
 <summary>02 CLASSIFICATION</summary>
 
-- [BINARY CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/binary-classification.md)
-- [MULTICLASS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/multiclass-classification.md)
-- [MULTILABEL CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/multilabel-classification.md)
-- [TS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/ts-classification.md)
+- [BINARY CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/02-classification/binary-classification.md)
+- [MULTICLASS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/02-classification/multiclass-classification.md)
+- [MULTILABEL CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/02-classification/multilabel-classification.md)
+- [TS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/02-classification/ts-classification.md)
 
 </details>
 
 <details>
 <summary>03 CLUSTERING</summary>
 
-- [CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/clustering.md)
-- [DENSITY BASED CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/density-based-clustering.md)
-- [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/hierarchical-clustering.md)
+- [CLUSTERING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/03-clustering/clustering.md)
+- [DENSITY BASED CLUSTERING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/03-clustering/density-based-clustering.md)
+- [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/03-clustering/hierarchical-clustering.md)
 
 </details>
 
 <details>
 <summary>04 COMPUTER VISION TASKS</summary>
 
-- [COMPUTER VISION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/computer-vision.md)
-- [IMAGE CAPTIONING](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-captioning.md)
-- [IMAGE CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-classification.md)
-- [IMAGE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-retrieval.md)
-- [INSTANCE SEGMENTATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/instance-segmentation.md)
-- [OBJECT DETECTION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/object-detection.md)
-- [SEGMENTATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/segmentation.md)
+- [COMPUTER VISION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/computer-vision.md)
+- [IMAGE CAPTIONING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/image-captioning.md)
+- [IMAGE CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/image-classification.md)
+- [IMAGE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/image-retrieval.md)
+- [INSTANCE SEGMENTATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/instance-segmentation.md)
+- [OBJECT DETECTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/04-computer-vision-tasks/object-detection.md)
 
 </details>
 
 <details>
 <summary>05 DIMENSIONALITY REDUCTION</summary>
 
-- [DIMENSIONALITY REDUCTION](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/dimensionality-reduction.md)
-- [FEATURE EXTRACTION](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/feature-extraction.md)
-- [MANIFOLD LEARNING](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/manifold-learning.md)
+- [DIMENSIONALITY REDUCTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/05-dimensionality-reduction/dimensionality-reduction.md)
+- [FEATURE EXTRACTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/05-dimensionality-reduction/feature-extraction.md)
+- [MANIFOLD LEARNING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/05-dimensionality-reduction/manifold-learning.md)
 
 </details>
 
 <details>
 <summary>06 FORECASTING</summary>
 
-- [FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/forecasting.md)
-- [MULTI STEP FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/multi-step-forecasting.md)
-- [PRECIPITATION FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/precipitation-forecasting.md)
-- [PROBABILISTIC FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/probabilistic-forecasting.md)
+- [FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/forecasting.md)
+- [MULTI STEP FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/multi-step-forecasting.md)
+- [PRECIPITATION FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/precipitation-forecasting.md)
+- [PROBABILISTIC FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/probabilistic-forecasting.md)
 
 </details>
 
 <details>
 <summary>07 GENERATIVE MODELING</summary>
 
-- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/audio-generation.md)
-- [DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/data-generation.md)
-- [GENERATIVE MODELING](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/generative-modeling.md)
-- [IMAGE GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/image-generation.md)
-- [SYNTHETIC DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/synthetic-data-generation.md)
-- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/text-generation.md)
-- [VIDEO GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/video-generation.md)
+- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/audio-generation.md)
+- [DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/data-generation.md)
+- [GENERATIVE MODELING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/generative-modeling.md)
+- [IMAGE GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/image-generation.md)
+- [SYNTHETIC DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/synthetic-data-generation.md)
+- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/text-generation.md)
+- [VIDEO GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/07-generative-modeling/video-generation.md)
 
 </details>
 
 <details>
 <summary>08 NATURAL LANGUAGE PROCESSING TASKS</summary>
 
-- [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/anonymization.md)
-- [INFORMATION EXTRACTION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/information-extraction.md)
-- [MACHINE TRANSLATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/machine-translation.md)
-- [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/named-entity-recognition.md)
-- [QUESTION ANSWERING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/question-answering.md)
-- [SENTIMENT ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/sentiment-analysis.md)
-- [SUMMARIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/summarization.md)
-- [TEXT CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-classification.md)
-- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-generation.md)
-- [TEXT SIMILARITY](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-similarity.md)
-- [TF IDF](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/tf-idf.md)
+- [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/anonymization.md)
+- [INFORMATION EXTRACTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/information-extraction.md)
+- [MACHINE TRANSLATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/machine-translation.md)
+- [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/named-entity-recognition.md)
+- [QUESTION ANSWERING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/question-answering.md)
+- [SENTIMENT ANALYSIS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/sentiment-analysis.md)
+- [SUMMARIZATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/summarization.md)
+- [TEXT CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/text-classification.md)
+- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/text-generation.md)
+- [TEXT SIMILARITY](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/text-similarity.md)
+- [TF IDF](docs/02-ml-models-theory/02-ml-tasks-and-approaches/08-natural-language-processing-tasks/tf-idf.md)
 
 </details>
 
 <details>
 <summary>09 PATTERN MINING</summary>
 
-- [ASSOCIATION RULE MINING](docs/02-ml-models-theory/02-ml-tasks/09-pattern-mining/association-rule-mining.md)
-- [FREQUENT ITEMSET MINING](docs/02-ml-models-theory/02-ml-tasks/09-pattern-mining/frequent-itemset-mining.md)
+- [ASSOCIATION RULE MINING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/09-pattern-mining/association-rule-mining.md)
+- [FREQUENT ITEMSET MINING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/09-pattern-mining/frequent-itemset-mining.md)
 
 </details>
 
 <details>
 <summary>10 RANKING</summary>
 
-- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/10-ranking/information-retrieval.md)
-- [LEARNING TO RANK](docs/02-ml-models-theory/02-ml-tasks/10-ranking/learning-to-rank.md)
-- [LISTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/listwise-ranking.md)
-- [PAIRWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/pairwise-ranking.md)
-- [POINTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/pointwise-ranking.md)
-- [RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/ranking.md)
-- [RE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/re-ranking.md)
+- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/information-retrieval.md)
+- [LEARNING TO RANK](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/learning-to-rank.md)
+- [LISTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/listwise-ranking.md)
+- [PAIRWISE RANKING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/pairwise-ranking.md)
+- [POINTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/pointwise-ranking.md)
+- [RANKING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/ranking.md)
+- [RE RANKING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/10-ranking/re-ranking.md)
 
 </details>
 
 <details>
 <summary>11 RECOMMENDATION</summary>
 
-- [COLD START PROBLEM](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/cold-start-problem.md)
-- [COLLABORATIVE FILTERING](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/collaborative-filtering.md)
-- [CONTENT BASED RECOMMENDATION](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/content-based-recommendation.md)
-- [EXPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/explicit-feedback.md)
-- [IMPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/implicit-feedback.md)
-- [RECOMMENDATION SYSTEMS](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/recommendation-systems.md)
+- [COLD START PROBLEM](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/cold-start-problem.md)
+- [COLLABORATIVE FILTERING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/collaborative-filtering.md)
+- [CONTENT BASED RECOMMENDATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/content-based-recommendation.md)
+- [EXPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/explicit-feedback.md)
+- [IMPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/implicit-feedback.md)
+- [RECOMMENDATION SYSTEMS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/11-recommendation/recommendation-systems.md)
 
 </details>
 
 <details>
 <summary>12 REGRESSION</summary>
 
-- [PROBABILISTIC REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/probabilistic-regression.md)
-- [QUANTILE REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/quantile-regression.md)
-- [REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/regression.md)
+- [PROBABILISTIC REGRESSION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/12-regression/probabilistic-regression.md)
+- [QUANTILE REGRESSION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/12-regression/quantile-regression.md)
+- [REGRESSION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/12-regression/regression.md)
 
 </details>
 
 <details>
 <summary>13 TOPIC MODELLING</summary>
 
-- [LATENT SEMANTIC ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/latent-semantic-analysis.md)
-- [NEURAL TOPIC MODELS](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/neural-topic-models.md)
-- [NMF TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/nmf-topic-modelling.md)
-- [TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/topic-modelling.md)
+- [LATENT SEMANTIC ANALYSIS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/13-topic-modelling/latent-semantic-analysis.md)
+- [NEURAL TOPIC MODELS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/13-topic-modelling/neural-topic-models.md)
+- [NMF TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/13-topic-modelling/nmf-topic-modelling.md)
+- [TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/13-topic-modelling/topic-modelling.md)
 
 </details>
 
 <details>
 <summary>14 TIME SERIES TASKS</summary>
 
-- [SEQUENCE PREDICTION](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/sequence-prediction.md)
-- [TIME SERIES ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/time-series-analysis.md)
-- [TIME SERIES CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/time-series-classification.md)
+- [SEQUENCE PREDICTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/14-time-series-tasks/sequence-prediction.md)
+- [TIME SERIES ANALYSIS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/14-time-series-tasks/time-series-analysis.md)
+- [TIME SERIES CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/14-time-series-tasks/time-series-classification.md)
 
 </details>
 
 <details>
 <summary>15 INFORMATION RETRIEVAL</summary>
 
-- [DENSE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/dense-retrieval.md)
-- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/information-retrieval.md)
-- [SEMANTIC SEARCH](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/semantic-search.md)
-- [SIMILARITY SEARCH](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/similarity-search.md)
+- [DENSE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks-and-approaches/15-information-retrieval/dense-retrieval.md)
+- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks-and-approaches/15-information-retrieval/information-retrieval.md)
+- [SEMANTIC SEARCH](docs/02-ml-models-theory/02-ml-tasks-and-approaches/15-information-retrieval/semantic-search.md)
+- [SIMILARITY SEARCH](docs/02-ml-models-theory/02-ml-tasks-and-approaches/15-information-retrieval/similarity-search.md)
 
 </details>
 
 <details>
 <summary>16 AUDIO PROCESSING</summary>
 
-- [AUDIO CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/audio-classification.md)
-- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/audio-generation.md)
-- [SOUND EVENT DETECTION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/sound-event-detection.md)
-- [SOURCE SEPARATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/source-separation.md)
-- [SPEECH RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/speech-recognition.md)
+- [AUDIO CLASSIFICATION ✅](docs/02-ml-models-theory/02-ml-tasks-and-approaches/16-audio-processing/audio-classification.md)
+- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/16-audio-processing/audio-generation.md)
+- [SOUND EVENT DETECTION ✅](docs/02-ml-models-theory/02-ml-tasks-and-approaches/16-audio-processing/sound-event-detection.md)
+- [SOURCE SEPARATION ✅](docs/02-ml-models-theory/02-ml-tasks-and-approaches/16-audio-processing/source-separation.md)
+- [SPEECH RECOGNITION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/16-audio-processing/speech-recognition.md)
 
 </details>
 
