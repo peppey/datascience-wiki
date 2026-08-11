@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **92/566**
+✅  Articles completed: **99/574**
 
 ---
 
@@ -555,10 +555,10 @@
 <details>
 <summary>01 INTRODUCTION</summary>
 
-- [CLASSIFICATION OF ML MODELS](docs/02-ml-models-theory/01-ml-foundations/01-introduction/classification-of-ml-models.md)
+- [CLASSIFICATION OF ML MODELS ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/classification-of-ml-models.md)
 - [NO FREE LUNCH THEOREM ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/no-free-lunch-theorem.md)
 - [QUESTIONS TO CHECK ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/questions-to-check.md)
-- [WHAT IS MACHINE LEARNING](docs/02-ml-models-theory/01-ml-foundations/01-introduction/what-is-machine-learning.md)
+- [WHAT IS MACHINE LEARNING ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/what-is-machine-learning.md)
 
 </details>
 
@@ -901,6 +901,10 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
+- [ACTIVATION FUNCTIONS ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/activation-functions.md)
+- [BACKPROPAGATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/backpropagation.md)
+- [EXEMPLARY STEP CALCULATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/exemplary-step-calculation.md)
+- [LOSS FUNCTION ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/loss-function.md)
 - [NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/neural-networks.md)
 - [UNIVERSAL APPROXIMATION THEOREM](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/universal-approximation-theorem.md)
 
@@ -911,10 +915,10 @@
 
 - [ACTIVATION FUNCTIONS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/activation-functions.md)
 - [AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/autoencoders.md)
-- [CNN ARCHITECTURES](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/cnn-architectures.md)
+- [CNN ARCHITECTURES ✅](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/cnn-architectures.md)
 - [GRAPH NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/graph-neural-networks.md)
 - [NEURAL NETWORK BASICS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/neural-network-basics.md)
-- [RNN LSTM](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/rnn-lstm.md)
+- [RNN LSTM ✅](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/rnn-lstm.md)
 - [SIAMESE ARCHITECTURE](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/siamese-architecture.md)
 - [TRANSFORMERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/transformers.md)
 
@@ -926,7 +930,7 @@
 - [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/autoregressive-models.md)
 - [DIFFUSION MODELS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/diffusion-models.md)
 - [ENERGY BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/energy-based-models.md)
-- [GENERATIVE ADVERSARIAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/generative-adversarial-networks.md)
+- [GENERATIVE ADVERSARIAL NETWORKS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/generative-adversarial-networks.md)
 - [MULTIMODAL GENERATIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/multimodal-generative-models.md)
 - [NORMALIZING FLOWS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/normalizing-flows.md)
 - [SCORE BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/score-based-models.md)
@@ -2097,6 +2101,21 @@
 
 </details>
 
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>15 DIAGRAMS</summary>
+
+- [ARCHITECTURE DIAGRAMS](docs/10-software-engineering/15-diagrams/architecture-diagrams.md)
+- [DATA FLOW DIAGRAMS](docs/10-software-engineering/15-diagrams/data-flow-diagrams.md)
+- [FLOWCHARTS](docs/10-software-engineering/15-diagrams/flowcharts.md)
+- [UML](docs/10-software-engineering/15-diagrams/uml.md)
 
 </details>
 
