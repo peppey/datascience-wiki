@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅ Articles completed: **44/425**
+✅  Articles completed: **44/559**
 
 ---
 
@@ -45,7 +45,7 @@
 <summary>01 FOUNDATIONS</summary>
 
 - [CONTINUITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/continuity.md)
-- [CONVEXITY](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
+- [CONVEXITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
 - [INTEGRAL](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
 - [LAPLACIAN](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
 - [LIMITS](docs/01-mathematical-foundations/02-analysis/01-foundations/limits.md)
@@ -90,6 +90,17 @@
 <details>
 <summary>06 DIFFERENTIAL EQUATIONS</summary>
 
+- [NUMERICAL METHODS FOR ODS](docs/01-mathematical-foundations/02-analysis/06-differential-equations/numerical-methods-for-ods.md)
+- [ODES](docs/01-mathematical-foundations/02-analysis/06-differential-equations/odes.md)
+- [PDES](docs/01-mathematical-foundations/02-analysis/06-differential-equations/pdes.md)
+
+</details>
+
+<details>
+<summary>07 DYNAMICAL SYSTEMS</summary>
+
+- [CHAOS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/chaos.md)
+- [FRACTALS](docs/01-mathematical-foundations/02-analysis/07-dynamical-systems/fractals.md)
 
 </details>
 
@@ -166,6 +177,9 @@
 <details>
 <summary>06 CONSTRAINED OPTIMIZATION</summary>
 
+- [BARRIER METHODS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/barrier-methods.md)
+- [CONSTRAINTS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/constraints.md)
+- [PENALTY METHODS](docs/01-mathematical-foundations/03-optimization/06-constrained-optimization/penalty-methods.md)
 
 </details>
 
@@ -344,6 +358,9 @@
 <details>
 <summary>05 CAUSAL INFERENCE</summary>
 
+- [CAUSAL INFERENCE](docs/01-mathematical-foundations/06-statistics/05-causal-inference/causal-inference.md)
+- [CONFOUNDING](docs/01-mathematical-foundations/06-statistics/05-causal-inference/confounding.md)
+- [DAGS](docs/01-mathematical-foundations/06-statistics/05-causal-inference/dags.md)
 
 </details>
 
@@ -583,55 +600,93 @@
 <details>
 <summary>01 ANOMALY DETECTION</summary>
 
+- [SUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks/01-anomaly-detection/supervised-anomaly-detection.md)
+- [UNSUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks/01-anomaly-detection/unsupervised-anomaly-detection.md)
 
 </details>
 
 <details>
 <summary>02 CLASSIFICATION</summary>
 
+- [BINARY CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/binary-classification.md)
+- [MULTICLASS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/multiclass-classification.md)
+- [MULTILABEL CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/multilabel-classification.md)
+- [TS CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/02-classification/ts-classification.md)
 
 </details>
 
 <details>
 <summary>03 CLUSTERING</summary>
 
+- [CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/clustering.md)
+- [DENSITY BASED CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/density-based-clustering.md)
+- [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/02-ml-tasks/03-clustering/hierarchical-clustering.md)
 
 </details>
 
 <details>
-<summary>04 COMPUTER VISION</summary>
+<summary>04 COMPUTER VISION TASKS</summary>
 
+- [COMPUTER VISION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/computer-vision.md)
+- [IMAGE CAPTIONING](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-captioning.md)
+- [IMAGE CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-classification.md)
+- [IMAGE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/image-retrieval.md)
+- [INSTANCE SEGMENTATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/instance-segmentation.md)
+- [OBJECT DETECTION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/object-detection.md)
+- [SEGMENTATION](docs/02-ml-models-theory/02-ml-tasks/04-computer-vision-tasks/segmentation.md)
 
 </details>
 
 <details>
 <summary>05 DIMENSIONALITY REDUCTION</summary>
 
+- [DIMENSIONALITY REDUCTION](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/dimensionality-reduction.md)
+- [FEATURE EXTRACTION](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/feature-extraction.md)
+- [MANIFOLD LEARNING](docs/02-ml-models-theory/02-ml-tasks/05-dimensionality-reduction/manifold-learning.md)
 
 </details>
 
 <details>
 <summary>06 FORECASTING</summary>
 
+- [FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/forecasting.md)
+- [MULTI STEP FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/multi-step-forecasting.md)
+- [PRECIPITATION FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/precipitation-forecasting.md)
+- [PROBABILISTIC FORECASTING](docs/02-ml-models-theory/02-ml-tasks/06-forecasting/probabilistic-forecasting.md)
 
 </details>
 
 <details>
 <summary>07 GENERATIVE MODELING</summary>
 
+- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/audio-generation.md)
+- [DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/data-generation.md)
+- [GENERATIVE MODELING](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/generative-modeling.md)
+- [IMAGE GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/image-generation.md)
+- [SYNTHETIC DATA GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/synthetic-data-generation.md)
+- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/text-generation.md)
+- [VIDEO GENERATION](docs/02-ml-models-theory/02-ml-tasks/07-generative-modeling/video-generation.md)
 
 </details>
 
 <details>
-<summary>08 NATURAL LANGUAGE PROCESSING</summary>
+<summary>08 NATURAL LANGUAGE PROCESSING TASKS</summary>
 
-- [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/anonymization.md)
-- [BAG OF WORDS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/bag-of-words.md)
-- [COUNT VECTORIZER](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/count-vectorizer.md)
-- [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/named-entity-recognition.md)
-- [REGULAR EXPRESSIONS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/regular-expressions.md)
-- [STOPWORDS AND STEMMING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/stopwords-and-stemming.md)
-- [TF IDF](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing/tf-idf.md)
+- [ANONYMIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/anonymization.md)
+- [BAG OF WORDS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/bag-of-words.md)
+- [COUNT VECTORIZER](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/count-vectorizer.md)
+- [INFORMATION EXTRACTION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/information-extraction.md)
+- [MACHINE TRANSLATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/machine-translation.md)
+- [NAMED ENTITY RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/named-entity-recognition.md)
+- [QUESTION ANSWERING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/question-answering.md)
+- [REGULAR EXPRESSIONS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/regular-expressions.md)
+- [SENTIMENT ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/sentiment-analysis.md)
+- [STOPWORDS AND STEMMING](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/stopwords-and-stemming.md)
+- [SUMMARIZATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/summarization.md)
+- [TEXT CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-classification.md)
+- [TEXT GENERATION](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-generation.md)
+- [TEXT SIMILARITY](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/text-similarity.md)
+- [TF IDF](docs/02-ml-models-theory/02-ml-tasks/08-natural-language-processing-tasks/tf-idf.md)
 
 </details>
 
@@ -646,48 +701,74 @@
 <details>
 <summary>10 RANKING</summary>
 
+- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/10-ranking/information-retrieval.md)
+- [LEARNING TO RANK](docs/02-ml-models-theory/02-ml-tasks/10-ranking/learning-to-rank.md)
+- [LISTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/listwise-ranking.md)
+- [PAIRWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/pairwise-ranking.md)
+- [POINTWISE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/pointwise-ranking.md)
+- [RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/ranking.md)
+- [RE RANKING](docs/02-ml-models-theory/02-ml-tasks/10-ranking/re-ranking.md)
 
 </details>
 
 <details>
-<summary>11 RECOMMENDATION SYSTEMS</summary>
+<summary>11 RECOMMENDATION</summary>
 
+- [COLD START PROBLEM](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/cold-start-problem.md)
+- [COLLABORATIVE FILTERING](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/collaborative-filtering.md)
+- [CONTENT BASED RECOMMENDATION](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/content-based-recommendation.md)
+- [EXPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/explicit-feedback.md)
+- [IMPLICIT FEEDBACK](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/implicit-feedback.md)
+- [RECOMMENDATION SYSTEMS](docs/02-ml-models-theory/02-ml-tasks/11-recommendation/recommendation-systems.md)
 
 </details>
 
 <details>
 <summary>12 REGRESSION</summary>
 
+- [PROBABILISTIC REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/probabilistic-regression.md)
+- [QUANTILE REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/quantile-regression.md)
+- [REGRESSION](docs/02-ml-models-theory/02-ml-tasks/12-regression/regression.md)
 
 </details>
 
 <details>
 <summary>13 TOPIC MODELLING</summary>
 
+- [LATENT SEMANTIC ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/latent-semantic-analysis.md)
+- [NEURAL TOPIC MODELS](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/neural-topic-models.md)
+- [NMF TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/nmf-topic-modelling.md)
+- [TOPIC MODELLING](docs/02-ml-models-theory/02-ml-tasks/13-topic-modelling/topic-modelling.md)
 
 </details>
 
+<details>
+<summary>14 TIME SERIES TASKS</summary>
+
+- [SEQUENCE PREDICTION](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/sequence-prediction.md)
+- [TIME SERIES ANALYSIS](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/time-series-analysis.md)
+- [TIME SERIES CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/14-time-series-tasks/time-series-classification.md)
 
 </details>
 
-
-</li>
-
-<li>
-
 <details>
-<summary>02 TRADITIONAL ML MODELS</summary>
+<summary>15 INFORMATION RETRIEVAL</summary>
 
-<details>
-<summary>02 UNSUPERVISED</summary>
-
-<details>
-<summary>CLUSTERING</summary>
-
-- [PCA ✅](docs/02-ml-models-theory/02-traditional-ml-models/02-unsupervised/clustering/pca.md)
+- [DENSE RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/dense-retrieval.md)
+- [INFORMATION RETRIEVAL](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/information-retrieval.md)
+- [SEMANTIC SEARCH](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/semantic-search.md)
+- [SIMILARITY SEARCH](docs/02-ml-models-theory/02-ml-tasks/15-information-retrieval/similarity-search.md)
 
 </details>
 
+<details>
+<summary>16 AUDIO PROCESSING</summary>
+
+- [AUDIO CLASSIFICATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/audio-classification.md)
+- [AUDIO GENERATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/audio-generation.md)
+- [SOUND EVENT DETECTION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/sound-event-detection.md)
+- [SOURCE SEPARATION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/source-separation.md)
+- [SPEECH RECOGNITION](docs/02-ml-models-theory/02-ml-tasks/16-audio-processing/speech-recognition.md)
 
 </details>
 
@@ -751,6 +832,7 @@
 - [DENSITY ESTIMATION](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/density-estimation.md)
 - [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/hierarchical-clustering.md)
 - [K MEANS](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/k-means.md)
+- [PCA](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/pca.md)
 
 </details>
 
@@ -1017,6 +1099,10 @@
 <details>
 <summary>01 DATA PIPELINES</summary>
 
+- [ARGO WORKFLOWS](docs/04-data-engineering/01-data-pipelines/argo-workflows.md)
+- [BATCH PROCESSING](docs/04-data-engineering/01-data-pipelines/batch-processing.md)
+- [ELT](docs/04-data-engineering/01-data-pipelines/elt.md)
+- [ETL](docs/04-data-engineering/01-data-pipelines/etl.md)
 
 </details>
 
@@ -1031,12 +1117,16 @@
 <details>
 <summary>01 DATA CLEANING</summary>
 
+- [COMMONG CLEANING STEPS](docs/04-data-engineering/02-data-preprocessing/01-data-cleaning/commong-cleaning-steps.md)
 
 </details>
 
 <details>
 <summary>02 DATA TRANSFORMATION</summary>
 
+- [ENCODING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/encoding.md)
+- [LOG TRANSFORMATION](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/log-transformation.md)
+- [SCALING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/scaling.md)
 
 </details>
 
@@ -1051,12 +1141,16 @@
 <details>
 <summary>04 OUTLIER DETECTION</summary>
 
+- [ROBUST METHODS](docs/04-data-engineering/02-data-preprocessing/04-outlier-detection/robust-methods.md)
+- [STATISTICAL OUTLIER DETECTION](docs/04-data-engineering/02-data-preprocessing/04-outlier-detection/statistical-outlier-detection.md)
 
 </details>
 
 <details>
 <summary>05 NORMALIZATION</summary>
 
+- [MIN MAX SCALING](docs/04-data-engineering/02-data-preprocessing/05-normalization/min-max-scaling.md)
+- [STANDARDIZATION](docs/04-data-engineering/02-data-preprocessing/05-normalization/standardization.md)
 
 </details>
 
@@ -1071,6 +1165,8 @@
 <details>
 <summary>03 DATA VERSIONING</summary>
 
+- [DATA LINEAGE](docs/04-data-engineering/03-data-versioning/data-lineage.md)
+- [DATASET VERSIONING](docs/04-data-engineering/03-data-versioning/dataset-versioning.md)
 
 </details>
 
@@ -1085,12 +1181,15 @@
 <details>
 <summary>01 SPARK</summary>
 
+- [MAP REDUCE](docs/04-data-engineering/04-distributed-processing/01-spark/map-reduce.md)
+- [SPARK FOUNDATIONS](docs/04-data-engineering/04-distributed-processing/01-spark/spark-foundations.md)
 
 </details>
 
 <details>
 <summary>02 HADOOP</summary>
 
+- [HADOOP FOUNDATIONS](docs/04-data-engineering/04-distributed-processing/02-hadoop/hadoop-foundations.md)
 
 </details>
 
@@ -1146,6 +1245,8 @@
 <details>
 <summary>01 LOSS FUNCTIONS</summary>
 
+- [CONSTRASTIVE LOSS](docs/05-training-and-optimizing-ml-models/02-deep-learning/01-loss-functions/constrastive-loss.md)
+- [LOSS FUNCTIONS](docs/05-training-and-optimizing-ml-models/02-deep-learning/01-loss-functions/loss-functions.md)
 
 </details>
 
@@ -1171,6 +1272,8 @@
 <details>
 <summary>04 DATA STRATEGIES</summary>
 
+- [CLASS IMBALANCE](docs/05-training-and-optimizing-ml-models/02-deep-learning/04-data-strategies/class-imbalance.md)
+- [SAMPLING](docs/05-training-and-optimizing-ml-models/02-deep-learning/04-data-strategies/sampling.md)
 
 </details>
 
@@ -1199,18 +1302,26 @@
 <details>
 <summary>01 FINETUNING</summary>
 
+- [INSTRUCTION TUNING](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/instruction-tuning.md)
+- [LORA](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/lora.md)
+- [PEFT](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/peft.md)
 
 </details>
 
 <details>
 <summary>02 PROMT ENGINEERING</summary>
 
+- [PROMPT ENGINEERING](docs/05-training-and-optimizing-ml-models/03-llms/02-promt-engineering/prompt-engineering.md)
+- [STRUCTURED OUTPUT](docs/05-training-and-optimizing-ml-models/03-llms/02-promt-engineering/structured-output.md)
 
 </details>
 
 <details>
 <summary>03 TOOLS</summary>
 
+- [AGENTS](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/agents.md)
+- [FUNCTION CALLING](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/function-calling.md)
+- [TOOL USE](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/tool-use.md)
 
 </details>
 
@@ -1309,6 +1420,8 @@
 <details>
 <summary>06 CALIBRATION</summary>
 
+- [CALIBRATION](docs/06-evaluation/06-calibration/calibration.md)
+- [PLATT SCALING](docs/06-evaluation/06-calibration/platt-scaling.md)
 
 </details>
 
@@ -1372,6 +1485,7 @@
 <details>
 <summary>02 NOSQL DATABSES</summary>
 
+- [MONGODB](docs/07-databases/02-nosql-databses/mongodb.md)
 
 </details>
 
@@ -1396,6 +1510,8 @@
 <details>
 <summary>05 DATA WAREHOUSES</summary>
 
+- [DATA WAREHOUSES](docs/07-databases/05-data-warehouses/data-warehouses.md)
+- [SNOWFLAKE](docs/07-databases/05-data-warehouses/snowflake.md)
 
 </details>
 
@@ -1407,6 +1523,7 @@
 <details>
 <summary>06 DATALAKES</summary>
 
+- [DATALAKES](docs/07-databases/06-datalakes/datalakes.md)
 
 </details>
 
@@ -1649,18 +1766,25 @@
 <details>
 <summary>01 UNIT TESTS</summary>
 
+- [PYTEST](docs/10-software-engineering/02-testing/01-unit-tests/pytest.md)
+- [TEST FIXTURES](docs/10-software-engineering/02-testing/01-unit-tests/test-fixtures.md)
+- [UNIT TESTING](docs/10-software-engineering/02-testing/01-unit-tests/unit-testing.md)
 
 </details>
 
 <details>
 <summary>02 INTEGRATION TESTS</summary>
 
+- [DB INTEGRATION TESTS](docs/10-software-engineering/02-testing/02-integration-tests/db-integration-tests.md)
+- [INTEGRATION TESTING](docs/10-software-engineering/02-testing/02-integration-tests/integration-testing.md)
+- [TEST CONTAINERS](docs/10-software-engineering/02-testing/02-integration-tests/test-containers.md)
 
 </details>
 
 <details>
 <summary>03 E2E TESTS</summary>
 
+- [E2E TESTING](docs/10-software-engineering/02-testing/03-e2e-tests/e2e-testing.md)
 
 </details>
 
@@ -1683,6 +1807,8 @@
 <details>
 <summary>03 DOCUMENTATION</summary>
 
+- [DOCSTRINGS](docs/10-software-engineering/03-documentation/docstrings.md)
+- [DOCUMENTATION](docs/10-software-engineering/03-documentation/documentation.md)
 
 </details>
 
@@ -1909,6 +2035,8 @@
 <details>
 <summary>02 FUNCTIONAL PROGRAMMING</summary>
 
+- [FUNCTIONAL PROGRAMMING](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/functional-programming.md)
+- [IMMUTABILITY](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/immutability.md)
 
 </details>
 
@@ -1935,12 +2063,18 @@
 <details>
 <summary>02 SORTING</summary>
 
+- [BUBBLE SORT](docs/10-software-engineering/14-algorithms/02-sorting/bubble-sort.md)
+- [MERGE SORT](docs/10-software-engineering/14-algorithms/02-sorting/merge-sort.md)
+- [QUICK SORT](docs/10-software-engineering/14-algorithms/02-sorting/quick-sort.md)
 
 </details>
 
 <details>
 <summary>03 SEARCHING</summary>
 
+- [BINARY SEARCH](docs/10-software-engineering/14-algorithms/03-searching/binary-search.md)
+- [HASH BASED SEARCH](docs/10-software-engineering/14-algorithms/03-searching/hash-based-search.md)
+- [LINEAR SEARCH](docs/10-software-engineering/14-algorithms/03-searching/linear-search.md)
 
 </details>
 
@@ -1987,6 +2121,7 @@
 <details>
 <summary>03 SIGNATURES</summary>
 
+- [PERSISTENT LANDSCAPES](docs/11-tda/01-perstistent-homology/03-signatures/persistent-landscapes.md)
 
 </details>
 
