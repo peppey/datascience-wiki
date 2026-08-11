@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **70/564**
+✅  Articles completed: **92/566**
 
 ---
 
@@ -267,38 +267,47 @@
 <details>
 <summary>01 COMMON DISTRIBUTIONS</summary>
 
-- [BERNOULLI DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/bernoulli-distribution.md)
+- [BERNOULLI DISTRIBUTION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/bernoulli-distribution.md)
+- [BETA DISTRIBUTION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/beta-distribution.md)
 - [BINOMIAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/binomial-distribution.md)
-- [EXPONENTIAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/exponential-distribution.md)
-- [NORMAL DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/normal-distribution.md)
-- [POISSON DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/poisson-distribution.md)
+- [EXPONENTIAL DISTRIBUTION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/exponential-distribution.md)
+- [NORMAL DISTRIBUTION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/normal-distribution.md)
+- [POISSON DISTRIBUTION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/poisson-distribution.md)
 - [STUDENT T DISTRIBUTION](docs/01-mathematical-foundations/05-probability-theory/02-distributions/01-common-distributions/student-t-distribution.md)
 
 </details>
 
-- [CONDITIONAL DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/conditional-distributions.md)
-- [JOINT DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/joint-distributions.md)
-- [MARGINAL DISTRIBUTIONS](docs/01-mathematical-foundations/05-probability-theory/02-distributions/marginal-distributions.md)
-- [TRANSFORMATIONS OF RANDOM VARIABLES](docs/01-mathematical-foundations/05-probability-theory/02-distributions/transformations-of-random-variables.md)
+<details>
+<summary>02 FOUNDATIONS</summary>
+
+- [CONDITIONAL DISTRIBUTIONS ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/conditional-distributions.md)
+- [CONDITIONAL EXPECTATION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/conditional-expectation.md)
+- [CORRELATION ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/correlation.md)
+- [COVARIANCE ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/covariance.md)
+- [JOINT DISTRIBUTIONS ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/joint-distributions.md)
+- [MARGINAL DISTRIBUTIONS ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/marginal-distributions.md)
+- [PDF CDF ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/pdf-cdf.md)
+- [VARIANCE AND SD ✅](docs/01-mathematical-foundations/05-probability-theory/02-distributions/02-foundations/variance-and-sd.md)
+
+</details>
+
 
 </details>
 
 <details>
-<summary>03 EXPECTATION AND MOMENTS</summary>
+<summary>03 INEQUALITIES</summary>
 
-- [CONDITIONAL EXPECTATION](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/conditional-expectation.md)
-- [CORRELATION](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/correlation.md)
-- [COVARIANCE](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/covariance.md)
-- [VARIANCE](docs/01-mathematical-foundations/05-probability-theory/03-expectation-and-moments/variance.md)
+- [CHEBYSHEV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/03-inequalities/chebyshev-inequality.md)
+- [MARKOV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/03-inequalities/markov-inequality.md)
 
 </details>
 
 <details>
 <summary>04 LIMIT THEOREMS</summary>
 
-- [CENTRAL LIMIT THEOREM](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/central-limit-theorem.md)
-- [LAW OF LARGE NUMBERS](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/law-of-large-numbers.md)
-- [STOCHASTIC CONVERGENCE](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/stochastic-convergence.md)
+- [CENTRAL LIMIT THEOREM ✅](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/central-limit-theorem.md)
+- [LAW OF LARGE NUMBERS ✅](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/law-of-large-numbers.md)
+- [STOCHASTIC CONVERGENCE ✅](docs/01-mathematical-foundations/05-probability-theory/04-limit-theorems/stochastic-convergence.md)
 
 </details>
 
@@ -306,16 +315,8 @@
 <summary>05 BAYESIAN PROBABILITY</summary>
 
 - [BAYES THEOREM ✅](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/bayes-theorem.md)
-- [LIKELIHOOD](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/likelihood.md)
-- [PRIOR AND POSTERIOR](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/prior-and-posterior.md)
-
-</details>
-
-<details>
-<summary>06 INEQUALITIES</summary>
-
-- [CHEBYSHEV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/06-inequalities/chebyshev-inequality.md)
-- [MARKOV INEQUALITY](docs/01-mathematical-foundations/05-probability-theory/06-inequalities/markov-inequality.md)
+- [LIKELIHOOD ✅](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/likelihood.md)
+- [PRIOR AND POSTERIOR ✅](docs/01-mathematical-foundations/05-probability-theory/05-bayesian-probability/prior-and-posterior.md)
 
 </details>
 
@@ -335,7 +336,6 @@
 
 - [CONFIDENCE INTERVALS ✅](docs/01-mathematical-foundations/06-statistics/01-foundations/confidence-intervals.md)
 - [METHOD OF LEAST SQUARES ✅](docs/01-mathematical-foundations/06-statistics/01-foundations/method-of-least-squares.md)
-- [STATISTICAL POWER](docs/01-mathematical-foundations/06-statistics/01-foundations/statistical-power.md)
 
 </details>
 
@@ -344,6 +344,7 @@
 
 - [BIAS](docs/01-mathematical-foundations/06-statistics/02-estimation/bias.md)
 - [ESTIMATORS](docs/01-mathematical-foundations/06-statistics/02-estimation/estimators.md)
+- [EXPECTATION MAXIMIZATION ✅](docs/01-mathematical-foundations/06-statistics/02-estimation/expectation-maximization.md)
 - [MAXIMUM LIKELIHOOD ESTIMATION](docs/01-mathematical-foundations/06-statistics/02-estimation/maximum-likelihood-estimation.md)
 - [METHOD OF MOMENTS](docs/01-mathematical-foundations/06-statistics/02-estimation/method-of-moments.md)
 - [POINT ESTIMATION](docs/01-mathematical-foundations/06-statistics/02-estimation/point-estimation.md)
@@ -357,7 +358,8 @@
 - [FOUNDATIONS](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/foundations.md)
 - [HOMOGENEITY TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/homogeneity-test.md)
 - [P VALUES](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/p-values.md)
-- [T TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/t-test.md)
+- [STATISTICAL POWER ✅](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/statistical-power.md)
+- [T TEST ✅](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/t-test.md)
 - [Z TEST](docs/01-mathematical-foundations/06-statistics/03-hypothesis-testing/z-test.md)
 
 </details>
@@ -615,6 +617,7 @@
 <summary>01 ANOMALY DETECTION</summary>
 
 - [LOG ANALYSIS](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/log-analysis.md)
+- [PREDICTIVE MAINTENANCE](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/predictive-maintenance.md)
 - [SUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/supervised-anomaly-detection.md)
 - [UNSUPERVISED ANOMALY DETECTION](docs/02-ml-models-theory/02-ml-tasks-and-approaches/01-anomaly-detection/unsupervised-anomaly-detection.md)
 
@@ -664,7 +667,6 @@
 <summary>06 FORECASTING</summary>
 
 - [FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/forecasting.md)
-- [MULTI STEP FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/multi-step-forecasting.md)
 - [PRECIPITATION FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/precipitation-forecasting.md)
 - [PROBABILISTIC FORECASTING](docs/02-ml-models-theory/02-ml-tasks-and-approaches/06-forecasting/probabilistic-forecasting.md)
 
@@ -861,7 +863,7 @@
 <summary>03 PROBABILISTIC</summary>
 
 - [BAYESIAN NETWORKS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/bayesian-networks.md)
-- [GAUSSIAN MIXTURE MODELS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/gaussian-mixture-models.md)
+- [GAUSSIAN MIXTURE MODELS ✅](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/gaussian-mixture-models.md)
 - [HIDDEN MARKOV MODELS](docs/02-ml-models-theory/03-traditional-ml-models/03-probabilistic/hidden-markov-models.md)
 
 </details>
