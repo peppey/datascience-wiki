@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **126/576**
+✅  Articles completed: **128/577**
 
 ---
 
@@ -1583,7 +1583,7 @@
 <summary>02 CONTAINERS</summary>
 
 - [DOCKER COMPOSE](docs/08-deployment/02-containers/docker-compose.md)
-- [DOCKER](docs/08-deployment/02-containers/docker.md)
+- [DOCKER ✅](docs/08-deployment/02-containers/docker.md)
 
 </details>
 
@@ -2208,8 +2208,7 @@
 <details>
 <summary>01 MATHEMATICAL FOUNDATIONS QUESTIONS</summary>
 
-- [ML FOUNDATIONS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/ml-foundations-questions.md)
-- [TRADITIONAL ML MODELS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/traditional-ml-models-questions.md)
+- [ANALYSIS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/analysis-questions.md)
 
 </details>
 
@@ -2221,6 +2220,8 @@
 <details>
 <summary>02 ML MODELS THEORY QUESTIONS</summary>
 
+- [ML FOUNDATIONS QUESTIONS ✅](docs/12-questions-to-check/02-ml-models-theory-questions/ml-foundations-questions.md)
+- [TRADITIONAL ML MODELS QUESTIONS ✅](docs/12-questions-to-check/02-ml-models-theory-questions/traditional-ml-models-questions.md)
 
 </details>
 
