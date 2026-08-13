@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **124/577**
+✅  Articles completed: **126/576**
 
 ---
 
@@ -22,9 +22,7 @@
 - [DETERMINANTS ✅](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
 - [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues-and-eigenvectors.md)
 - [INVERSE ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse.md)
-- [MATRIX FACTORIZATIONS](docs/01-mathematical-foundations/01-linear-algebra/matrix-factorizations.md)
-- [MATRIZES](docs/01-mathematical-foundations/01-linear-algebra/matrizes.md)
-- [NORMS](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
+- [NORMS ✅](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
 - [ORTHOGONALITY](docs/01-mathematical-foundations/01-linear-algebra/orthogonality.md)
 - [PSEUDOINVERSE](docs/01-mathematical-foundations/01-linear-algebra/pseudoinverse.md)
 - [SCALAR PRODUCT](docs/01-mathematical-foundations/01-linear-algebra/scalar-product.md)
@@ -566,7 +564,6 @@
 
 - [CLASSIFICATION OF ML MODELS ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/classification-of-ml-models.md)
 - [NO FREE LUNCH THEOREM ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/no-free-lunch-theorem.md)
-- [QUESTIONS TO CHECK ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/questions-to-check.md)
 - [WHAT IS MACHINE LEARNING ✅](docs/02-ml-models-theory/01-ml-foundations/01-introduction/what-is-machine-learning.md)
 
 </details>
@@ -2192,6 +2189,137 @@
 <summary>02 MAPPER ALGORITHM</summary>
 
 - [MAPPER ALGORITHM](docs/11-tda/02-mapper-algorithm/mapper-algorithm.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 12 QUESTIONS TO CHECK
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 MATHEMATICAL FOUNDATIONS QUESTIONS</summary>
+
+- [ML FOUNDATIONS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/ml-foundations-questions.md)
+- [TRADITIONAL ML MODELS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/traditional-ml-models-questions.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 ML MODELS THEORY QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 DATA EXPLORATION QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 DATA ENGINEERING QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>05 TRAINING AND OPTIMIZING ML MODELS QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>06 EVALUATION QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 DATABASES QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>08 DEPLOYMENT QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>09 MLOPS QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>10 SOFTWARE ENGINEERING QUESTIONS</summary>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>11 TDA QUESTIONS</summary>
+
 
 </details>
 

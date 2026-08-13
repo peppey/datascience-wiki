@@ -1,5 +1,3 @@
-# Exercises
-
 ## PAC Learning
 
 ### Question 1
