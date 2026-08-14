@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **128/577**
+✅  Articles completed: **138/580**
 
 ---
 
@@ -393,6 +393,7 @@
 - [BOOTSTRAP ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/bootstrap.md)
 - [MARKOV CHAIN MONTE CARLO ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/markov-chain-monte-carlo.md)
 - [MONTE CARLO SIMULATIONS ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/monte-carlo-simulations.md)
+- [RANDOM NUMBER GENERATION ✅](docs/01-mathematical-foundations/06-statistics/06-computational-statistics/random-number-generation.md)
 
 </details>
 
@@ -1568,6 +1569,7 @@
 - [API DESIGN](docs/08-deployment/01-fundamentals/api-design.md)
 - [CACHING](docs/08-deployment/01-fundamentals/caching.md)
 - [CONTAINERIZATION](docs/08-deployment/01-fundamentals/containerization.md)
+- [DEPLOYMENT REPOSITORIES ✅](docs/08-deployment/01-fundamentals/deployment-repositories.md)
 - [INFERENCE ENDPOINTS](docs/08-deployment/01-fundamentals/inference-endpoints.md)
 - [MODEL SERIALIZATION](docs/08-deployment/01-fundamentals/model-serialization.md)
 - [MODEL SERVING](docs/08-deployment/01-fundamentals/model-serving.md)
@@ -1582,7 +1584,7 @@
 <details>
 <summary>02 CONTAINERS</summary>
 
-- [DOCKER COMPOSE](docs/08-deployment/02-containers/docker-compose.md)
+- [DOCKER COMPOSE ✅](docs/08-deployment/02-containers/docker-compose.md)
 - [DOCKER ✅](docs/08-deployment/02-containers/docker.md)
 
 </details>
@@ -1598,7 +1600,7 @@
 - [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
 - [DEPLOYMENTS](docs/08-deployment/03-kubernetes/deployments.md)
 - [FOUNDATIONS](docs/08-deployment/03-kubernetes/foundations.md)
-- [INGRESS](docs/08-deployment/03-kubernetes/ingress.md)
+- [INGRESS ✅](docs/08-deployment/03-kubernetes/ingress.md)
 - [NAMESPACES](docs/08-deployment/03-kubernetes/namespaces.md)
 - [PODS](docs/08-deployment/03-kubernetes/pods.md)
 - [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
@@ -1632,6 +1634,7 @@
 <summary>05 OPENSHIFT</summary>
 
 - [FOUNDATIONS](docs/08-deployment/05-openshift/foundations.md)
+- [OPENSHIFT AI ✅](docs/08-deployment/05-openshift/openshift-ai.md)
 - [OPERATORS](docs/08-deployment/05-openshift/operators.md)
 - [ROUTES](docs/08-deployment/05-openshift/routes.md)
 
@@ -1668,8 +1671,9 @@
 <details>
 <summary>01 CI CD</summary>
 
-- [GITHUB ACTIONS](docs/09-mlops/01-ci-cd/github-actions.md)
-- [JENKINS](docs/09-mlops/01-ci-cd/jenkins.md)
+- [GITHUB ACTIONS ✅](docs/09-mlops/01-ci-cd/github-actions.md)
+- [JENKINS ✅](docs/09-mlops/01-ci-cd/jenkins.md)
+- [SONARQUBE ✅](docs/09-mlops/01-ci-cd/sonarqube.md)
 
 </details>
 
@@ -1683,7 +1687,6 @@
 
 - [DATASET VERSIONING](docs/09-mlops/02-experiment-tracking/dataset-versioning.md)
 - [MLFLOW](docs/09-mlops/02-experiment-tracking/mlflow.md)
-- [RANDOM SEEDS](docs/09-mlops/02-experiment-tracking/random-seeds.md)
 
 </details>
 
@@ -1770,10 +1773,10 @@
 <details>
 <summary>01 CLEAN CODE</summary>
 
-- [CODE SMELLS](docs/10-software-engineering/01-clean-code/code-smells.md)
+- [CODE SMELLS ✅](docs/10-software-engineering/01-clean-code/code-smells.md)
 - [LINTING](docs/10-software-engineering/01-clean-code/linting.md)
 - [MY PRINCIPLES ✅](docs/10-software-engineering/01-clean-code/my-principles.md)
-- [SOLID PRINCIPLES](docs/10-software-engineering/01-clean-code/solid-principles.md)
+- [SOLID PRINCIPLES ✅](docs/10-software-engineering/01-clean-code/solid-principles.md)
 
 </details>
 
