@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **147/578**
+✅  Articles completed: **148/578**
 
 ---
 
@@ -22,7 +22,6 @@
 - [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues-and-eigenvectors.md)
 - [INVERSE MATRIZES ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse-matrizes.md)
 - [NORMS ✅](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
-- [PSEUDOINVERSE](docs/01-mathematical-foundations/01-linear-algebra/pseudoinverse.md)
 - [SCALAR AND CROSS PRODUCT ✅](docs/01-mathematical-foundations/01-linear-algebra/scalar-and-cross-product.md)
 
 </details>
@@ -522,6 +521,7 @@
 <summary>10 NUMERICS</summary>
 
 - [NUMERICAL STABILITY ✅](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
+- [PSEUDOINVERSE ✅](docs/01-mathematical-foundations/10-numerics/pseudoinverse.md)
 - [QR DECOMPOSITION ✅](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
 - [SINGULAR VALUES DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/singular-values-decomposition.md)
 
