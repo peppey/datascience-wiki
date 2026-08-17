@@ -127,7 +127,7 @@ When an integral cannot be evaluated analytically, it can be approximated numeri
 Common methods include:
 
 * Riemann sums
-* trapezoidal rule
+* Trapezoidal rule
 * Simpson's rule
 * Gaussian quadrature
 * Monte Carlo integration
@@ -151,19 +151,3 @@ Higher-dimensional integrals are used for:
 * physical fields
 
 Important generalizations include **line integrals** and **surface integrals**.
-
----
-
-## Key Idea
-
-Integration connects **local change** with **global accumulation**:
-
-$$
-\boxed{
-\text{Derivative}
-\longleftrightarrow
-\text{Integral}
-}
-$$
-
-The Fundamental Theorem of Calculus makes this connection precise.

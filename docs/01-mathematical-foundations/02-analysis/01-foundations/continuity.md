@@ -2,95 +2,119 @@
 
 ## TL;DR
 
-A function is **continuous** if small changes in the input lead to small changes in the output.
+A function $f$ is **continuous** at a point $x_0$ if:
 
-Informally:
+$$
+\boxed{
+\lim_{x\to x_0}f(x)=f(x_0)
+}
+$$
 
-> A continuous function can be drawn without lifting the pen.
+This means that the function has no gap, jump, or undefined value at $x_0$.
 
 ---
 
 ## Definition
 
-A function:
-f: R → R
+A function is continuous at $x_0$ if all three conditions hold:
 
-is continuous at a point `a` if:
-lim x→a f(x) = f(a)
+1. $f(x_0)$ exists.
+2. $\lim_{x\to x_0}f(x)$ exists.
+3. The limit equals the function value:
 
-This means:
+$$
+\lim_{x\to x_0}f(x)=f(x_0)
+$$
 
-1. The limit exists
-2. The function value exists
-3. Both are equal
-
----
-
-## Intuition
-
-For a continuous function:
-x changes slightly
-↓
-f(x) changes slightly
-
-Example:
-f(x) = x²
-
-Small changes in `x` create small changes in the output.
+A function is **continuous** if it is continuous at every point of its domain.
 
 ---
 
-## Discontinuous Functions
+## Typical Functions
 
-A function is discontinuous if there is a break, jump, or missing point.
+Many common functions are continuous on their domains:
 
-Examples:
+* **Polynomials**, e.g. $f(x)=x^2+3x+1$
+* **Exponential functions**, e.g. $f(x)=e^x$
+* **Trigonometric functions**, e.g. $\sin(x)$ and $\cos(x)$
+* **Rational functions**, as long as the denominator is not zero
+* **Roots**, wherever they are defined
 
-### Jump discontinuity
+For example,
 
-The function suddenly changes its value.
+$$
+f(x)=\frac{1}{x}
+$$
 
----
+is continuous on
 
-### Missing point
+$$
+(-\infty,0)\cup(0,\infty)
+$$
 
-Example:
-
-f(x) = (x² - 1) / (x - 1)
-
-At x = 1, the function is not defined, even though the limit exists.
-
----
-
-## Continuity in Machine Learning
-
-Continuity is important because many ML methods assume that small input changes should not create unpredictable outputs.
-
-Examples:
-
-- neural networks use continuous activation functions
-- optimization methods rely on smooth changes of the loss function
-- gradient descent requires continuous and often differentiable functions
+but is not defined at $x=0$.
 
 ---
 
-## Continuity vs Differentiability
+## Piecewise Functions
 
-Differentiability is a stronger condition:
+For a piecewise-defined function, the transition points need to be checked separately.
 
-differentiable ⇒ continuous
+For example:
 
-but:
-continuous ⇏ differentiable
+$$
+f(x)=
+\begin{cases}
+x^2 & x<1\
+2x-1 & x\geq1
+\end{cases}
+$$
 
-Example:
-f(x) = |x|
+At $x=1$, continuity requires:
 
-is continuous but has a sharp corner at:
-x = 0
+$$
+\lim_{x\to1^-}f(x)
+=
+
+# \lim_{x\to1^+}f(x)
+
+f(1)
+$$
+
+Here:
+
+$$
+\lim_{x\to1^-}x^2=1
+$$
+
+and
+
+$$
+\lim_{x\to1^+}(2x-1)=1
+$$
+
+while:
+
+$$
+f(1)=1.
+$$
+
+Therefore, $f$ is continuous at $x=1$.
 
 ---
 
 ## Key Idea
 
-Continuity means that a function behaves smoothly: nearby inputs produce nearby outputs.
+To check continuity:
+
+$$
+\boxed{
+\text{Limit exists}
+\quad+\quad
+\text{Function value exists}
+\quad+\quad
+\text{Both are equal}
+}
+$$
+
+For piecewise functions, the **transition points** are particularly important.
