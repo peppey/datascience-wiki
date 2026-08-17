@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **138/580**
+✅  Articles completed: **147/578**
 
 ---
 
@@ -17,17 +17,13 @@
 <details>
 <summary>01 LINEAR ALGEBRA</summary>
 
-- [BASIS ✅](docs/01-mathematical-foundations/01-linear-algebra/basis.md)
-- [COMPLEX NUMBERS ✅](docs/01-mathematical-foundations/01-linear-algebra/complex-numbers.md)
+- [CHANGE OF BASIS ✅](docs/01-mathematical-foundations/01-linear-algebra/change-of-basis.md)
 - [DETERMINANTS ✅](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
 - [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues-and-eigenvectors.md)
-- [INVERSE ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse.md)
+- [INVERSE MATRIZES ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse-matrizes.md)
 - [NORMS ✅](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
-- [ORTHOGONALITY](docs/01-mathematical-foundations/01-linear-algebra/orthogonality.md)
 - [PSEUDOINVERSE](docs/01-mathematical-foundations/01-linear-algebra/pseudoinverse.md)
-- [SCALAR PRODUCT](docs/01-mathematical-foundations/01-linear-algebra/scalar-product.md)
-- [SINGULAR VALUES](docs/01-mathematical-foundations/01-linear-algebra/singular-values.md)
-- [VECTOR SPACES ✅](docs/01-mathematical-foundations/01-linear-algebra/vector-spaces.md)
+- [SCALAR AND CROSS PRODUCT ✅](docs/01-mathematical-foundations/01-linear-algebra/scalar-and-cross-product.md)
 
 </details>
 
@@ -46,6 +42,7 @@
 - [CONVEXITY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/convexity.md)
 - [INTEGRAL ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/integral.md)
 - [LAPLACIAN ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/laplacian.md)
+- [LIMITS ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/limits.md)
 - [SET THEORY ✅](docs/01-mathematical-foundations/02-analysis/01-foundations/set-theory.md)
 
 </details>
@@ -526,6 +523,7 @@
 
 - [NUMERICAL STABILITY ✅](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
 - [QR DECOMPOSITION ✅](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
+- [SINGULAR VALUES DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/singular-values-decomposition.md)
 
 </details>
 
@@ -1251,9 +1249,10 @@
 <summary>01 FOUNDATIONS</summary>
 
 - [COMMON ISSUES](docs/05-training-and-optimizing-ml-models/01-foundations/common-issues.md)
-- [GRID SEARCH](docs/05-training-and-optimizing-ml-models/01-foundations/grid-search.md)
-- [RANDOM SEARCH](docs/05-training-and-optimizing-ml-models/01-foundations/random-search.md)
-- [TRAIN TEST SPLIT ✅](docs/05-training-and-optimizing-ml-models/01-foundations/train-test-split.md)
+- [CROSS VALIDATION ✅](docs/05-training-and-optimizing-ml-models/01-foundations/cross-validation.md)
+- [GRID SEARCH ✅](docs/05-training-and-optimizing-ml-models/01-foundations/grid-search.md)
+- [RANDOM SEARCH ✅](docs/05-training-and-optimizing-ml-models/01-foundations/random-search.md)
+- [TRAIN VALIDATION TEST SET ✅](docs/05-training-and-optimizing-ml-models/01-foundations/train-validation-test-set.md)
 
 </details>
 
@@ -1443,8 +1442,8 @@
 <details>
 <summary>06 CALIBRATION</summary>
 
-- [CALIBRATION](docs/06-evaluation/06-calibration/calibration.md)
-- [PLATT SCALING](docs/06-evaluation/06-calibration/platt-scaling.md)
+- [ISOTONIC REGRESSION ✅](docs/06-evaluation/06-calibration/isotonic-regression.md)
+- [PLATT SCALING ✅](docs/06-evaluation/06-calibration/platt-scaling.md)
 
 </details>
 
@@ -1472,7 +1471,6 @@
 <details>
 <summary>08 FOUNDATIONS</summary>
 
-- [CROSS VALIDATION](docs/06-evaluation/08-foundations/cross-validation.md)
 - [FAIRNESS BIAS](docs/06-evaluation/08-foundations/fairness-bias.md)
 - [MODEL SELECTION](docs/06-evaluation/08-foundations/model-selection.md)
 
@@ -1599,9 +1597,9 @@
 
 - [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
 - [DEPLOYMENTS](docs/08-deployment/03-kubernetes/deployments.md)
-- [FOUNDATIONS](docs/08-deployment/03-kubernetes/foundations.md)
+- [FOUNDATIONS ✅](docs/08-deployment/03-kubernetes/foundations.md)
 - [INGRESS ✅](docs/08-deployment/03-kubernetes/ingress.md)
-- [NAMESPACES](docs/08-deployment/03-kubernetes/namespaces.md)
+- [NAMESPACES ✅](docs/08-deployment/03-kubernetes/namespaces.md)
 - [PODS](docs/08-deployment/03-kubernetes/pods.md)
 - [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
 - [SERVICES](docs/08-deployment/03-kubernetes/services.md)
@@ -1633,7 +1631,7 @@
 <details>
 <summary>05 OPENSHIFT</summary>
 
-- [FOUNDATIONS](docs/08-deployment/05-openshift/foundations.md)
+- [FOUNDATIONS ✅](docs/08-deployment/05-openshift/foundations.md)
 - [OPENSHIFT AI ✅](docs/08-deployment/05-openshift/openshift-ai.md)
 - [OPERATORS](docs/08-deployment/05-openshift/operators.md)
 - [ROUTES](docs/08-deployment/05-openshift/routes.md)
@@ -1686,7 +1684,7 @@
 <summary>02 EXPERIMENT TRACKING</summary>
 
 - [DATASET VERSIONING](docs/09-mlops/02-experiment-tracking/dataset-versioning.md)
-- [MLFLOW](docs/09-mlops/02-experiment-tracking/mlflow.md)
+- [MLFLOW ✅](docs/09-mlops/02-experiment-tracking/mlflow.md)
 
 </details>
 
