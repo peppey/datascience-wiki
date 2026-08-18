@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **157/571**
+✅  Articles completed: **159/571**
 
 ---
 
@@ -1088,8 +1088,8 @@
 <summary>01 DATA PIPELINES</summary>
 
 - [ARGO WORKFLOWS ✅](docs/04-data-engineering/01-data-pipelines/argo-workflows.md)
-- [BATCH PROCESSING](docs/04-data-engineering/01-data-pipelines/batch-processing.md)
-- [ELT](docs/04-data-engineering/01-data-pipelines/elt.md)
+- [BATCH PROCESSING ✅](docs/04-data-engineering/01-data-pipelines/batch-processing.md)
+- [ELT ✅](docs/04-data-engineering/01-data-pipelines/elt.md)
 - [ETL](docs/04-data-engineering/01-data-pipelines/etl.md)
 
 </details>
