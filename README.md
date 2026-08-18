@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **157/570**
+✅  Articles completed: **157/571**
 
 ---
 
@@ -15,14 +15,18 @@
 <li>
 
 <details>
-<summary>01 LINEAR ALGEBRA</summary>
+<summary>01 (LINEAR) ALGEBRA</summary>
 
-- [CHANGE OF BASIS ✅](docs/01-mathematical-foundations/01-linear-algebra/change-of-basis.md)
-- [DETERMINANTS ✅](docs/01-mathematical-foundations/01-linear-algebra/determinants.md)
-- [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-linear-algebra/eigenvalues-and-eigenvectors.md)
-- [INVERSE MATRIZES ✅](docs/01-mathematical-foundations/01-linear-algebra/inverse-matrizes.md)
-- [NORMS ✅](docs/01-mathematical-foundations/01-linear-algebra/norms.md)
-- [SCALAR AND CROSS PRODUCT ✅](docs/01-mathematical-foundations/01-linear-algebra/scalar-and-cross-product.md)
+- [CHANGE OF BASIS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/change-of-basis.md)
+- [DETERMINANTS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/determinants.md)
+- [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/eigenvalues-and-eigenvectors.md)
+- [FIELDS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/fields.md)
+- [GROUPS](docs/01-mathematical-foundations/01-(linear)-algebra/groups.md)
+- [HOMOMORPHISMS](docs/01-mathematical-foundations/01-(linear)-algebra/homomorphisms.md)
+- [INVERSE MATRIZES ✅](docs/01-mathematical-foundations/01-(linear)-algebra/inverse-matrizes.md)
+- [NORMS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/norms.md)
+- [RINGS](docs/01-mathematical-foundations/01-(linear)-algebra/rings.md)
+- [SCALAR AND CROSS PRODUCT ✅](docs/01-mathematical-foundations/01-(linear)-algebra/scalar-and-cross-product.md)
 
 </details>
 
@@ -519,25 +523,11 @@
 <details>
 <summary>10 NUMERICS</summary>
 
+- [LU DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/lu-decomposition.md)
 - [NUMERICAL STABILITY ✅](docs/01-mathematical-foundations/10-numerics/numerical-stability.md)
 - [PSEUDOINVERSE ✅](docs/01-mathematical-foundations/10-numerics/pseudoinverse.md)
 - [QR DECOMPOSITION ✅](docs/01-mathematical-foundations/10-numerics/qr-decomposition.md)
 - [SINGULAR VALUES DECOMPOSITION](docs/01-mathematical-foundations/10-numerics/singular-values-decomposition.md)
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>11 ALGEBRA</summary>
-
-- [FIELDS ✅](docs/01-mathematical-foundations/11-algebra/fields.md)
-- [GROUPS](docs/01-mathematical-foundations/11-algebra/groups.md)
-- [HOMOMORPHISMS](docs/01-mathematical-foundations/11-algebra/homomorphisms.md)
-- [RINGS](docs/01-mathematical-foundations/11-algebra/rings.md)
 
 </details>
 
