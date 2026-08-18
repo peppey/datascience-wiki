@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **148/578**
+✅  Articles completed: **151/582**
 
 ---
 
@@ -1598,9 +1598,10 @@
 - [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
 - [DEPLOYMENTS](docs/08-deployment/03-kubernetes/deployments.md)
 - [FOUNDATIONS ✅](docs/08-deployment/03-kubernetes/foundations.md)
+- [HELM CHARTS ✅](docs/08-deployment/03-kubernetes/helm-charts.md)
 - [INGRESS ✅](docs/08-deployment/03-kubernetes/ingress.md)
 - [NAMESPACES ✅](docs/08-deployment/03-kubernetes/namespaces.md)
-- [PODS](docs/08-deployment/03-kubernetes/pods.md)
+- [PODS ✅](docs/08-deployment/03-kubernetes/pods.md)
 - [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
 - [SERVICES](docs/08-deployment/03-kubernetes/services.md)
 
@@ -1723,9 +1724,10 @@
 <summary>05 MONITORING</summary>
 
 - [ALERTS](docs/09-mlops/05-monitoring/alerts.md)
+- [APPLICATION MONITORING](docs/09-mlops/05-monitoring/application-monitoring.md)
 - [GRAFANA FOUNDATIONS](docs/09-mlops/05-monitoring/grafana-foundations.md)
 - [MODEL MONITORING](docs/09-mlops/05-monitoring/model-monitoring.md)
-- [PERFORMANCE MONITORING](docs/09-mlops/05-monitoring/performance-monitoring.md)
+- [PAAS METRICS](docs/09-mlops/05-monitoring/paas-metrics.md)
 - [PROMETHEUS](docs/09-mlops/05-monitoring/prometheus.md)
 
 </details>
@@ -1787,11 +1789,11 @@
 <summary>02 TESTING</summary>
 
 <details>
-<summary>01 UNIT TESTS</summary>
+<summary>01 TESTING FOUNDATIONS</summary>
 
-- [PYTEST](docs/10-software-engineering/02-testing/01-unit-tests/pytest.md)
-- [TEST FIXTURES](docs/10-software-engineering/02-testing/01-unit-tests/test-fixtures.md)
-- [UNIT TESTING](docs/10-software-engineering/02-testing/01-unit-tests/unit-testing.md)
+- [MOCKING](docs/10-software-engineering/02-testing/01-testing-foundations/mocking.md)
+- [TEST FIXTURES](docs/10-software-engineering/02-testing/01-testing-foundations/test-fixtures.md)
+- [TESTING PRINCIPLES ✅](docs/10-software-engineering/02-testing/01-testing-foundations/testing-principles.md)
 
 </details>
 
@@ -1805,17 +1807,25 @@
 </details>
 
 <details>
-<summary>03 E2E TESTS</summary>
+<summary>03 UNIT TESTS</summary>
 
-- [E2E TESTING](docs/10-software-engineering/02-testing/03-e2e-tests/e2e-testing.md)
+- [PYTEST](docs/10-software-engineering/02-testing/03-unit-tests/pytest.md)
+- [UNIT TESTING](docs/10-software-engineering/02-testing/03-unit-tests/unit-testing.md)
 
 </details>
 
 <details>
-<summary>04 TESTING FOUNDATIONS</summary>
+<summary>04 E2E TESTS</summary>
 
-- [MOCKING](docs/10-software-engineering/02-testing/04-testing-foundations/mocking.md)
-- [TESTING PRINCIPLES ✅](docs/10-software-engineering/02-testing/04-testing-foundations/testing-principles.md)
+- [E2E TESTING](docs/10-software-engineering/02-testing/04-e2e-tests/e2e-testing.md)
+
+</details>
+
+<details>
+<summary>05 LOADTESTS</summary>
+
+- [LOADTESTING ✅](docs/10-software-engineering/02-testing/05-loadtests/loadtesting.md)
+- [LOCUS](docs/10-software-engineering/02-testing/05-loadtests/locus.md)
 
 </details>
 
@@ -2140,41 +2150,41 @@
 <li>
 
 <details>
-<summary>01 PERSTISTENT HOMOLOGY</summary>
+<summary>01 PERSISTENT HOMOLOGY</summary>
 
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [BARCODES](docs/11-tda/01-perstistent-homology/01-foundations/barcodes.md)
-- [CECH COMPLEX](docs/11-tda/01-perstistent-homology/01-foundations/cech-complex.md)
-- [FILTRATIONS](docs/11-tda/01-perstistent-homology/01-foundations/filtrations.md)
-- [NERVE COMPLEXES](docs/11-tda/01-perstistent-homology/01-foundations/nerve-complexes.md)
-- [PERSISTENCE DIAGRAMS](docs/11-tda/01-perstistent-homology/01-foundations/persistence-diagrams.md)
-- [VIETORIS RIPS COMPLEX](docs/11-tda/01-perstistent-homology/01-foundations/vietoris-rips-complex.md)
-- [WHY PERSISTENCE HOMOLOGY WORKS](docs/11-tda/01-perstistent-homology/01-foundations/why-persistence-homology-works.md)
+- [BARCODES](docs/11-tda/01-persistent-homology/01-foundations/barcodes.md)
+- [CECH COMPLEX](docs/11-tda/01-persistent-homology/01-foundations/cech-complex.md)
+- [FILTRATIONS](docs/11-tda/01-persistent-homology/01-foundations/filtrations.md)
+- [NERVE COMPLEXES](docs/11-tda/01-persistent-homology/01-foundations/nerve-complexes.md)
+- [PERSISTENCE DIAGRAMS](docs/11-tda/01-persistent-homology/01-foundations/persistence-diagrams.md)
+- [VIETORIS RIPS COMPLEX](docs/11-tda/01-persistent-homology/01-foundations/vietoris-rips-complex.md)
+- [WHY PERSISTENCE HOMOLOGY WORKS](docs/11-tda/01-persistent-homology/01-foundations/why-persistence-homology-works.md)
 
 </details>
 
 <details>
 <summary>02 DISTANCES</summary>
 
-- [BOTTLENECK DISTANCE](docs/11-tda/01-perstistent-homology/02-distances/bottleneck-distance.md)
-- [WASSERSTEIN DISTANCE](docs/11-tda/01-perstistent-homology/02-distances/wasserstein-distance.md)
+- [BOTTLENECK DISTANCE](docs/11-tda/01-persistent-homology/02-distances/bottleneck-distance.md)
+- [WASSERSTEIN DISTANCE](docs/11-tda/01-persistent-homology/02-distances/wasserstein-distance.md)
 
 </details>
 
 <details>
 <summary>03 SIGNATURES</summary>
 
-- [PERSISTENT LANDSCAPES](docs/11-tda/01-perstistent-homology/03-signatures/persistent-landscapes.md)
+- [PERSISTENT LANDSCAPES](docs/11-tda/01-persistent-homology/03-signatures/persistent-landscapes.md)
 
 </details>
 
 <details>
 <summary>04 APPLICATIONS</summary>
 
-- [TS CLASSIFICATION](docs/11-tda/01-perstistent-homology/04-applications/ts-classification.md)
-- [TS FORECASTING](docs/11-tda/01-perstistent-homology/04-applications/ts-forecasting.md)
+- [TS CLASSIFICATION](docs/11-tda/01-persistent-homology/04-applications/ts-classification.md)
+- [TS FORECASTING](docs/11-tda/01-persistent-homology/04-applications/ts-forecasting.md)
 
 </details>
 
