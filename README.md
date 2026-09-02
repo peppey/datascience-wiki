@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **159/571**
+✅  Articles completed: **160/571**
 
 ---
 
@@ -560,7 +560,7 @@
 <summary>02 LEARNING THOERY</summary>
 
 - [EMPIRICAL RISK MINIMIZATION](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/empirical-risk-minimization.md)
-- [HYPOTHESIS SPACE](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/hypothesis-space.md)
+- [HYPOTHESIS SPACE ✅](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/hypothesis-space.md)
 - [INDUCTIVE BIAS](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/inductive-bias.md)
 - [PAC LEARNING](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/pac-learning.md)
 - [UNIFORM CONVERGENCE ✅](docs/02-ml-models-theory/01-ml-foundations/02-learning-thoery/uniform-convergence.md)
