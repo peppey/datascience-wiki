@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **163/574**
+✅  Articles completed: **170/577**
 
 ---
 
@@ -1533,7 +1533,7 @@
 
 - [API DESIGN](docs/08-deployment/01-fundamentals/api-design.md)
 - [CACHING](docs/08-deployment/01-fundamentals/caching.md)
-- [CONTAINERIZATION](docs/08-deployment/01-fundamentals/containerization.md)
+- [CONTAINERIZATION ✅](docs/08-deployment/01-fundamentals/containerization.md)
 - [DEPLOYMENT REPOSITORIES ✅](docs/08-deployment/01-fundamentals/deployment-repositories.md)
 - [INFERENCE ENDPOINTS](docs/08-deployment/01-fundamentals/inference-endpoints.md)
 - [MODEL SERIALIZATION](docs/08-deployment/01-fundamentals/model-serialization.md)
@@ -1563,14 +1563,17 @@
 <summary>03 KUBERNETES</summary>
 
 - [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
-- [DEPLOYMENTS](docs/08-deployment/03-kubernetes/deployments.md)
+- [DEPLOYMENTS ✅](docs/08-deployment/03-kubernetes/deployments.md)
 - [FOUNDATIONS ✅](docs/08-deployment/03-kubernetes/foundations.md)
 - [HELM CHARTS ✅](docs/08-deployment/03-kubernetes/helm-charts.md)
 - [INGRESS ✅](docs/08-deployment/03-kubernetes/ingress.md)
+- [JOBS ✅](docs/08-deployment/03-kubernetes/jobs.md)
+- [MANIFEST ✅](docs/08-deployment/03-kubernetes/manifest.md)
 - [NAMESPACES ✅](docs/08-deployment/03-kubernetes/namespaces.md)
 - [PODS ✅](docs/08-deployment/03-kubernetes/pods.md)
 - [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
 - [SERVICES](docs/08-deployment/03-kubernetes/services.md)
+- [STATEFUL SETS ✅](docs/08-deployment/03-kubernetes/stateful-sets.md)
 
 </details>
 
@@ -1587,7 +1590,7 @@
 - [ISTIO](docs/08-deployment/04-cloud-native/istio.md)
 - [S3](docs/08-deployment/04-cloud-native/s3.md)
 - [SERVICE MESH](docs/08-deployment/04-cloud-native/service-mesh.md)
-- [VIRTUAL SERVICE](docs/08-deployment/04-cloud-native/virtual-service.md)
+- [VIRTUAL SERVICE ✅](docs/08-deployment/04-cloud-native/virtual-service.md)
 
 </details>
 
@@ -1676,7 +1679,7 @@
 <details>
 <summary>04 ORCHESTRATION</summary>
 
-- [ARGO CD](docs/09-mlops/04-orchestration/argo-cd.md)
+- [ARGO CD ✅](docs/09-mlops/04-orchestration/argo-cd.md)
 - [ARGO WORKFLOWS](docs/09-mlops/04-orchestration/argo-workflows.md)
 - [KUBEFLOW](docs/09-mlops/04-orchestration/kubeflow.md)
 
