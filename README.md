@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **160/571**
+✅  Articles completed: **163/574**
 
 ---
 
@@ -2186,6 +2186,7 @@
 <details>
 <summary>01 MATHEMATICAL FOUNDATIONS QUESTIONS</summary>
 
+- [ANALYSIS ANSWERS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/analysis-answers.md)
 - [ANALYSIS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/analysis-questions.md)
 
 </details>
@@ -2266,6 +2267,8 @@
 <details>
 <summary>08 DEPLOYMENT QUESTIONS</summary>
 
+- [CONTAINSER QUESTIONS ✅](docs/12-questions-to-check/08-deployment-questions/containser-questions.md)
+- [FUNDAMENTALS QUESTIONS ✅](docs/12-questions-to-check/08-deployment-questions/fundamentals-questions.md)
 
 </details>
 
