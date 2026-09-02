@@ -76,7 +76,7 @@ $$
 \lim_{x\to1^-}f(x)
 =
 
-# \lim_{x\to1^+}f(x)
+\lim_{x\to1^+}f(x)
 
 f(1)
 $$
