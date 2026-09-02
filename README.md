@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **170/577**
+✅  Articles completed: **177/573**
 
 ---
 
@@ -1562,16 +1562,18 @@
 <details>
 <summary>03 KUBERNETES</summary>
 
-- [CONFIGMAPS](docs/08-deployment/03-kubernetes/configmaps.md)
+- [CONFIGMAPS ✅](docs/08-deployment/03-kubernetes/configmaps.md)
 - [DEPLOYMENTS ✅](docs/08-deployment/03-kubernetes/deployments.md)
 - [FOUNDATIONS ✅](docs/08-deployment/03-kubernetes/foundations.md)
 - [HELM CHARTS ✅](docs/08-deployment/03-kubernetes/helm-charts.md)
+- [INFERENCE SERVICES ✅](docs/08-deployment/03-kubernetes/inference-services.md)
 - [INGRESS ✅](docs/08-deployment/03-kubernetes/ingress.md)
 - [JOBS ✅](docs/08-deployment/03-kubernetes/jobs.md)
+- [KSERVE ✅](docs/08-deployment/03-kubernetes/kserve.md)
 - [MANIFEST ✅](docs/08-deployment/03-kubernetes/manifest.md)
 - [NAMESPACES ✅](docs/08-deployment/03-kubernetes/namespaces.md)
 - [PODS ✅](docs/08-deployment/03-kubernetes/pods.md)
-- [SECRETS](docs/08-deployment/03-kubernetes/secrets.md)
+- [SECRETS ✅](docs/08-deployment/03-kubernetes/secrets.md)
 - [SERVICES](docs/08-deployment/03-kubernetes/services.md)
 - [STATEFUL SETS ✅](docs/08-deployment/03-kubernetes/stateful-sets.md)
 
@@ -1586,10 +1588,8 @@
 <summary>04 CLOUD NATIVE</summary>
 
 - [DESTINATION RULE](docs/08-deployment/04-cloud-native/destination-rule.md)
-- [GATEWAYS](docs/08-deployment/04-cloud-native/gateways.md)
-- [ISTIO](docs/08-deployment/04-cloud-native/istio.md)
-- [S3](docs/08-deployment/04-cloud-native/s3.md)
-- [SERVICE MESH](docs/08-deployment/04-cloud-native/service-mesh.md)
+- [GATEWAYS ✅](docs/08-deployment/04-cloud-native/gateways.md)
+- [ISTIO ✅](docs/08-deployment/04-cloud-native/istio.md)
 - [VIRTUAL SERVICE ✅](docs/08-deployment/04-cloud-native/virtual-service.md)
 
 </details>
@@ -1606,21 +1606,6 @@
 - [OPENSHIFT AI ✅](docs/08-deployment/05-openshift/openshift-ai.md)
 - [OPERATORS](docs/08-deployment/05-openshift/operators.md)
 - [ROUTES](docs/08-deployment/05-openshift/routes.md)
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>06 ML SERVING</summary>
-
-- [INFERENCE SERVICES](docs/08-deployment/06-ml-serving/inference-services.md)
-- [KSERVE](docs/08-deployment/06-ml-serving/kserve.md)
-- [MODEL SERVING](docs/08-deployment/06-ml-serving/model-serving.md)
-- [SERVING ARCHITECTURE](docs/08-deployment/06-ml-serving/serving-architecture.md)
 
 </details>
 
@@ -1710,7 +1695,7 @@
 <details>
 <summary>06 ML PIPELINES</summary>
 
-- [KUBEFLOW PIPELINES](docs/09-mlops/06-ml-pipelines/kubeflow-pipelines.md)
+- [KUBEFLOW PIPELINES ✅](docs/09-mlops/06-ml-pipelines/kubeflow-pipelines.md)
 - [PIPELINE FOUNDATIONS](docs/09-mlops/06-ml-pipelines/pipeline-foundations.md)
 
 </details>

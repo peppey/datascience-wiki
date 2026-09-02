@@ -1,4 +1,4 @@
 # Testing principles
 
 ## Testing pyramid
-![Testing Pyramid](../../../assets/pyramid.jpeg)
+![Testing Pyramid](../../../assets/testing-pyramid.jpeg)
