@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **177/573**
+✅  Articles completed: **179/569**
 
 ---
 
@@ -1879,8 +1879,8 @@
 <details>
 <summary>07 PERFORMANCE</summary>
 
-- [OPTIMIZATION](docs/10-software-engineering/07-performance/optimization.md)
 - [PARALLEL PROGRAMMING](docs/10-software-engineering/07-performance/parallel-programming.md)
+- [PROFILING ✅](docs/10-software-engineering/07-performance/profiling.md)
 
 </details>
 
@@ -1967,8 +1967,6 @@
 
 - [DEBUGGING DEPLOYMENTS](docs/10-software-engineering/10-debugging/debugging-deployments.md)
 - [DEBUGGING ML MODELS](docs/10-software-engineering/10-debugging/debugging-ml-models.md)
-- [LOGGING](docs/10-software-engineering/10-debugging/logging.md)
-- [PROFILING](docs/10-software-engineering/10-debugging/profiling.md)
 
 </details>
 
@@ -1980,11 +1978,9 @@
 <details>
 <summary>11 WEB DEVELOPMENT</summary>
 
-- [API FOUNDATIONS ✅](docs/10-software-engineering/11-web-development/api-foundations.md)
-- [API TESTING](docs/10-software-engineering/11-web-development/api-testing.md)
+- [FASTAPI ✅](docs/10-software-engineering/11-web-development/fastapi.md)
 - [HTTP ✅](docs/10-software-engineering/11-web-development/http.md)
-- [OPENAPI SWAGGER](docs/10-software-engineering/11-web-development/openapi-swagger.md)
-- [PYDANTIC](docs/10-software-engineering/11-web-development/pydantic.md)
+- [PYDANTIC ✅](docs/10-software-engineering/11-web-development/pydantic.md)
 - [REST APIS ✅](docs/10-software-engineering/11-web-development/rest-apis.md)
 
 </details>
