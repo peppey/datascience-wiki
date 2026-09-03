@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **179/569**
+✅  Articles completed: **181/568**
 
 ---
 
@@ -793,7 +793,6 @@
 <details>
 <summary>01 LINEAR MODELS</summary>
 
-- [ELASTIC NET](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/elastic-net.md)
 - [LINEAR REGRESSION ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/01-linear-models/linear-regression.md)
 
 </details>
@@ -801,7 +800,7 @@
 <details>
 <summary>02 NEAREST NEIGHBORS</summary>
 
-- [KNN CLASSIFICATION](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/02-nearest-neighbors/knn-classification.md)
+- [KNN ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/02-nearest-neighbors/knn.md)
 
 </details>
 
@@ -810,7 +809,7 @@
 
 - [DECISION TREES ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/decision-trees.md)
 - [RANDOM FOREST ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/random-forest.md)
-- [XGBOOST](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/xgboost.md)
+- [XGBOOST ✅](docs/02-ml-models-theory/03-traditional-ml-models/01-supervised/03-tree-based-methods/xgboost.md)
 
 </details>
 
