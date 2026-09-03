@@ -46,7 +46,7 @@ from only the mixture $x(t)$.
 
 ## Common Approaches
 
-### 1. Spectrogram-Based Separation
+### Spectrogram-Based Separation
 
 The audio is transformed into a time-frequency representation such as a spectrogram or mel-spectrogram.
 
@@ -79,7 +79,7 @@ where $M_i$ is a learned mask for source $i$.
 
 ---
 
-### 2. Waveform-Based Separation
+### Waveform-Based Separation
 
 Instead of operating on spectrograms, neural networks can work directly on the audio waveform.
 
@@ -104,7 +104,7 @@ Common architectures include:
 
 ---
 
-### 3. Deep Learning
+### Deep Learning
 
 Modern source separation is often formulated as a supervised learning problem.
 

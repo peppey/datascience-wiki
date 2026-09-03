@@ -23,7 +23,7 @@ Application
 
 ---
 
-## 1. CPU Profiling
+## CPU Profiling
 
 CPU profiling measures how much time is spent in different parts of a program.
 
@@ -41,7 +41,7 @@ It reports metrics such as:
 
 ---
 
-## 2. Line Profiling
+## Line Profiling
 
 **Line profiling** measures execution time for individual lines of code.
 
@@ -51,7 +51,7 @@ A common tool is `line_profiler`.
 
 ---
 
-## 3. Memory Profiling
+## Memory Profiling
 
 Memory profiling identifies where a program consumes or allocates memory.
 
@@ -67,7 +67,7 @@ A common tool is `memory_profiler`.
 
 ---
 
-## 4. Sampling Profilers
+## Sampling Profilers
 
 A **sampling profiler** periodically observes what the program is executing.
 
@@ -90,7 +90,7 @@ Examples include **py-spy** and **Scalene**.
 
 ---
 
-## 5. Profiling ML Workloads
+## Profiling ML Workloads
 
 Profiling is useful for analyzing:
 
@@ -115,7 +115,7 @@ with torch.profiler.profile(
 
 ---
 
-## 6. Profiling vs Monitoring
+## Profiling vs Monitoring
 
 **Profiling** is typically used to investigate performance problems.
 

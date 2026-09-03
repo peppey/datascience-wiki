@@ -56,7 +56,7 @@ Therefore, SED is often a **multi-label, temporal detection problem**.
 
 ## Common Approaches
 
-### 1. Frame-Level Classification
+### Frame-Level Classification
 
 The audio is divided into short frames:
 
@@ -85,7 +85,7 @@ Thresholding and post-processing can then turn frame-level predictions into even
 
 ---
 
-### 2. Spectrogram + Neural Network
+### Spectrogram + Neural Network
 
 The audio can be transformed into a **spectrogram** or **mel-spectrogram**.
 
@@ -114,7 +114,7 @@ A CNN can learn local time-frequency patterns, while recurrent or attention-base
 
 ---
 
-### 3. Sequence Models
+### Sequence Models
 
 SED is naturally a **sequence prediction problem**.
 

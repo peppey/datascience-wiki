@@ -35,7 +35,7 @@ HTTP Response
 
 ---
 
-## 1. Creating an API
+## Creating an API
 
 A minimal FastAPI application looks like this:
 
@@ -65,7 +65,7 @@ http://localhost:8000
 
 ---
 
-## 2. Routes and HTTP Methods
+## Routes and HTTP Methods
 
 FastAPI supports the standard HTTP methods:
 
@@ -97,7 +97,7 @@ POST /predict
 
 ---
 
-## 3. Path Parameters
+## Path Parameters
 
 Values can be included directly in the URL path:
 
@@ -119,7 +119,7 @@ FastAPI uses the type annotation `int` to validate the parameter.
 
 ---
 
-## 4. Query Parameters
+## Query Parameters
 
 Query parameters are specified after `?` in the URL.
 
@@ -139,7 +139,7 @@ FastAPI parses and validates the parameter automatically.
 
 ---
 
-## 5. Request Bodies with Pydantic
+## Request Bodies with Pydantic
 
 For structured request data, FastAPI commonly uses **Pydantic models**.
 
@@ -182,7 +182,7 @@ Endpoint
 
 ---
 
-## 6. Response Models
+## Response Models
 
 Response data can also be validated using Pydantic.
 
@@ -201,7 +201,7 @@ This also allows FastAPI to include the response structure in the generated Open
 
 ---
 
-## 7. Automatic API Documentation
+## Automatic API Documentation
 
 FastAPI automatically generates an **OpenAPI specification** from the Python code.
 
@@ -238,7 +238,7 @@ Swagger UI  ReDoc
 
 ---
 
-## 8. ML Model Serving
+## ML Model Serving
 
 FastAPI can be used to expose a trained ML model as an API.
 
@@ -281,7 +281,7 @@ This is a simple example of **deploying a model as an API**.
 
 ---
 
-## 9. Dependency Injection
+## Dependency Injection
 
 FastAPI provides a dependency injection system.
 
@@ -315,7 +315,7 @@ FastAPI calls the dependency and provides its result to the endpoint.
 
 ---
 
-## 10. Middleware
+## Middleware
 
 **Middleware** processes HTTP requests and responses before or after they reach an endpoint.
 
@@ -345,7 +345,7 @@ Middleware can be used for things such as:
 
 ---
 
-## 11. Error Handling
+## Error Handling
 
 FastAPI provides HTTP exceptions for returning appropriate error responses.
 
@@ -367,7 +367,7 @@ The client receives an HTTP `404` response.
 
 ---
 
-## 12. Async Endpoints
+## Async Endpoints
 
 FastAPI supports both regular and asynchronous endpoints.
 
@@ -389,7 +389,7 @@ It does not automatically make CPU-heavy ML inference faster.
 
 ---
 
-## 13. FastAPI vs. Uvicorn
+## FastAPI vs. Uvicorn
 
 These are different components:
 
@@ -417,7 +417,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-## 14. FastAPI in Kubernetes
+## FastAPI in Kubernetes
 
 A FastAPI application can be packaged into a Docker container and deployed to Kubernetes.
 
@@ -444,7 +444,7 @@ This makes FastAPI suitable for building custom model-serving services when a fr
 
 ---
 
-## 15. FastAPI vs. KServe
+## FastAPI vs. KServe
 
 FastAPI and KServe solve related but different problems.
 

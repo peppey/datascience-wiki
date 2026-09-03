@@ -27,7 +27,7 @@ Each step typically runs in its own container or Pod. KFP handles orchestration,
 
 ---
 
-## 1. Pipeline
+## Pipeline
 
 A **Pipeline** describes an entire ML workflow and defines:
 
@@ -53,7 +53,7 @@ The function describes the workflow. It does not directly execute the steps. The
 
 ---
 
-## 2. Components
+## Components
 
 **Components** are the individual building blocks of a pipeline.
 
@@ -94,7 +94,7 @@ A component typically runs as a container when the pipeline is executed.
 
 ---
 
-## 3. Tasks
+## Tasks
 
 When a component is used inside a pipeline, it creates a **Task**.
 
@@ -120,7 +120,7 @@ Tasks without dependencies can run in parallel.
 
 ---
 
-## 4. Parameters and Artifacts
+## Parameters and Artifacts
 
 Data can be passed between components in two main ways.
 
@@ -175,7 +175,7 @@ KFP provides artifact types such as `Dataset`, `Model`, and `Metrics`.
 
 ---
 
-## 5. Pipeline Runs
+## Pipeline Runs
 
 A Pipeline is a **definition**. A **Run** is one concrete execution of that pipeline.
 
@@ -200,7 +200,7 @@ This makes individual pipeline executions reproducible and traceable.
 
 ---
 
-## 6. Experiments
+## Experiments
 
 **Experiments** group multiple pipeline runs.
 
@@ -216,7 +216,7 @@ This is useful when running the same ML workflow with different parameters.
 
 ---
 
-## 7. Pipeline Compilation
+## Pipeline Compilation
 
 The Python pipeline is not directly executed as Python code.
 
@@ -242,7 +242,7 @@ The **KFP compiler** converts the pipeline definition into an intermediate repre
 
 ---
 
-## 8. Execution on Kubernetes
+## Execution on Kubernetes
 
 KFP orchestrates the pipeline on Kubernetes.
 
@@ -271,7 +271,7 @@ Each step can use its own container image and dependencies.
 
 ---
 
-## 9. Caching
+## Caching
 
 KFP can **cache the results of previously executed tasks**.
 
@@ -300,7 +300,7 @@ This is particularly useful for expensive operations such as model training.
 
 ---
 
-## 10. Recurring Runs
+## Recurring Runs
 
 A pipeline can also be executed on a recurring schedule.
 
@@ -323,7 +323,7 @@ This can be useful for regular data processing or model retraining.
 
 ---
 
-## 11. Typical ML Workflow
+## Typical ML Workflow
 
 A production ML pipeline might look like this:
 
@@ -358,7 +358,7 @@ This allows the complete ML process to be described and executed in a reproducib
 
 ---
 
-## 12. KFP vs. Kubernetes
+## KFP vs. Kubernetes
 
 Kubernetes provides the underlying infrastructure:
 
@@ -387,7 +387,7 @@ KFP therefore abstracts much of the low-level Kubernetes orchestration required 
 
 ---
 
-## 13. KFP vs. KServe
+## KFP vs. KServe
 
 The two tools have different purposes:
 

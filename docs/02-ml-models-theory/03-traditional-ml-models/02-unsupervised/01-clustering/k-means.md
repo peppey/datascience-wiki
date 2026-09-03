@@ -31,7 +31,7 @@ The algorithm alternates between:
 
 The algorithm starts with $k$ initial centroids.
 
-### 1. Assignment
+### Assignment
 
 Each point is assigned to its closest centroid:
 
@@ -45,7 +45,7 @@ where:
 * $\mu_j$ = centroid of cluster $j$
 * $c_i$ = assigned cluster
 
-### 2. Update
+### Update
 
 The centroid of each cluster is recalculated as the mean of its assigned points:
 

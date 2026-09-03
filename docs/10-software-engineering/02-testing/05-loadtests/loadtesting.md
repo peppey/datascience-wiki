@@ -157,13 +157,13 @@ This helps identify the component responsible for performance degradation.
 
 A load test often follows several phases:
 
-### 1. Baseline
+### Baseline
 
 Measure the system with little or no load.
 
 This provides a reference for later measurements.
 
-### 2. Ramp-Up
+### Ramp-Up
 
 Gradually increase the load.
 
@@ -180,13 +180,13 @@ $$
 \text{ requests/s}
 $$
 
-### 3. Sustained Load
+### Sustained Load
 
 Maintain the target load for a defined period.
 
 This tests whether the system can operate reliably under normal expected conditions.
 
-### 4. Analysis
+### Analysis
 
 Compare the observed metrics with the system's requirements.
 

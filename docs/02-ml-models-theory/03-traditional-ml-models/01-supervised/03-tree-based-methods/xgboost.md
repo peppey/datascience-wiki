@@ -24,7 +24,7 @@ Unlike **Random Forest**, where trees are trained independently, XGBoost trains 
 
 ---
 
-## 1. Gradient Boosting
+## Gradient Boosting
 
 The model is built iteratively:
 
@@ -42,7 +42,7 @@ Each tree is trained to reduce the current model's errors.
 
 ---
 
-## 2. Important Parameters
+## Important Parameters
 
 | Parameter          | Meaning                            |
 | ------------------ | ---------------------------------- |
@@ -58,7 +58,7 @@ A smaller `learning_rate` often requires more trees.
 
 ---
 
-## 3. XGBoost vs Random Forest
+## XGBoost vs Random Forest
 
 |                     | Random Forest                | XGBoost                         |
 | ------------------- | ---------------------------- | ------------------------------- |
@@ -72,7 +72,7 @@ Both methods work particularly well for **tabular data**.
 
 ---
 
-## 4. Regularization
+## Regularization
 
 XGBoost includes several mechanisms to reduce overfitting:
 
@@ -87,7 +87,7 @@ Early stopping stops training when performance on a validation set no longer imp
 
 ---
 
-## 5. Classification
+## Classification
 
 XGBoost can be used for binary and multiclass classification.
 
@@ -106,7 +106,7 @@ predictions = model.predict(X_test)
 
 ---
 
-## 6. Regression
+## Regression
 
 For regression, `XGBRegressor` can be used:
 
@@ -125,7 +125,7 @@ predictions = model.predict(X_test)
 
 ---
 
-## 7. Advantages and Disadvantages
+## Advantages and Disadvantages
 
 | Advantages                             | Disadvantages                                    |
 | -------------------------------------- | ------------------------------------------------ |

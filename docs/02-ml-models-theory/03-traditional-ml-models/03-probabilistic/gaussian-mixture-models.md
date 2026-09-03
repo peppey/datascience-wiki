@@ -90,7 +90,7 @@ This is known as **soft clustering**.
 
 GMMs are commonly fitted using the **Expectation-Maximization (EM)** algorithm.
 
-### 1. Initialize
+### Initialize
 
 Choose initial values for:
 
@@ -98,7 +98,7 @@ Choose initial values for:
 * $\Sigma_k$
 * $\pi_k$
 
-### 2. Expectation Step
+### Expectation Step
 
 Calculate the responsibility of each component for each data point:
 
@@ -109,11 +109,11 @@ $$
 P(z_i=k\mid x_i)
 $$
 
-### 3. Maximization Step
+### Maximization Step
 
 Update the parameters using the calculated responsibilities.
 
-### 4. Repeat
+### Repeat
 
 Repeat the E-step and M-step until convergence.
 

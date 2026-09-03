@@ -20,7 +20,7 @@ Pydantic is widely used with **FastAPI** for validating API requests and respons
 
 ---
 
-## 1. Pydantic Models
+## Pydantic Models
 
 A Pydantic model is a Python class that inherits from `BaseModel`.
 
@@ -50,7 +50,7 @@ The resulting object is a regular Python object with validated data.
 
 ---
 
-## 2. Data Validation
+## Data Validation
 
 Pydantic checks whether the provided data conforms to the declared types.
 
@@ -74,7 +74,7 @@ This results in a `ValidationError`.
 
 ---
 
-## 3. Required and Optional Fields
+## Required and Optional Fields
 
 Fields without a default value are required:
 
@@ -108,7 +108,7 @@ class User(BaseModel):
 
 ---
 
-## 4. Nested Models
+## Nested Models
 
 Pydantic models can contain other Pydantic models.
 
@@ -134,7 +134,7 @@ User
 
 ---
 
-## 5. Collections
+## Collections
 
 Pydantic supports common collection types:
 
@@ -157,7 +157,7 @@ The declared types are validated for the collection elements as well.
 
 ---
 
-## 6. Field Constraints
+## Field Constraints
 
 Fields can have additional constraints.
 
@@ -178,7 +178,7 @@ This is useful when type information alone is not sufficient.
 
 ---
 
-## 7. Custom Validators
+## Custom Validators
 
 Custom validation logic can be added when more complex rules are required.
 
@@ -200,7 +200,7 @@ The validator is executed when the model is created.
 
 ---
 
-## 8. Serialization
+## Serialization
 
 Pydantic models can be converted back into dictionaries:
 
@@ -229,7 +229,7 @@ This makes Pydantic useful for processing data received from or sent to APIs.
 
 ---
 
-## 9. Pydantic with FastAPI
+## Pydantic with FastAPI
 
 Pydantic is particularly common in **FastAPI**.
 
@@ -274,7 +274,7 @@ FastAPI also uses Pydantic models to generate parts of the API's **OpenAPI schem
 
 ---
 
-## 10. Pydantic in Machine Learning
+## Pydantic in Machine Learning
 
 Pydantic is useful around an ML model even though it does not perform the actual inference.
 
@@ -310,7 +310,7 @@ This separates **data validation** from **model inference**.
 
 ---
 
-## 11. Pydantic vs. Dataclasses
+## Pydantic vs. Dataclasses
 
 Both Pydantic models and Python `dataclasses` can represent structured data.
 
@@ -329,7 +329,7 @@ Use **Pydantic** when you need **validation, parsing, serialization, or API sche
 
 ---
 
-## 12. Pydantic v2
+## Pydantic v2
 
 Pydantic v2 introduced a new validation engine and changed several APIs compared with Pydantic v1.
 

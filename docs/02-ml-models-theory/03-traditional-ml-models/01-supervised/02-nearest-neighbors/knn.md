@@ -17,7 +17,7 @@
 
 ---
 
-## 1. Basic Idea
+## Basic Idea
 
 For a new data point, k-NN:
 
@@ -31,7 +31,7 @@ For regression, the neighbors' values are typically averaged.
 
 ---
 
-## 2. Distance
+## Distance
 
 A common distance measure is **Euclidean distance**:
 
@@ -49,7 +49,7 @@ The choice of distance measure depends on the data.
 
 ---
 
-## 3. Choosing k
+## Choosing k
 
 The parameter **k** determines how many neighbors are considered.
 
@@ -69,7 +69,7 @@ A very small `k` can overfit, while a very large `k` can underfit.
 
 ---
 
-## 4. Feature Scaling
+## Feature Scaling
 
 Distance-based algorithms are sensitive to feature scales.
 
@@ -86,7 +86,7 @@ Therefore, features should usually be **standardized or normalized** before appl
 
 ---
 
-## 5. Classification
+## Classification
 
 For classification, k-NN uses the labels of the nearest neighbors.
 
@@ -108,7 +108,7 @@ A weighted version can give closer neighbors more influence.
 
 ---
 
-## 6. Regression
+## Regression
 
 For regression, k-NN typically predicts the average target value of the nearest neighbors.
 
@@ -122,7 +122,7 @@ Prediction:
 
 ---
 
-## 7. Advantages and Disadvantages
+## Advantages and Disadvantages
 
 | Advantages                              | Disadvantages                               |
 | --------------------------------------- | ------------------------------------------- |

@@ -40,7 +40,7 @@ $$
 
 A candidate optimum $(x^\star,\lambda^\star,\nu^\star)$ satisfies four conditions.
 
-### 1. Primal Feasibility
+### Primal Feasibility
 
 The solution must satisfy the original constraints:
 
@@ -54,7 +54,7 @@ $$
 h_j(x^\star)=0.
 $$
 
-### 2. Dual Feasibility
+### Dual Feasibility
 
 The multipliers of inequality constraints must be non-negative:
 
@@ -64,7 +64,7 @@ $$
 
 Multipliers for equality constraints are unrestricted.
 
-### 3. Stationarity
+### Stationarity
 
 The gradient of the Lagrangian with respect to $x$ must vanish:
 
@@ -83,7 +83,7 @@ $$
 =0.
 $$
 
-### 4. Complementary Slackness
+### Complementary Slackness
 
 For every inequality constraint:
 

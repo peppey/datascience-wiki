@@ -16,7 +16,7 @@ Common approaches include working with the **raw waveform**, transforming audio 
 
 ## Common Approaches
 
-### 1. Classification on Raw Audio
+### Classification on Raw Audio
 
 The model receives the audio waveform directly:
 
@@ -35,7 +35,7 @@ Common approaches include:
 
 Examples of pretrained models include Wav2Vec 2.0 and HuBERT.
 
-### 2. Spectrogram-Based Classification
+### Spectrogram-Based Classification
 
 A common approach is to transform the audio signal into a **time-frequency representation**, such as a spectrogram or Mel spectrogram.
 
@@ -78,7 +78,7 @@ $$
 \text{Class}
 $$
 
-### 3. Feature Extraction + Classical ML
+### Feature Extraction + Classical ML
 
 Instead of training a deep neural network, manually designed audio features can be extracted first.
 
@@ -110,7 +110,7 @@ Common models include:
 * Random Forest
 * Gradient Boosting
 
-### 4. Pretrained Audio Embeddings
+### Pretrained Audio Embeddings
 
 A pretrained audio model can be used as a **feature extractor**:
 
@@ -128,7 +128,7 @@ The extracted embedding can then be classified using a simple model or a neural 
 
 This is useful when the available labeled dataset is relatively small.
 
-### 5. Transfer Learning
+### Transfer Learning
 
 A pretrained audio model can be fine-tuned on the target classification task:
 
