@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **181/568**
+✅  Articles completed: **191/566**
 
 ---
 
@@ -1333,15 +1333,14 @@
 <summary>01 CLASSIFICATION METRICS</summary>
 
 - [ACCURACY ✅](docs/06-evaluation/01-classification-metrics/accuracy.md)
-- [CONFUSION MATRIX](docs/06-evaluation/01-classification-metrics/confusion-matrix.md)
-- [F1 SCORE](docs/06-evaluation/01-classification-metrics/f1-score.md)
-- [LOG LOSS](docs/06-evaluation/01-classification-metrics/log-loss.md)
+- [AUC](docs/06-evaluation/01-classification-metrics/auc.md)
+- [CONFUSION MATRIX ✅](docs/06-evaluation/01-classification-metrics/confusion-matrix.md)
+- [F1 SCORE ✅](docs/06-evaluation/01-classification-metrics/f1-score.md)
+- [LOG LOSS ✅](docs/06-evaluation/01-classification-metrics/log-loss.md)
 - [MULTICLASS METRICS](docs/06-evaluation/01-classification-metrics/multiclass-metrics.md)
-- [PRECISION RECALL AUC](docs/06-evaluation/01-classification-metrics/precision-recall-auc.md)
-- [PRECISION](docs/06-evaluation/01-classification-metrics/precision.md)
-- [RECALL SENSITIVITY](docs/06-evaluation/01-classification-metrics/recall-sensitivity.md)
-- [ROC AUC](docs/06-evaluation/01-classification-metrics/roc-auc.md)
-- [SPECIFICITY](docs/06-evaluation/01-classification-metrics/specificity.md)
+- [PRECISION ✅](docs/06-evaluation/01-classification-metrics/precision.md)
+- [RECALL ✅](docs/06-evaluation/01-classification-metrics/recall.md)
+- [SPECIFICITY ✅](docs/06-evaluation/01-classification-metrics/specificity.md)
 
 </details>
 
@@ -1353,11 +1352,10 @@
 <details>
 <summary>02 REGRESSION METRICS</summary>
 
-- [ADJUSTED R SQUARED](docs/06-evaluation/02-regression-metrics/adjusted-r-squared.md)
-- [MAE](docs/06-evaluation/02-regression-metrics/mae.md)
-- [MSE](docs/06-evaluation/02-regression-metrics/mse.md)
-- [R SQUARED](docs/06-evaluation/02-regression-metrics/r-squared.md)
-- [RMSE](docs/06-evaluation/02-regression-metrics/rmse.md)
+- [MAE ✅](docs/06-evaluation/02-regression-metrics/mae.md)
+- [MSE ✅](docs/06-evaluation/02-regression-metrics/mse.md)
+- [R SQUARED ✅](docs/06-evaluation/02-regression-metrics/r-squared.md)
+- [RMSE ✅](docs/06-evaluation/02-regression-metrics/rmse.md)
 
 </details>
 
