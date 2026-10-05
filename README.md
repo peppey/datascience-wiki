@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **195/581**
+✅  Articles completed: **202/585**
 
 ---
 
@@ -835,6 +835,7 @@
 - [DENSITY ESTIMATION](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/density-estimation.md)
 - [HIERARCHICAL CLUSTERING](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/hierarchical-clustering.md)
 - [K MEANS ✅](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/k-means.md)
+- [KERNEL DENSITY ESTIMATION](docs/02-ml-models-theory/03-traditional-ml-models/02-unsupervised/01-clustering/kernel-density-estimation.md)
 
 </details>
 
@@ -1040,9 +1041,9 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [CHART TYPES](docs/03-data-exploration/01-foundations/chart-types.md)
+- [CHART TYPES ✅](docs/03-data-exploration/01-foundations/chart-types.md)
 - [DATA EXPLORATION FOUNDATIONS](docs/03-data-exploration/01-foundations/data-exploration-foundations.md)
-- [DATA TYPES](docs/03-data-exploration/01-foundations/data-types.md)
+- [DATA TYPES ✅](docs/03-data-exploration/01-foundations/data-types.md)
 - [VISUALIZATION BEST PRACTICES](docs/03-data-exploration/01-foundations/visualization-best-practices.md)
 
 </details>
@@ -1055,10 +1056,11 @@
 <details>
 <summary>02 STATISTICAL ANALYSIS</summary>
 
-- [CORRELATION](docs/03-data-exploration/02-statistical-analysis/correlation.md)
-- [KURTOSIS](docs/03-data-exploration/02-statistical-analysis/kurtosis.md)
+- [CORRELATION ✅](docs/03-data-exploration/02-statistical-analysis/correlation.md)
+- [COVARIANCE](docs/03-data-exploration/02-statistical-analysis/covariance.md)
+- [KURTOSIS ✅](docs/03-data-exploration/02-statistical-analysis/kurtosis.md)
 - [OUTLIERS](docs/03-data-exploration/02-statistical-analysis/outliers.md)
-- [SKEWNESS](docs/03-data-exploration/02-statistical-analysis/skewness.md)
+- [SKEWNESS ✅](docs/03-data-exploration/02-statistical-analysis/skewness.md)
 
 </details>
 
@@ -1070,7 +1072,7 @@
 <details>
 <summary>03 DATA QUALITY</summary>
 
-- [DUPLICATE DETECTION TECHNIQUES](docs/03-data-exploration/03-data-quality/duplicate-detection-techniques.md)
+- [DUPLICATE DETECTION TECHNIQUES ✅](docs/03-data-exploration/03-data-quality/duplicate-detection-techniques.md)
 - [MISSING DATA](docs/03-data-exploration/03-data-quality/missing-data.md)
 
 </details>
@@ -1116,8 +1118,9 @@
 <details>
 <summary>02 DATA TRANSFORMATION</summary>
 
-- [ENCODING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/encoding.md)
+- [CATEGORICAL ENCODING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/categorical-encoding.md)
 - [LOG TRANSFORMATION](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/log-transformation.md)
+- [ONE HOT ENCODING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/one-hot-encoding.md)
 - [SCALING](docs/04-data-engineering/02-data-preprocessing/02-data-transformation/scaling.md)
 
 </details>
@@ -2199,7 +2202,74 @@
 
 ---
 
-## 12 QUESTIONS TO CHECK
+## 12 TDA
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 PERSISTENT HOMOLOGY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [BARCODES](docs/12-tda/01-persistent-homology/01-foundations/barcodes.md)
+- [CECH COMPLEX](docs/12-tda/01-persistent-homology/01-foundations/cech-complex.md)
+- [FILTRATIONS](docs/12-tda/01-persistent-homology/01-foundations/filtrations.md)
+- [NERVE COMPLEXES](docs/12-tda/01-persistent-homology/01-foundations/nerve-complexes.md)
+- [PERSISTENCE DIAGRAMS](docs/12-tda/01-persistent-homology/01-foundations/persistence-diagrams.md)
+- [VIETORIS RIPS COMPLEX](docs/12-tda/01-persistent-homology/01-foundations/vietoris-rips-complex.md)
+- [WHY PERSISTENCE HOMOLOGY WORKS](docs/12-tda/01-persistent-homology/01-foundations/why-persistence-homology-works.md)
+
+</details>
+
+<details>
+<summary>02 DISTANCES</summary>
+
+- [BOTTLENECK DISTANCE](docs/12-tda/01-persistent-homology/02-distances/bottleneck-distance.md)
+- [WASSERSTEIN DISTANCE](docs/12-tda/01-persistent-homology/02-distances/wasserstein-distance.md)
+
+</details>
+
+<details>
+<summary>03 SIGNATURES</summary>
+
+- [PERSISTENT LANDSCAPES](docs/12-tda/01-persistent-homology/03-signatures/persistent-landscapes.md)
+
+</details>
+
+<details>
+<summary>04 APPLICATIONS</summary>
+
+- [TS CLASSIFICATION](docs/12-tda/01-persistent-homology/04-applications/ts-classification.md)
+- [TS FORECASTING](docs/12-tda/01-persistent-homology/04-applications/ts-forecasting.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 MAPPER ALGORITHM</summary>
+
+- [MAPPER ALGORITHM](docs/12-tda/02-mapper-algorithm/mapper-algorithm.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 13 QUESTIONS TO CHECK
 
 <ul>
 
@@ -2208,8 +2278,8 @@
 <details>
 <summary>01 MATHEMATICAL FOUNDATIONS QUESTIONS</summary>
 
-- [ANALYSIS ANSWERS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/analysis-answers.md)
-- [ANALYSIS QUESTIONS ✅](docs/12-questions-to-check/01-mathematical-foundations-questions/analysis-questions.md)
+- [ANALYSIS ANSWERS ✅](docs/13-questions-to-check/01-mathematical-foundations-questions/analysis-answers.md)
+- [ANALYSIS QUESTIONS ✅](docs/13-questions-to-check/01-mathematical-foundations-questions/analysis-questions.md)
 
 </details>
 
@@ -2221,8 +2291,8 @@
 <details>
 <summary>02 ML MODELS THEORY QUESTIONS</summary>
 
-- [ML FOUNDATIONS QUESTIONS ✅](docs/12-questions-to-check/02-ml-models-theory-questions/ml-foundations-questions.md)
-- [TRADITIONAL ML MODELS QUESTIONS ✅](docs/12-questions-to-check/02-ml-models-theory-questions/traditional-ml-models-questions.md)
+- [ML FOUNDATIONS QUESTIONS ✅](docs/13-questions-to-check/02-ml-models-theory-questions/ml-foundations-questions.md)
+- [TRADITIONAL ML MODELS QUESTIONS ✅](docs/13-questions-to-check/02-ml-models-theory-questions/traditional-ml-models-questions.md)
 
 </details>
 
@@ -2289,8 +2359,8 @@
 <details>
 <summary>08 DEPLOYMENT QUESTIONS</summary>
 
-- [CONTAINSER QUESTIONS ✅](docs/12-questions-to-check/08-deployment-questions/containser-questions.md)
-- [FUNDAMENTALS QUESTIONS ✅](docs/12-questions-to-check/08-deployment-questions/fundamentals-questions.md)
+- [CONTAINER QUESTIONS ✅](docs/13-questions-to-check/08-deployment-questions/container-questions.md)
+- [FUNDAMENTALS QUESTIONS ✅](docs/13-questions-to-check/08-deployment-questions/fundamentals-questions.md)
 
 </details>
 
@@ -2311,7 +2381,19 @@
 <li>
 
 <details>
-<summary>10 SOFTWARE ENGINEERING QUESTIONS</summary>
+<summary>10 LLM ENGINEERING</summary>
+
+- [LLM ENGINEERING QUESTIONS ✅](docs/13-questions-to-check/10-llm-engineering/llm-engineering-questions.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>11 SOFTWARE ENGINEERING QUESTIONS</summary>
 
 
 </details>
@@ -2322,75 +2404,8 @@
 <li>
 
 <details>
-<summary>11 TDA QUESTIONS</summary>
+<summary>12 TDA QUESTIONS</summary>
 
-
-</details>
-
-
-</li>
-
-</ul>
-
----
-
-## 13 TDA
-
-<ul>
-
-<li>
-
-<details>
-<summary>01 PERSISTENT HOMOLOGY</summary>
-
-<details>
-<summary>01 FOUNDATIONS</summary>
-
-- [BARCODES](docs/13-tda/01-persistent-homology/01-foundations/barcodes.md)
-- [CECH COMPLEX](docs/13-tda/01-persistent-homology/01-foundations/cech-complex.md)
-- [FILTRATIONS](docs/13-tda/01-persistent-homology/01-foundations/filtrations.md)
-- [NERVE COMPLEXES](docs/13-tda/01-persistent-homology/01-foundations/nerve-complexes.md)
-- [PERSISTENCE DIAGRAMS](docs/13-tda/01-persistent-homology/01-foundations/persistence-diagrams.md)
-- [VIETORIS RIPS COMPLEX](docs/13-tda/01-persistent-homology/01-foundations/vietoris-rips-complex.md)
-- [WHY PERSISTENCE HOMOLOGY WORKS](docs/13-tda/01-persistent-homology/01-foundations/why-persistence-homology-works.md)
-
-</details>
-
-<details>
-<summary>02 DISTANCES</summary>
-
-- [BOTTLENECK DISTANCE](docs/13-tda/01-persistent-homology/02-distances/bottleneck-distance.md)
-- [WASSERSTEIN DISTANCE](docs/13-tda/01-persistent-homology/02-distances/wasserstein-distance.md)
-
-</details>
-
-<details>
-<summary>03 SIGNATURES</summary>
-
-- [PERSISTENT LANDSCAPES](docs/13-tda/01-persistent-homology/03-signatures/persistent-landscapes.md)
-
-</details>
-
-<details>
-<summary>04 APPLICATIONS</summary>
-
-- [TS CLASSIFICATION](docs/13-tda/01-persistent-homology/04-applications/ts-classification.md)
-- [TS FORECASTING](docs/13-tda/01-persistent-homology/04-applications/ts-forecasting.md)
-
-</details>
-
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>02 MAPPER ALGORITHM</summary>
-
-- [MAPPER ALGORITHM](docs/13-tda/02-mapper-algorithm/mapper-algorithm.md)
 
 </details>
 

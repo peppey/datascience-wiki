@@ -14,7 +14,9 @@ Why is next-token prediction sufficient to learn such a broad range of capabilit
 
 ### Question 3
 
-Why do LLMs use subword tokenization instead of word-level or character-level tokenization?
+Why do LLMs use subword tokenization instead of word-level or character-level tokenization? 
+
+A: To have a smaller vocabulary with less unique tokens than at word-level and avoid unknown words. And because character-level tokens are often not meaningful enough and computationally to ineffient. 
 
 ---
 
