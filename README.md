@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **191/566**
+✅  Articles completed: **195/581**
 
 ---
 
@@ -891,40 +891,45 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [ACTIVATION FUNCTIONS ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/activation-functions.md)
 - [BACKPROPAGATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/backpropagation.md)
 - [EXEMPLARY STEP CALCULATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/exemplary-step-calculation.md)
-- [LOSS FUNCTION ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/loss-function.md)
 - [NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/neural-networks.md)
 - [UNIVERSAL APPROXIMATION THEOREM](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/universal-approximation-theorem.md)
 
 </details>
 
 <details>
-<summary>02 ARCHITECTURES</summary>
+<summary>02 ACTIVATION FUNCTIONS</summary>
 
-- [ACTIVATION FUNCTIONS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/activation-functions.md)
-- [AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/autoencoders.md)
-- [CNN ARCHITECTURES ✅](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/cnn-architectures.md)
-- [GRAPH NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/graph-neural-networks.md)
-- [NEURAL NETWORK BASICS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/neural-network-basics.md)
-- [RNN LSTM ✅](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/rnn-lstm.md)
-- [SIAMESE ARCHITECTURE](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/siamese-architecture.md)
-- [TRANSFORMERS](docs/02-ml-models-theory/04-deep-learning-models/02-architectures/transformers.md)
+- [FOUNDATIOHNS ✅](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/foundatiohns.md)
+- [LEAKY RELU](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/leaky-relu.md)
+- [RELU](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/relu.md)
+- [SIGMOID](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/sigmoid.md)
+- [SOFTMAX](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/softmax.md)
+- [TANH](docs/02-ml-models-theory/04-deep-learning-models/02-activation-functions/tanh.md)
 
 </details>
 
 <details>
-<summary>03 GENERATIVE MODELS</summary>
+<summary>03 LOSS FUNCTIONS</summary>
 
-- [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/autoregressive-models.md)
-- [DIFFUSION MODELS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/diffusion-models.md)
-- [ENERGY BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/energy-based-models.md)
-- [GENERATIVE ADVERSARIAL NETWORKS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/generative-adversarial-networks.md)
-- [MULTIMODAL GENERATIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/multimodal-generative-models.md)
-- [NORMALIZING FLOWS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/normalizing-flows.md)
-- [SCORE BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/score-based-models.md)
-- [VARIATIONAL AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/03-generative-models/variational-autoencoders.md)
+- [CONSTRASTIVE LOSS](docs/02-ml-models-theory/04-deep-learning-models/03-loss-functions/constrastive-loss.md)
+- [FOUNDATIONS ✅](docs/02-ml-models-theory/04-deep-learning-models/03-loss-functions/foundations.md)
+- [LOSS FUNCTIONS](docs/02-ml-models-theory/04-deep-learning-models/03-loss-functions/loss-functions.md)
+
+</details>
+
+<details>
+<summary>04 ARCHITECTURES</summary>
+
+- [ACTIVATION FUNCTIONS](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/activation-functions.md)
+- [AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/autoencoders.md)
+- [CNN ARCHITECTURES ✅](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/cnn-architectures.md)
+- [GRAPH NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/graph-neural-networks.md)
+- [NEURAL NETWORK BASICS](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/neural-network-basics.md)
+- [RNN LSTM ✅](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/rnn-lstm.md)
+- [SIAMESE ARCHITECTURE](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/siamese-architecture.md)
+- [TRANSFORMERS](docs/02-ml-models-theory/04-deep-learning-models/04-architectures/transformers.md)
 
 </details>
 
@@ -940,11 +945,25 @@
 </details>
 
 <details>
-<summary>05 REPRESENTATION LEARNING</summary>
+<summary>05 GENERATIVE MODELS</summary>
 
-- [EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/embeddings.md)
-- [SENTENCE EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/sentence-embeddings.md)
-- [WORD EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/05-representation-learning/word-embeddings.md)
+- [AUTOREGRESSIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/autoregressive-models.md)
+- [DIFFUSION MODELS ✅](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/diffusion-models.md)
+- [ENERGY BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/energy-based-models.md)
+- [GENERATIVE ADVERSARIAL NETWORKS ✅](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/generative-adversarial-networks.md)
+- [MULTIMODAL GENERATIVE MODELS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/multimodal-generative-models.md)
+- [NORMALIZING FLOWS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/normalizing-flows.md)
+- [SCORE BASED MODELS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/score-based-models.md)
+- [VARIATIONAL AUTOENCODERS](docs/02-ml-models-theory/04-deep-learning-models/05-generative-models/variational-autoencoders.md)
+
+</details>
+
+<details>
+<summary>06 REPRESENTATION LEARNING</summary>
+
+- [EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/06-representation-learning/embeddings.md)
+- [SENTENCE EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/06-representation-learning/sentence-embeddings.md)
+- [WORD EMBEDDINGS](docs/02-ml-models-theory/04-deep-learning-models/06-representation-learning/word-embeddings.md)
 
 </details>
 
@@ -999,20 +1018,6 @@
 - [LLAMA FAMILY](docs/02-ml-models-theory/06-llms/03-model-architectures/llama-family.md)
 - [MIXTURE OF EXPERTS](docs/02-ml-models-theory/06-llms/03-model-architectures/mixture-of-experts.md)
 - [MULTIMODAL LLMS](docs/02-ml-models-theory/06-llms/03-model-architectures/multimodal-llms.md)
-
-</details>
-
-<details>
-<summary>04 LLM INFRASTRUCTURE</summary>
-
-- [QUANTIZATION](docs/02-ml-models-theory/06-llms/04-llm-infrastructure/quantization.md)
-
-</details>
-
-<details>
-<summary>05 LLM APPLICATIONS</summary>
-
-- [RAG](docs/02-ml-models-theory/06-llms/05-llm-applications/rag.md)
 
 </details>
 
@@ -1212,13 +1217,10 @@
 <li>
 
 <details>
-<summary>01 FOUNDATIONS</summary>
+<summary>01 TRAINING METHODOLOGY</summary>
 
-- [COMMON ISSUES](docs/05-training-and-optimizing-ml-models/01-foundations/common-issues.md)
-- [CROSS VALIDATION ✅](docs/05-training-and-optimizing-ml-models/01-foundations/cross-validation.md)
-- [GRID SEARCH ✅](docs/05-training-and-optimizing-ml-models/01-foundations/grid-search.md)
-- [RANDOM SEARCH ✅](docs/05-training-and-optimizing-ml-models/01-foundations/random-search.md)
-- [TRAIN VALIDATION TEST SET ✅](docs/05-training-and-optimizing-ml-models/01-foundations/train-validation-test-set.md)
+- [CROSS VALIDATION ✅](docs/05-training-and-optimizing-ml-models/01-training-methodology/cross-validation.md)
+- [TRAIN VALIDATION TEST SET ✅](docs/05-training-and-optimizing-ml-models/01-training-methodology/train-validation-test-set.md)
 
 </details>
 
@@ -1228,54 +1230,39 @@
 <li>
 
 <details>
-<summary>02 DEEP LEARNING</summary>
+<summary>02 HYPERPARAMETER TUNING</summary>
 
-<details>
-<summary>01 LOSS FUNCTIONS</summary>
-
-- [CONSTRASTIVE LOSS](docs/05-training-and-optimizing-ml-models/02-deep-learning/01-loss-functions/constrastive-loss.md)
-- [LOSS FUNCTIONS](docs/05-training-and-optimizing-ml-models/02-deep-learning/01-loss-functions/loss-functions.md)
+- [BAYESIAN OPTIMIZATION](docs/05-training-and-optimizing-ml-models/02-hyperparameter-tuning/bayesian-optimization.md)
+- [GRID SEARCH ✅](docs/05-training-and-optimizing-ml-models/02-hyperparameter-tuning/grid-search.md)
+- [RANDOM SEARCH ✅](docs/05-training-and-optimizing-ml-models/02-hyperparameter-tuning/random-search.md)
 
 </details>
 
-<details>
-<summary>02 OPTIMIZATION</summary>
 
-- [BATCH NORMALIZATION](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/batch-normalization.md)
-- [LEARNING RATE SCHEDULING](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/learning-rate-scheduling.md)
-- [OPTIMIZATION ALGORITHMS](docs/05-training-and-optimizing-ml-models/02-deep-learning/02-optimization/optimization-algorithms.md)
+</li>
+
+<li>
+
+<details>
+<summary>03 OPTIMIZATION IN PRACTICE</summary>
+
+- [BATCH NORMALIZATION](docs/05-training-and-optimizing-ml-models/03-optimization-in-practice/batch-normalization.md)
+- [LEARNING RATE SCHEDULING](docs/05-training-and-optimizing-ml-models/03-optimization-in-practice/learning-rate-scheduling.md)
+- [OPTIMIZATION ALGORITHMS](docs/05-training-and-optimizing-ml-models/03-optimization-in-practice/optimization-algorithms.md)
 
 </details>
 
-<details>
-<summary>03 REGULARIZATION</summary>
 
-- [DROPOUT](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/dropout.md)
-- [EARLY STOPPING](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/early-stopping.md)
-- [L1 L2 REGULARIZATION](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/l1-l2-regularization.md)
-- [WEIGHT DECAY](docs/05-training-and-optimizing-ml-models/02-deep-learning/03-regularization/weight-decay.md)
+</li>
 
-</details>
+<li>
 
 <details>
 <summary>04 DATA STRATEGIES</summary>
 
-- [CLASS IMBALANCE](docs/05-training-and-optimizing-ml-models/02-deep-learning/04-data-strategies/class-imbalance.md)
-- [SAMPLING](docs/05-training-and-optimizing-ml-models/02-deep-learning/04-data-strategies/sampling.md)
-
-</details>
-
-<details>
-<summary>05 ACTIVATION FUNCTIONS</summary>
-
-- [LEAKY RELU](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/leaky-relu.md)
-- [RELU](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/relu.md)
-- [SIGMOID](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/sigmoid.md)
-- [SOFTMAX](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/softmax.md)
-- [TANH](docs/05-training-and-optimizing-ml-models/02-deep-learning/05-activation-functions/tanh.md)
-
-</details>
-
+- [CLASS IMBALANCE](docs/05-training-and-optimizing-ml-models/04-data-strategies/class-imbalance.md)
+- [DATA AUGMENTATION](docs/05-training-and-optimizing-ml-models/04-data-strategies/data-augmentation.md)
+- [SAMPLING](docs/05-training-and-optimizing-ml-models/04-data-strategies/sampling.md)
 
 </details>
 
@@ -1285,34 +1272,53 @@
 <li>
 
 <details>
-<summary>03 LLMS</summary>
+<summary>05 COMMON PROBLEMS</summary>
 
-<details>
-<summary>01 FINETUNING</summary>
-
-- [INSTRUCTION TUNING](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/instruction-tuning.md)
-- [LORA](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/lora.md)
-- [PEFT](docs/05-training-and-optimizing-ml-models/03-llms/01-finetuning/peft.md)
+- [COMMON ISSUES](docs/05-training-and-optimizing-ml-models/05-common-problems/common-issues.md)
+- [VANISHING GRADIENT](docs/05-training-and-optimizing-ml-models/05-common-problems/vanishing-gradient.md)
 
 </details>
 
-<details>
-<summary>02 PROMT ENGINEERING</summary>
 
-- [PROMPT ENGINEERING](docs/05-training-and-optimizing-ml-models/03-llms/02-promt-engineering/prompt-engineering.md)
-- [STRUCTURED OUTPUT](docs/05-training-and-optimizing-ml-models/03-llms/02-promt-engineering/structured-output.md)
+</li>
+
+<li>
+
+<details>
+<summary>06 LLM FINETUNING</summary>
+
+- [INSTRUCTION TUNING](docs/05-training-and-optimizing-ml-models/06-llm-finetuning/instruction-tuning.md)
+- [LORA](docs/05-training-and-optimizing-ml-models/06-llm-finetuning/lora.md)
+- [PEFT](docs/05-training-and-optimizing-ml-models/06-llm-finetuning/peft.md)
 
 </details>
 
-<details>
-<summary>03 TOOLS</summary>
 
-- [AGENTS](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/agents.md)
-- [FUNCTION CALLING](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/function-calling.md)
-- [TOOL USE](docs/05-training-and-optimizing-ml-models/03-llms/03-tools/tool-use.md)
+</li>
+
+<li>
+
+<details>
+<summary>07 MODEL COMPRESSION</summary>
+
+- [KNOWLEDGE DISTILLATION](docs/05-training-and-optimizing-ml-models/07-model-compression/knowledge-distillation.md)
+- [PRUNING](docs/05-training-and-optimizing-ml-models/07-model-compression/pruning.md)
+- [QUANTIZATION](docs/05-training-and-optimizing-ml-models/07-model-compression/quantization.md)
 
 </details>
 
+
+</li>
+
+<li>
+
+<details>
+<summary>08 REGULIZATION TECHNIQUES</summary>
+
+- [DROPOUT](docs/05-training-and-optimizing-ml-models/08-regulization-techniques/dropout.md)
+- [EARLY STOPPING](docs/05-training-and-optimizing-ml-models/08-regulization-techniques/early-stopping.md)
+- [L1 L2 REGULARIZATION](docs/05-training-and-optimizing-ml-models/08-regulization-techniques/l1-l2-regularization.md)
+- [WEIGHT DECAY](docs/05-training-and-optimizing-ml-models/08-regulization-techniques/weight-decay.md)
 
 </details>
 
@@ -1419,9 +1425,10 @@
 <details>
 <summary>07 LLM EVALUATION</summary>
 
+- [GOLDEN DATASETS ✅](docs/06-evaluation/07-llm-evaluation/golden-datasets.md)
 - [HUMAN EVALUATION](docs/06-evaluation/07-llm-evaluation/human-evaluation.md)
 - [LLM AS A JUDGE](docs/06-evaluation/07-llm-evaluation/llm-as-a-judge.md)
-- [QUALITY METRICS](docs/06-evaluation/07-llm-evaluation/quality-metrics.md)
+- [QUALITY METRICS ✅](docs/06-evaluation/07-llm-evaluation/quality-metrics.md)
 - [RAG EVALUATION](docs/06-evaluation/07-llm-evaluation/rag-evaluation.md)
 - [SAFETY AND RELIABILITY](docs/06-evaluation/07-llm-evaluation/safety-and-reliability.md)
 
@@ -1609,6 +1616,45 @@
 
 </li>
 
+<li>
+
+<details>
+<summary>06 CLOUD PLATFORMS</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+
+</details>
+
+<details>
+<summary>02 GCP</summary>
+
+- [FOUNDATIONS ✅](docs/08-deployment/06-cloud-platforms/02-gcp/foundations.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>07 LLM SERVING</summary>
+
+- [CONTINUOUS BATCHING](docs/08-deployment/07-llm-serving/continuous-batching.md)
+- [KV CACHE](docs/08-deployment/07-llm-serving/kv-cache.md)
+- [SPECULATIVE DECODING](docs/08-deployment/07-llm-serving/speculative-decoding.md)
+- [VLLM](docs/08-deployment/07-llm-serving/vllm.md)
+
+</details>
+
+
+</li>
+
 </ul>
 
 ---
@@ -1716,7 +1762,68 @@
 
 ---
 
-## 10 SOFTWARE ENGINEERING
+## 10 LLM ENGINEERING
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 PROMPTING</summary>
+
+- [PROMPT ENGINEERING](docs/10-llm-engineering/01-prompting/prompt-engineering.md)
+- [STRUCTURED OUTPUT](docs/10-llm-engineering/01-prompting/structured-output.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 TOOLS AND AGENTS</summary>
+
+- [AGENTS](docs/10-llm-engineering/02-tools-and-agents/agents.md)
+- [FUNCTION CALLING](docs/10-llm-engineering/02-tools-and-agents/function-calling.md)
+- [TOOL USE](docs/10-llm-engineering/02-tools-and-agents/tool-use.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 RAG</summary>
+
+- [RAG](docs/10-llm-engineering/03-rag/rag.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>04 LLM OPS</summary>
+
+- [CACHING](docs/10-llm-engineering/04-llm-ops/caching.md)
+- [GUARDRAILS](docs/10-llm-engineering/04-llm-ops/guardrails.md)
+- [TRACING](docs/10-llm-engineering/04-llm-ops/tracing.md)
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 11 SOFTWARE ENGINEERING
 
 <ul>
 
@@ -1725,10 +1832,10 @@
 <details>
 <summary>01 CLEAN CODE</summary>
 
-- [CODE SMELLS ✅](docs/10-software-engineering/01-clean-code/code-smells.md)
-- [LINTING](docs/10-software-engineering/01-clean-code/linting.md)
-- [MY PRINCIPLES ✅](docs/10-software-engineering/01-clean-code/my-principles.md)
-- [SOLID PRINCIPLES ✅](docs/10-software-engineering/01-clean-code/solid-principles.md)
+- [CODE SMELLS ✅](docs/11-software-engineering/01-clean-code/code-smells.md)
+- [LINTING](docs/11-software-engineering/01-clean-code/linting.md)
+- [MY PRINCIPLES ✅](docs/11-software-engineering/01-clean-code/my-principles.md)
+- [SOLID PRINCIPLES ✅](docs/11-software-engineering/01-clean-code/solid-principles.md)
 
 </details>
 
@@ -1743,41 +1850,41 @@
 <details>
 <summary>01 TESTING FOUNDATIONS</summary>
 
-- [MOCKING](docs/10-software-engineering/02-testing/01-testing-foundations/mocking.md)
-- [TEST FIXTURES](docs/10-software-engineering/02-testing/01-testing-foundations/test-fixtures.md)
-- [TESTING PRINCIPLES ✅](docs/10-software-engineering/02-testing/01-testing-foundations/testing-principles.md)
+- [MOCKING](docs/11-software-engineering/02-testing/01-testing-foundations/mocking.md)
+- [TEST FIXTURES](docs/11-software-engineering/02-testing/01-testing-foundations/test-fixtures.md)
+- [TESTING PRINCIPLES ✅](docs/11-software-engineering/02-testing/01-testing-foundations/testing-principles.md)
 
 </details>
 
 <details>
 <summary>02 INTEGRATION TESTS</summary>
 
-- [DB INTEGRATION TESTS](docs/10-software-engineering/02-testing/02-integration-tests/db-integration-tests.md)
-- [INTEGRATION TESTING](docs/10-software-engineering/02-testing/02-integration-tests/integration-testing.md)
-- [TEST CONTAINERS](docs/10-software-engineering/02-testing/02-integration-tests/test-containers.md)
+- [DB INTEGRATION TESTS](docs/11-software-engineering/02-testing/02-integration-tests/db-integration-tests.md)
+- [INTEGRATION TESTING](docs/11-software-engineering/02-testing/02-integration-tests/integration-testing.md)
+- [TEST CONTAINERS](docs/11-software-engineering/02-testing/02-integration-tests/test-containers.md)
 
 </details>
 
 <details>
 <summary>03 UNIT TESTS</summary>
 
-- [PYTEST](docs/10-software-engineering/02-testing/03-unit-tests/pytest.md)
-- [UNIT TESTING](docs/10-software-engineering/02-testing/03-unit-tests/unit-testing.md)
+- [PYTEST](docs/11-software-engineering/02-testing/03-unit-tests/pytest.md)
+- [UNIT TESTING](docs/11-software-engineering/02-testing/03-unit-tests/unit-testing.md)
 
 </details>
 
 <details>
 <summary>04 E2E TESTS</summary>
 
-- [E2E TESTING](docs/10-software-engineering/02-testing/04-e2e-tests/e2e-testing.md)
+- [E2E TESTING](docs/11-software-engineering/02-testing/04-e2e-tests/e2e-testing.md)
 
 </details>
 
 <details>
 <summary>05 LOADTESTS</summary>
 
-- [LOADTESTING ✅](docs/10-software-engineering/02-testing/05-loadtests/loadtesting.md)
-- [LOCUS](docs/10-software-engineering/02-testing/05-loadtests/locus.md)
+- [LOADTESTING ✅](docs/11-software-engineering/02-testing/05-loadtests/loadtesting.md)
+- [LOCUS](docs/11-software-engineering/02-testing/05-loadtests/locus.md)
 
 </details>
 
@@ -1792,8 +1899,8 @@
 <details>
 <summary>03 DOCUMENTATION</summary>
 
-- [DOCSTRINGS](docs/10-software-engineering/03-documentation/docstrings.md)
-- [DOCUMENTATION](docs/10-software-engineering/03-documentation/documentation.md)
+- [DOCSTRINGS](docs/11-software-engineering/03-documentation/docstrings.md)
+- [DOCUMENTATION](docs/11-software-engineering/03-documentation/documentation.md)
 
 </details>
 
@@ -1805,8 +1912,8 @@
 <details>
 <summary>04 VERSION CONTROL</summary>
 
-- [FOUNDATIONS](docs/10-software-engineering/04-version-control/foundations.md)
-- [GIT CONCEPTS](docs/10-software-engineering/04-version-control/git-concepts.md)
+- [FOUNDATIONS](docs/11-software-engineering/04-version-control/foundations.md)
+- [GIT CONCEPTS](docs/11-software-engineering/04-version-control/git-concepts.md)
 
 </details>
 
@@ -1830,15 +1937,15 @@
 <details>
 <summary>02 CREATIONAL</summary>
 
-- [FACTORY PATTERN ✅](docs/10-software-engineering/05-software-design/01-design-patterns/02-creational/factory-pattern.md)
+- [FACTORY PATTERN ✅](docs/11-software-engineering/05-software-design/01-design-patterns/02-creational/factory-pattern.md)
 
 </details>
 
 <details>
 <summary>03 STRUCTURAL</summary>
 
-- [ADAPTER PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/03-structural/adapter-pattern.md)
-- [DECORATOR PATTERN](docs/10-software-engineering/05-software-design/01-design-patterns/03-structural/decorator-pattern.md)
+- [ADAPTER PATTERN](docs/11-software-engineering/05-software-design/01-design-patterns/03-structural/adapter-pattern.md)
+- [DECORATOR PATTERN](docs/11-software-engineering/05-software-design/01-design-patterns/03-structural/decorator-pattern.md)
 
 </details>
 
@@ -1848,7 +1955,7 @@
 <details>
 <summary>02 MODULAR DESIGN</summary>
 
-- [ML PROJECT STRUCTURE](docs/10-software-engineering/05-software-design/02-modular-design/ml-project-structure.md)
+- [ML PROJECT STRUCTURE](docs/11-software-engineering/05-software-design/02-modular-design/ml-project-structure.md)
 
 </details>
 
@@ -1863,8 +1970,8 @@
 <details>
 <summary>06 BUILD AND DEPENDENCY MANAGEMENT</summary>
 
-- [POETRY](docs/10-software-engineering/06-build-and-dependency-management/poetry.md)
-- [UV](docs/10-software-engineering/06-build-and-dependency-management/uv.md)
+- [POETRY](docs/11-software-engineering/06-build-and-dependency-management/poetry.md)
+- [UV](docs/11-software-engineering/06-build-and-dependency-management/uv.md)
 
 </details>
 
@@ -1876,8 +1983,8 @@
 <details>
 <summary>07 PERFORMANCE</summary>
 
-- [PARALLEL PROGRAMMING](docs/10-software-engineering/07-performance/parallel-programming.md)
-- [PROFILING ✅](docs/10-software-engineering/07-performance/profiling.md)
+- [PARALLEL PROGRAMMING](docs/11-software-engineering/07-performance/parallel-programming.md)
+- [PROFILING ✅](docs/11-software-engineering/07-performance/profiling.md)
 
 </details>
 
@@ -1892,47 +1999,48 @@
 <details>
 <summary>01 AUTHENTICATION AND AUTHORIZATION</summary>
 
-- [AUTHORIZATION](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/authorization.md)
-- [POLICY MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/policy-management.md)
-- [SSH KEYS](docs/10-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/ssh-keys.md)
+- [AUTHORIZATION](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/authorization.md)
+- [OIDC ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/oidc.md)
+- [POLICY MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/policy-management.md)
+- [SSH KEYS](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/ssh-keys.md)
 
 </details>
 
 <details>
 <summary>02 NETWORKS</summary>
 
-- [NETWORK FOUNDATIONS](docs/10-software-engineering/08-security-and-data-protection/02-networks/network-foundations.md)
-- [NETWORK SEGMENTATION](docs/10-software-engineering/08-security-and-data-protection/02-networks/network-segmentation.md)
+- [NETWORK FOUNDATIONS](docs/11-software-engineering/08-security-and-data-protection/02-networks/network-foundations.md)
+- [NETWORK SEGMENTATION](docs/11-software-engineering/08-security-and-data-protection/02-networks/network-segmentation.md)
 
 </details>
 
 <details>
 <summary>03 DATA PROTECTION</summary>
 
-- [ANONYMIZATION AND PSEUDONOMYSATION](docs/10-software-engineering/08-security-and-data-protection/03-data-protection/anonymization-and-pseudonomysation.md)
-- [DSVGO BASICS](docs/10-software-engineering/08-security-and-data-protection/03-data-protection/dsvgo-basics.md)
+- [ANONYMIZATION AND PSEUDONOMYSATION](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/anonymization-and-pseudonomysation.md)
+- [DSVGO BASICS](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsvgo-basics.md)
 
 </details>
 
 <details>
 <summary>04 SECRET MANAGEMENT</summary>
 
-- [SECRETS MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/04-secret-management/secrets-management.md)
+- [SECRETS MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/04-secret-management/secrets-management.md)
 
 </details>
 
 <details>
 <summary>05 SOFTWARE SUPPLY CHAIN</summary>
 
-- [DEPENDENCY SECURITY](docs/10-software-engineering/08-security-and-data-protection/05-software-supply-chain/dependency-security.md)
-- [VULNERABILITY MANAGEMENT](docs/10-software-engineering/08-security-and-data-protection/05-software-supply-chain/vulnerability-management.md)
+- [DEPENDENCY SECURITY](docs/11-software-engineering/08-security-and-data-protection/05-software-supply-chain/dependency-security.md)
+- [VULNERABILITY MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/05-software-supply-chain/vulnerability-management.md)
 
 </details>
 
 <details>
 <summary>06 LLMS</summary>
 
-- [LLM SAFETY](docs/10-software-engineering/08-security-and-data-protection/06-llms/llm-safety.md)
+- [LLM SAFETY](docs/11-software-engineering/08-security-and-data-protection/06-llms/llm-safety.md)
 
 </details>
 
@@ -1947,10 +2055,10 @@
 <details>
 <summary>09 ARCHITECTURES</summary>
 
-- [HEXAGONAL ARCHITECTURE](docs/10-software-engineering/09-architectures/hexagonal-architecture.md)
-- [HONEYCOMB ARCHITECTURE](docs/10-software-engineering/09-architectures/honeycomb-architecture.md)
-- [MICROSERVICES](docs/10-software-engineering/09-architectures/microservices.md)
-- [MONOLITH](docs/10-software-engineering/09-architectures/monolith.md)
+- [HEXAGONAL ARCHITECTURE](docs/11-software-engineering/09-architectures/hexagonal-architecture.md)
+- [HONEYCOMB ARCHITECTURE](docs/11-software-engineering/09-architectures/honeycomb-architecture.md)
+- [MICROSERVICES](docs/11-software-engineering/09-architectures/microservices.md)
+- [MONOLITH](docs/11-software-engineering/09-architectures/monolith.md)
 
 </details>
 
@@ -1962,8 +2070,8 @@
 <details>
 <summary>10 DEBUGGING</summary>
 
-- [DEBUGGING DEPLOYMENTS](docs/10-software-engineering/10-debugging/debugging-deployments.md)
-- [DEBUGGING ML MODELS](docs/10-software-engineering/10-debugging/debugging-ml-models.md)
+- [DEBUGGING DEPLOYMENTS](docs/11-software-engineering/10-debugging/debugging-deployments.md)
+- [DEBUGGING ML MODELS](docs/11-software-engineering/10-debugging/debugging-ml-models.md)
 
 </details>
 
@@ -1975,10 +2083,10 @@
 <details>
 <summary>11 WEB DEVELOPMENT</summary>
 
-- [FASTAPI ✅](docs/10-software-engineering/11-web-development/fastapi.md)
-- [HTTP ✅](docs/10-software-engineering/11-web-development/http.md)
-- [PYDANTIC ✅](docs/10-software-engineering/11-web-development/pydantic.md)
-- [REST APIS ✅](docs/10-software-engineering/11-web-development/rest-apis.md)
+- [FASTAPI ✅](docs/11-software-engineering/11-web-development/fastapi.md)
+- [HTTP ✅](docs/11-software-engineering/11-web-development/http.md)
+- [PYDANTIC ✅](docs/11-software-engineering/11-web-development/pydantic.md)
+- [REST APIS ✅](docs/11-software-engineering/11-web-development/rest-apis.md)
 
 </details>
 
@@ -1990,8 +2098,8 @@
 <details>
 <summary>12 DATA STRUCTURES</summary>
 
-- [HEAP](docs/10-software-engineering/12-data-structures/heap.md)
-- [LINKED LIST](docs/10-software-engineering/12-data-structures/linked-list.md)
+- [HEAP](docs/11-software-engineering/12-data-structures/heap.md)
+- [LINKED LIST](docs/11-software-engineering/12-data-structures/linked-list.md)
 
 </details>
 
@@ -2006,25 +2114,25 @@
 <details>
 <summary>01 OBJECT ORIENTED PROGRAMMING</summary>
 
-- [ABSTRACT CLASSES](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstract-classes.md)
-- [ABSTRACTION](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstraction.md)
-- [FOUNDATIONS](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/foundations.md)
-- [INHERITANCE](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/inheritance.md)
-- [INTERFACES](docs/10-software-engineering/13-programming-paradigms/01-object-oriented-programming/interfaces.md)
+- [ABSTRACT CLASSES](docs/11-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstract-classes.md)
+- [ABSTRACTION](docs/11-software-engineering/13-programming-paradigms/01-object-oriented-programming/abstraction.md)
+- [FOUNDATIONS](docs/11-software-engineering/13-programming-paradigms/01-object-oriented-programming/foundations.md)
+- [INHERITANCE](docs/11-software-engineering/13-programming-paradigms/01-object-oriented-programming/inheritance.md)
+- [INTERFACES](docs/11-software-engineering/13-programming-paradigms/01-object-oriented-programming/interfaces.md)
 
 </details>
 
 <details>
 <summary>02 FUNCTIONAL PROGRAMMING</summary>
 
-- [FUNCTIONAL PROGRAMMING ✅](docs/10-software-engineering/13-programming-paradigms/02-functional-programming/functional-programming.md)
+- [FUNCTIONAL PROGRAMMING ✅](docs/11-software-engineering/13-programming-paradigms/02-functional-programming/functional-programming.md)
 
 </details>
 
 <details>
 <summary>03 COMPILED AND INTERPRETED LANGUAGES</summary>
 
-- [COMPILED VS INTERPRETED LANGUAGES ✅](docs/10-software-engineering/13-programming-paradigms/03-compiled-and-interpreted-languages/compiled-vs-interpreted-languages.md)
+- [COMPILED VS INTERPRETED LANGUAGES ✅](docs/11-software-engineering/13-programming-paradigms/03-compiled-and-interpreted-languages/compiled-vs-interpreted-languages.md)
 
 </details>
 
@@ -2042,27 +2150,27 @@
 <details>
 <summary>01 GENERAL</summary>
 
-- [COMPLEXITY ANALYSIS](docs/10-software-engineering/14-algorithms/01-general/complexity-analysis.md)
-- [DYNAMIC PROGRAMMING](docs/10-software-engineering/14-algorithms/01-general/dynamic-programming.md)
-- [RECURSION](docs/10-software-engineering/14-algorithms/01-general/recursion.md)
+- [COMPLEXITY ANALYSIS](docs/11-software-engineering/14-algorithms/01-general/complexity-analysis.md)
+- [DYNAMIC PROGRAMMING](docs/11-software-engineering/14-algorithms/01-general/dynamic-programming.md)
+- [RECURSION](docs/11-software-engineering/14-algorithms/01-general/recursion.md)
 
 </details>
 
 <details>
 <summary>02 SORTING</summary>
 
-- [BUBBLE SORT](docs/10-software-engineering/14-algorithms/02-sorting/bubble-sort.md)
-- [MERGE SORT](docs/10-software-engineering/14-algorithms/02-sorting/merge-sort.md)
-- [QUICK SORT](docs/10-software-engineering/14-algorithms/02-sorting/quick-sort.md)
+- [BUBBLE SORT](docs/11-software-engineering/14-algorithms/02-sorting/bubble-sort.md)
+- [MERGE SORT](docs/11-software-engineering/14-algorithms/02-sorting/merge-sort.md)
+- [QUICK SORT](docs/11-software-engineering/14-algorithms/02-sorting/quick-sort.md)
 
 </details>
 
 <details>
 <summary>03 SEARCHING</summary>
 
-- [BINARY SEARCH](docs/10-software-engineering/14-algorithms/03-searching/binary-search.md)
-- [HASH BASED SEARCH](docs/10-software-engineering/14-algorithms/03-searching/hash-based-search.md)
-- [LINEAR SEARCH](docs/10-software-engineering/14-algorithms/03-searching/linear-search.md)
+- [BINARY SEARCH](docs/11-software-engineering/14-algorithms/03-searching/binary-search.md)
+- [HASH BASED SEARCH](docs/11-software-engineering/14-algorithms/03-searching/hash-based-search.md)
+- [LINEAR SEARCH](docs/11-software-engineering/14-algorithms/03-searching/linear-search.md)
 
 </details>
 
@@ -2077,77 +2185,10 @@
 <details>
 <summary>15 DIAGRAMS</summary>
 
-- [ARCHITECTURE DIAGRAMS](docs/10-software-engineering/15-diagrams/architecture-diagrams.md)
-- [DATA FLOW DIAGRAMS](docs/10-software-engineering/15-diagrams/data-flow-diagrams.md)
-- [FLOWCHARTS](docs/10-software-engineering/15-diagrams/flowcharts.md)
-- [UML](docs/10-software-engineering/15-diagrams/uml.md)
-
-</details>
-
-
-</li>
-
-</ul>
-
----
-
-## 11 TDA
-
-<ul>
-
-<li>
-
-<details>
-<summary>01 PERSISTENT HOMOLOGY</summary>
-
-<details>
-<summary>01 FOUNDATIONS</summary>
-
-- [BARCODES](docs/11-tda/01-persistent-homology/01-foundations/barcodes.md)
-- [CECH COMPLEX](docs/11-tda/01-persistent-homology/01-foundations/cech-complex.md)
-- [FILTRATIONS](docs/11-tda/01-persistent-homology/01-foundations/filtrations.md)
-- [NERVE COMPLEXES](docs/11-tda/01-persistent-homology/01-foundations/nerve-complexes.md)
-- [PERSISTENCE DIAGRAMS](docs/11-tda/01-persistent-homology/01-foundations/persistence-diagrams.md)
-- [VIETORIS RIPS COMPLEX](docs/11-tda/01-persistent-homology/01-foundations/vietoris-rips-complex.md)
-- [WHY PERSISTENCE HOMOLOGY WORKS](docs/11-tda/01-persistent-homology/01-foundations/why-persistence-homology-works.md)
-
-</details>
-
-<details>
-<summary>02 DISTANCES</summary>
-
-- [BOTTLENECK DISTANCE](docs/11-tda/01-persistent-homology/02-distances/bottleneck-distance.md)
-- [WASSERSTEIN DISTANCE](docs/11-tda/01-persistent-homology/02-distances/wasserstein-distance.md)
-
-</details>
-
-<details>
-<summary>03 SIGNATURES</summary>
-
-- [PERSISTENT LANDSCAPES](docs/11-tda/01-persistent-homology/03-signatures/persistent-landscapes.md)
-
-</details>
-
-<details>
-<summary>04 APPLICATIONS</summary>
-
-- [TS CLASSIFICATION](docs/11-tda/01-persistent-homology/04-applications/ts-classification.md)
-- [TS FORECASTING](docs/11-tda/01-persistent-homology/04-applications/ts-forecasting.md)
-
-</details>
-
-
-</details>
-
-
-</li>
-
-<li>
-
-<details>
-<summary>02 MAPPER ALGORITHM</summary>
-
-- [MAPPER ALGORITHM](docs/11-tda/02-mapper-algorithm/mapper-algorithm.md)
+- [ARCHITECTURE DIAGRAMS](docs/11-software-engineering/15-diagrams/architecture-diagrams.md)
+- [DATA FLOW DIAGRAMS](docs/11-software-engineering/15-diagrams/data-flow-diagrams.md)
+- [FLOWCHARTS](docs/11-software-engineering/15-diagrams/flowcharts.md)
+- [UML](docs/11-software-engineering/15-diagrams/uml.md)
 
 </details>
 
@@ -2283,6 +2324,73 @@
 <details>
 <summary>11 TDA QUESTIONS</summary>
 
+
+</details>
+
+
+</li>
+
+</ul>
+
+---
+
+## 13 TDA
+
+<ul>
+
+<li>
+
+<details>
+<summary>01 PERSISTENT HOMOLOGY</summary>
+
+<details>
+<summary>01 FOUNDATIONS</summary>
+
+- [BARCODES](docs/13-tda/01-persistent-homology/01-foundations/barcodes.md)
+- [CECH COMPLEX](docs/13-tda/01-persistent-homology/01-foundations/cech-complex.md)
+- [FILTRATIONS](docs/13-tda/01-persistent-homology/01-foundations/filtrations.md)
+- [NERVE COMPLEXES](docs/13-tda/01-persistent-homology/01-foundations/nerve-complexes.md)
+- [PERSISTENCE DIAGRAMS](docs/13-tda/01-persistent-homology/01-foundations/persistence-diagrams.md)
+- [VIETORIS RIPS COMPLEX](docs/13-tda/01-persistent-homology/01-foundations/vietoris-rips-complex.md)
+- [WHY PERSISTENCE HOMOLOGY WORKS](docs/13-tda/01-persistent-homology/01-foundations/why-persistence-homology-works.md)
+
+</details>
+
+<details>
+<summary>02 DISTANCES</summary>
+
+- [BOTTLENECK DISTANCE](docs/13-tda/01-persistent-homology/02-distances/bottleneck-distance.md)
+- [WASSERSTEIN DISTANCE](docs/13-tda/01-persistent-homology/02-distances/wasserstein-distance.md)
+
+</details>
+
+<details>
+<summary>03 SIGNATURES</summary>
+
+- [PERSISTENT LANDSCAPES](docs/13-tda/01-persistent-homology/03-signatures/persistent-landscapes.md)
+
+</details>
+
+<details>
+<summary>04 APPLICATIONS</summary>
+
+- [TS CLASSIFICATION](docs/13-tda/01-persistent-homology/04-applications/ts-classification.md)
+- [TS FORECASTING](docs/13-tda/01-persistent-homology/04-applications/ts-forecasting.md)
+
+</details>
+
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>02 MAPPER ALGORITHM</summary>
+
+- [MAPPER ALGORITHM](docs/13-tda/02-mapper-algorithm/mapper-algorithm.md)
 
 </details>
 
