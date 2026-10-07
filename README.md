@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **202/585**
+✅  Articles completed: **202/591**
 
 ---
 
@@ -2020,8 +2020,13 @@
 <details>
 <summary>03 DATA PROTECTION</summary>
 
+- [AI RISK MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/ai-risk-management.md)
 - [ANONYMIZATION AND PSEUDONOMYSATION](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/anonymization-and-pseudonomysation.md)
-- [DSVGO BASICS](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsvgo-basics.md)
+- [DATENSCHUTZFOLGEABSCHÄTZUNG](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/datenschutzfolgeabschätzung.md)
+- [DSGVO BASICS](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsgvo-basics.md)
+- [DSGVO FOR ML AND AI](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsgvo-for-ml-and-ai.md)
+- [INTERNATIONAL DATA TRANSFER](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/international-data-transfer.md)
+- [PRIVACY ENGINEERING](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/privacy-engineering.md)
 
 </details>
 
@@ -2044,6 +2049,19 @@
 <summary>06 LLMS</summary>
 
 - [LLM SAFETY](docs/11-software-engineering/08-security-and-data-protection/06-llms/llm-safety.md)
+
+</details>
+
+<details>
+<summary>07 REGULATION</summary>
+
+<details>
+<summary>01 EU AI ACT</summary>
+
+- [EU AI ACT BASICS](docs/11-software-engineering/08-security-and-data-protection/07-regulation/01-eu-ai-act/eu-ai-act-basics.md)
+
+</details>
+
 
 </details>
 
