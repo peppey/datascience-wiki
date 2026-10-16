@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **211/597**
+✅  Articles completed: **216/598**
 
 ---
 
@@ -1467,8 +1467,8 @@
 <summary>01 SQL DATABASES</summary>
 
 - [JOINS ✅](docs/07-databases/01-sql-databases/joins.md)
-- [RELATIONAL MODEL](docs/07-databases/01-sql-databases/relational-model.md)
-- [WINDOW FUNCTIONS](docs/07-databases/01-sql-databases/window-functions.md)
+- [RELATIONAL MODEL ✅](docs/07-databases/01-sql-databases/relational-model.md)
+- [WINDOW FUNCTIONS ✅](docs/07-databases/01-sql-databases/window-functions.md)
 
 </details>
 
@@ -1480,7 +1480,19 @@
 <details>
 <summary>02 NOSQL DATABSES</summary>
 
-- [MONGODB](docs/07-databases/02-nosql-databses/mongodb.md)
+- [MONGODB ✅](docs/07-databases/02-nosql-databses/mongodb.md)
+
+</details>
+
+
+</li>
+
+<li>
+
+<details>
+<summary>03 VECTOR DATABASES</summary>
+
+- [VECTOR DATABASES ✅](docs/07-databases/03-vector-databases/vector-databases.md)
 
 </details>
 
@@ -1801,7 +1813,7 @@
 <details>
 <summary>03 RAG</summary>
 
-- [RAG](docs/10-llm-engineering/03-rag/rag.md)
+- [RAG ✅](docs/10-llm-engineering/03-rag/rag.md)
 
 </details>
 
