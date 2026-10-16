@@ -35,11 +35,11 @@ The appropriate duplicate-detection technique therefore depends on **what consti
 
 ---
 
-## 1. Types of Duplicates
+## Types of Duplicates
 
 A useful first step is to distinguish several types of duplicates.
 
-### 1.1 Exact duplicates
+### Exact duplicates
 
 Two records are exactly identical.
 
@@ -59,7 +59,7 @@ These are the easiest duplicates to detect.
 
 ---
 
-### 1.2 Duplicate records with different IDs
+### Duplicate records with different IDs
 
 Two records can contain identical information but have different identifiers:
 
@@ -82,7 +82,7 @@ This situation occurs frequently after:
 
 ---
 
-### 1.3 Near-duplicates
+### Near-duplicates
 
 Near-duplicates differ in one or more fields but are likely to represent the same entity.
 
@@ -104,7 +104,7 @@ The records are not identical, but they may represent the same person or organiz
 
 ---
 
-### 1.4 Semantic duplicates
+### Semantic duplicates
 
 Two records may express the same meaning while sharing few literal tokens.
 
@@ -121,7 +121,7 @@ Semantic methods such as embeddings can recognize that the two texts are closely
 
 ---
 
-### 1.5 Entity duplicates
+### Entity duplicates
 
 In **entity resolution**, the goal is to determine whether two records refer to the same real-world entity.
 
@@ -154,7 +154,7 @@ depending on the context.
 
 ---
 
-# 2. Exact Duplicate Detection
+# Exact Duplicate Detection
 
 Exact duplicate detection should usually be the first step because it is simple, fast, and deterministic.
 
@@ -182,7 +182,7 @@ This is useful when some columns, such as database IDs or timestamps, are expect
 
 ---
 
-## 3. Hash-Based Duplicate Detection
+## Hash-Based Duplicate Detection
 
 For large datasets, records can be represented by a hash.
 
@@ -223,7 +223,7 @@ A tiny change produces a completely different cryptographic hash.
 
 ---
 
-# 4. Canonicalization
+# Canonicalization
 
 Before comparing records, it is often useful to transform equivalent representations into a common format.
 
@@ -269,7 +269,7 @@ It can turn many apparent near-duplicates into exact matches.
 
 ---
 
-# 5. Field-Specific Normalization
+# Field-Specific Normalization
 
 Different fields require different normalization strategies.
 
@@ -323,7 +323,7 @@ The key principle is:
 
 ---
 
-# 6. String Similarity
+# String Similarity
 
 When normalization is not sufficient, records can be compared using string-similarity measures.
 
@@ -340,7 +340,7 @@ These methods measure different notions of similarity.
 
 ---
 
-## 7. Levenshtein Distance
+## Levenshtein Distance
 
 **Levenshtein distance** is the minimum number of single-character operations required to transform one string into another.
 
@@ -391,7 +391,7 @@ Levenshtein distance is useful for detecting:
 
 ---
 
-# 8. Jaro and Jaro-Winkler Similarity
+# Jaro and Jaro-Winkler Similarity
 
 **Jaro similarity** is particularly useful for comparing short strings such as names.
 
@@ -415,7 +415,7 @@ These measures are often useful in record linkage because names and other short 
 
 ---
 
-# 9. Token-Based Similarity
+# Token-Based Similarity
 
 Character-level similarity is not always appropriate.
 
@@ -446,7 +446,7 @@ This allows similarity measures to be less sensitive to word order.
 
 ---
 
-# 10. Jaccard Similarity
+# Jaccard Similarity
 
 Jaccard similarity compares two sets:
 
@@ -486,7 +486,7 @@ Jaccard similarity is useful when the presence of tokens matters more than their
 
 ---
 
-# 11. TF-IDF and Cosine Similarity
+# TF-IDF and Cosine Similarity
 
 Documents or records can be represented using **TF-IDF vectors**.
 
@@ -509,7 +509,7 @@ Two texts with different wording can therefore still have low similarity.
 
 ---
 
-# 12. Embedding-Based Duplicate Detection
+# Embedding-Based Duplicate Detection
 
 For semantic duplicate detection, records can be represented using **embeddings**.
 
@@ -555,7 +555,7 @@ Two documents can be semantically similar while referring to different entities 
 
 ---
 
-# 13. Exact Matching vs. Fuzzy Matching vs. Semantic Matching
+# Exact Matching vs. Fuzzy Matching vs. Semantic Matching
 
 These approaches solve different problems.
 
@@ -574,7 +574,7 @@ A robust system often combines several of these techniques.
 
 ---
 
-# 14. Blocking
+# Blocking
 
 Comparing every record with every other record can be extremely expensive.
 
@@ -622,7 +622,7 @@ Only records in the same block are then compared using more expensive similarity
 
 ---
 
-# 15. Blocking Strategies
+# Blocking Strategies
 
 Possible blocking keys include:
 
@@ -665,7 +665,7 @@ higher risk of missing duplicates
 
 ---
 
-# 16. Record Linkage
+# Record Linkage
 
 **Record linkage** attempts to determine whether two records represent the same entity.
 
@@ -699,7 +699,7 @@ These scores can then be combined.
 
 ---
 
-# 17. Weighted Similarity
+# Weighted Similarity
 
 A simple approach is a weighted similarity score:
 
@@ -740,7 +740,7 @@ The exact thresholds must be determined empirically.
 
 ---
 
-# 18. Probabilistic Record Linkage
+# Probabilistic Record Linkage
 
 A more principled approach is **probabilistic record linkage**.
 
@@ -770,7 +770,7 @@ This approach is useful when:
 
 ---
 
-# 19. Classification-Based Duplicate Detection
+# Classification-Based Duplicate Detection
 
 Duplicate detection can also be formulated as a binary classification problem.
 
@@ -810,7 +810,7 @@ For example, a moderately similar name combined with an identical phone number m
 
 ---
 
-# 20. Threshold Selection
+# Threshold Selection
 
 Duplicate detection is often not simply:
 
@@ -842,7 +842,7 @@ For example, incorrectly merging two patients may be much more serious than fail
 
 ---
 
-# 21. Precision and Recall
+# Precision and Recall
 
 Duplicate detection can therefore be evaluated using standard classification metrics.
 
@@ -880,7 +880,7 @@ The appropriate metric depends on the consequences of false matches and missed m
 
 ---
 
-# 22. Human Review
+# Human Review
 
 For ambiguous cases, it can be better to involve a human rather than forcing an automatic decision.
 
@@ -909,7 +909,7 @@ Human review can also generate labeled examples that can later be used to improv
 
 ---
 
-# 23. Clustering-Based Deduplication
+# Clustering-Based Deduplication
 
 Instead of comparing pairs independently, records can sometimes be grouped into clusters.
 
@@ -947,7 +947,7 @@ This can produce unexpected clusters if similarity thresholds are applied naivel
 
 ---
 
-# 24. Duplicate Detection for Files and Documents
+# Duplicate Detection for Files and Documents
 
 Duplicate detection is also useful for documents.
 
@@ -985,7 +985,7 @@ Different techniques can detect different levels of similarity.
 
 ---
 
-# 25. MinHash and Locality-Sensitive Hashing
+# MinHash and Locality-Sensitive Hashing
 
 For very large collections of documents, comparing every pair is expensive.
 
@@ -1013,7 +1013,7 @@ This is particularly useful when searching for near-duplicate documents in large
 
 ---
 
-# 26. Semantic Duplicate Detection with Embeddings
+# Semantic Duplicate Detection with Embeddings
 
 For modern NLP systems, a common architecture is:
 
@@ -1049,7 +1049,7 @@ However, semantic similarity should usually be treated as a **candidate-generati
 
 ---
 
-# 27. A Multi-Stage Duplicate Detection Pipeline
+# A Multi-Stage Duplicate Detection Pipeline
 
 A robust production system often combines several techniques.
 
@@ -1093,7 +1093,7 @@ This is generally more scalable and reliable than applying an expensive similari
 
 ---
 
-# 28. Choosing a Technique
+# Choosing a Technique
 
 A practical decision process is:
 
@@ -1115,7 +1115,7 @@ Often the best solution combines several of these.
 
 ---
 
-# 29. Important Considerations
+# Important Considerations
 
 ### Duplicate detection is domain-specific
 
@@ -1155,7 +1155,7 @@ After merging duplicates, check whether:
 
 ---
 
-# 30. Example: Customer Deduplication
+# Example: Customer Deduplication
 
 Suppose two systems contain:
 
@@ -1214,7 +1214,7 @@ This makes the deduplication process traceable.
 
 ---
 
-# 31. Common Mistakes
+# Common Mistakes
 
 ### Mistake 1: Using exact equality for everything
 
@@ -1246,7 +1246,7 @@ False positives and false negatives can have very different consequences.
 
 ---
 
-# 32. Summary
+# Summary
 
 Duplicate detection ranges from simple exact matching to sophisticated entity-resolution systems.
 
