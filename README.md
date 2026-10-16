@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **202/591**
+✅  Articles completed: **211/597**
 
 ---
 
@@ -2002,10 +2002,11 @@
 <details>
 <summary>01 AUTHENTICATION AND AUTHORIZATION</summary>
 
-- [AUTHORIZATION](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/authorization.md)
+- [AUTHORIZATION ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/authorization.md)
+- [IAM ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/iam.md)
 - [OIDC ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/oidc.md)
-- [POLICY MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/policy-management.md)
-- [SSH KEYS](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/ssh-keys.md)
+- [POLICY MANAGEMENT ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/policy-management.md)
+- [SSH KEYS ✅](docs/11-software-engineering/08-security-and-data-protection/01-authentication-and-authorization/ssh-keys.md)
 
 </details>
 
@@ -2401,7 +2402,8 @@
 <details>
 <summary>10 LLM ENGINEERING</summary>
 
-- [LLM ENGINEERING QUESTIONS ✅](docs/13-questions-to-check/10-llm-engineering/llm-engineering-questions.md)
+- [LLM ENGINEERING QUESTIONS ANSWERS ✅](docs/13-questions-to-check/10-llm-engineering/llm-engineering-questions-answers.md)
+- [LLM ENGINEERING QUESTIONS QUESTIONS ✅](docs/13-questions-to-check/10-llm-engineering/llm-engineering-questions-questions.md)
 
 </details>
 
@@ -2412,6 +2414,16 @@
 
 <details>
 <summary>11 SOFTWARE ENGINEERING QUESTIONS</summary>
+
+<details>
+<summary>08 SECURITY AND DATA PROTECTION</summary>
+
+- [AUTHENTIFICATION AND AUTORISATION ANSWERS ✅](docs/13-questions-to-check/11-software-engineering-questions/08-security-and-data-protection/authentification-and-autorisation-answers.md)
+- [AUTHENTIFICATION AND AUTORISATION QUESTIONS ✅](docs/13-questions-to-check/11-software-engineering-questions/08-security-and-data-protection/authentification-and-autorisation-questions.md)
+- [DATA PROTECTION QUESTIONS ✅](docs/13-questions-to-check/11-software-engineering-questions/08-security-and-data-protection/data-protection-questions.md)
+- [REGULATION QUESTIONS ✅](docs/13-questions-to-check/11-software-engineering-questions/08-security-and-data-protection/regulation-questions.md)
+
+</details>
 
 
 </details>
