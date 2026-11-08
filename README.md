@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **216/598**
+✅  Articles completed: **218/598**
 
 ---
 
@@ -892,10 +892,10 @@
 <details>
 <summary>01 FOUNDATIONS</summary>
 
-- [BACKPROPAGATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/backpropagation.md)
+- [BACKPROPAGATION ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/backpropagation.md)
 - [EXEMPLARY STEP CALCULATION](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/exemplary-step-calculation.md)
 - [NEURAL NETWORKS](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/neural-networks.md)
-- [UNIVERSAL APPROXIMATION THEOREM](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/universal-approximation-theorem.md)
+- [UNIVERSAL APPROXIMATION THEOREM ✅](docs/02-ml-models-theory/04-deep-learning-models/01-foundations/universal-approximation-theorem.md)
 
 </details>
 
