@@ -4,7 +4,7 @@
 
 ## PROGRESS
 
-✅  Articles completed: **218/598**
+✅  Articles completed: **220/598**
 
 ---
 
@@ -21,7 +21,7 @@
 - [DETERMINANTS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/determinants.md)
 - [EIGENVALUES AND EIGENVECTORS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/eigenvalues-and-eigenvectors.md)
 - [FIELDS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/fields.md)
-- [GROUPS](docs/01-mathematical-foundations/01-(linear)-algebra/groups.md)
+- [GROUPS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/groups.md)
 - [HOMOMORPHISMS](docs/01-mathematical-foundations/01-(linear)-algebra/homomorphisms.md)
 - [INVERSE MATRIZES ✅](docs/01-mathematical-foundations/01-(linear)-algebra/inverse-matrizes.md)
 - [NORMS ✅](docs/01-mathematical-foundations/01-(linear)-algebra/norms.md)
@@ -2035,7 +2035,7 @@
 
 - [AI RISK MANAGEMENT](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/ai-risk-management.md)
 - [ANONYMIZATION AND PSEUDONOMYSATION](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/anonymization-and-pseudonomysation.md)
-- [DATENSCHUTZFOLGEABSCHÄTZUNG](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/datenschutzfolgeabschätzung.md)
+- [DATENSCHUTZFOLGEABSCHÄTZUNG ✅](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/datenschutzfolgeabschätzung.md)
 - [DSGVO BASICS](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsgvo-basics.md)
 - [DSGVO FOR ML AND AI](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/dsgvo-for-ml-and-ai.md)
 - [INTERNATIONAL DATA TRANSFER](docs/11-software-engineering/08-security-and-data-protection/03-data-protection/international-data-transfer.md)
